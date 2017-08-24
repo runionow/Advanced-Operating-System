@@ -4,27 +4,30 @@
 
  #include  <stdio.h>
  #include  <sys/types.h>
-
+ 
+ void ChildProcess(void);
+ void ParentProcess(void);
+ 
  void  main(void)
  {
 	  pid_t  pid;
  
 	  pid = fork();
-	  if (pid == 0) 
+	  if (pid == 0){ 
 		   ChildProcess();
-	  else 
+                   printf("Child Process ID : %d\n",getpid());
+	  }		   
+	  else{ 
 		   ParentProcess();
+	           printf("Parent Process ID : %d\n",getpid());	  }
  }
  
  void  ChildProcess(void)
  {
 	  printf("For Child process execute this function ***\n");
-	  printf("Child Process ID: %d",&pid);
  }
  
  void  ParentProcess(void)
  {
-	  printf("For Parent Process execute this function\n");
-	  printf("Parent Process ID : %d",&pid);
-	  
+	  printf("For Parent Process execute this function\n");	  
  }
