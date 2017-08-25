@@ -1,8 +1,13 @@
+/*
+ * @author Arun Nekkalapudi
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <string.h>
+
 
 /*
 * FUNCTION : CONCAT
@@ -44,8 +49,7 @@ int main(int nargs,char *argv[])
         if(childpid != 0)
         {
 				/*PARENT*/
-				printf("Parent PID = %d\n",getpid());
-                close(message[0]);
+				close(message[0]);
 				
 				/*Writing argument to Pipe*/
                 if(nargs == 2){
@@ -56,17 +60,19 @@ int main(int nargs,char *argv[])
 						printf("More than one argument has been passed to the program.\n");
 					}
 					else if(nargs == 1){
-						printf("No command line arguments has been passed to the program.\n");
+						printf("No command line arguments has been passed to the program,\nPlease pass it manually.[Default Message = Hello World!]\n");
 					}
                     write(message[1], temp_message, (strlen(temp_message)+1));
                 }
-                
-                exit(0);
+				printf("Parent PID = %d\n",childpid);
+				
+				/*Wait untill child process has been completed*/
+                wait(NULL);
         }
         else if(childpid == 0)
         {
 				/*CHILD*/
-                printf("Child PID = %d\n",getpid());
+                printf("Child PID = %d\n",childpid);
 				close(message[1]);
 				
 				/*Reading from Pipe*/
@@ -84,6 +90,7 @@ int main(int nargs,char *argv[])
 					/*Running Bash-echo Commands using execl*/
                     execl(concatString1,storageBuffer,temp_message, 0);
 				}
+				exit(0);
         }
         else{
             printf("Failed to create a Process.");
