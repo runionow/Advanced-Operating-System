@@ -52,7 +52,12 @@ int main(int nargs,char *argv[])
                     write(message[1], argv[1], (strlen(argv[1])+1));
                 }
                 else{
-					printf("More than one argument has been passed to the program.\n");
+					if(nargs > 2){
+						printf("More than one argument has been passed to the program.\n");
+					}
+					else if(nargs == 1){
+						printf("No command line arguments has been passed to the program.\n")
+					}
                     write(message[1], temp_message, (strlen(temp_message)+1));
                 }
                 
