@@ -1,57 +1,91 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <string.h>
+
 /*
- * @author Arun Nekkalapudi 
- */
+* FUNCTION : CONCAT
+* DESCRIPTION : To Concatenate two Strings.
+* ARGUMENTS : char *string1 , char *string2.
+* RETURNS : Concatenated String.
+*/
 
- #include <stdio.h>
- #include <sys/types.h>
- #include <unistd.h>
- #include <string.h>
+char* concat(const char *string1, const char *string2)
+{
+    char *result = malloc(strlen(string1)+strlen(string2)+1);
+    strcpy(result, string1);
+    strcat(result, string2);
+    return result;
+}
 
- int main (int nargs, char *args[])
- {
-	int message[2],rec_msg;
-	char buffer[80];
-	pid_t  pid1,pid2;
-	char message1[] = "Hello, World \n";  	
-	pid1 = fork();
-	/*pid2 = fork();*/
-        int flag;
-	flag = pipe(message);
-	if(flag == 0){
-		printf("pipe has been successfully created.\n");
-	}
-	else{
-		printf("error in creating a pipe.\n");
-	}
-
-
-	/*for Process ID 1*/
-	if (pid1 == 0){
-		close(message[1]);
-		printf("Child PID 1: %d\n",getpid());
-		rec_msg = read(message[0],buffer,sizeof(buffer));
-		printf("Recieved Message: %s",rec_msg);
-		printf("argumnents: %s",args);
-		if((strlen(args[1])>0) && (args[1] != NULL) && (nargs > 1)){
-			printf("Rambo");
-			execl("/bin/echo","echo","Hello World");
-			return 0;
+int main(int nargs,char *argv[])
+{	
+        int message[2], rcv_msg;
+        pid_t childpid;
+        char temp_message[] = "Hello World!";
+        char concatString[] = "/bin/";
+        char storageBuffer[80];
+        
+        /* PIPE:
+         * message[0] -> Read.
+         * message[1] -> Write.
+         */
+        pipe(message);
+        
+        /*Execute fork()*/
+        if((childpid = fork()) == -1)
+        {
+                perror("fork");
+                exit(1);
+        }
+        
+        /*Check for PARENT*/
+        if(childpid != 0)
+        {
+				/*PARENT*/
+				printf("Parent PID = %d\n",getpid());
+                close(message[0]);
+				
+				/*Writing argument to Pipe*/
+                if(nargs == 2){
+                    write(message[1], argv[1], (strlen(argv[1])+1));
+                }
+                else{
+					printf("More than one argument has been passed to the program.\n");
+                    write(message[1], temp_message, (strlen(temp_message)+1));
+                }
+                
+                exit(0);
+        }
+        else if(childpid == 0)
+        {
+				/*CHILD*/
+                printf("Child PID = %d\n",getpid());
+				close(message[1]);
+				
+				/*Reading from Pipe*/
+				rcv_msg = read(message[0], storageBuffer, sizeof(storageBuffer));
+				
+				/*Concating strings to generate bash path. Eg: /bin/date */
+				char *concatString1 = concat(concatString, storageBuffer);
+				
+				/*Handled echo*/
+                if((!(strcmp(storageBuffer,temp_message) == 0)) && (!(strcmp(storageBuffer,"echo") == 0)) ){
+                    printf("Received string [CHILD]: %s\n", storageBuffer);
+                    execl(concatString1,storageBuffer, 0);
+				}
+				else if(strcmp(storageBuffer,"echo") == 0){
+					/*Running Bash-echo Commands using execl*/
+                    execl(concatString1,storageBuffer,temp_message, 0);
+				}
+                else {
+                    printf("Received String [CHILD]: %s\n", storageBuffer);
+                }
+        }
+        else{
+            printf("Failed to create a Process.");
 		}
-	}		   
-	else{ 
-		close(message[0]);
-		printf("Parent PID 1: %d\n",getpid());
-		write(message[1], message1, (strlen(message1)+1));		  
-	}
-
-    	/*for Process ID 2*/
-	
-	/*if (pid2 == 0){ 
-        *printf("Child PID 2: %d\n",getpid());
-	*}		   
-	*else{ 
-	*	printf("Parent PID 2: %d\n",getpid());	  
-	}*/
-
-	return 1;	
- }
+		
+        return(0);
+}
