@@ -1,0 +1,18 @@
+Q1) what is Orphan and Zombie processes?
+A1) Orphan process is a computer process whose parent process has been terminated. In a UNIX like operating system whenever a process is orphaned it will be immediately re-parented by the system process "init", though the process now technically having a parent it is still called an "orphan process" since the parent process that originally created is no longer in existence.
+    A process can be made orphaned intentionally by detaching it from the parent process (or User session) or it might get orphaned unintentionally when the parent process unexpectedly terminates or crashes.
+Zombie processes is a computer process that has completed execution, but the entry of the process in the process table is not removed. Usually happens when the parent process hasn’t received an exit from the child process. If Zombie process is not killed it will continue to utilize the memory and system resources associated with it.
+
+Q2) what are the changes that occur when the child process calls the exec system call to execute a new program?
+A2) 
+fork (): Creates a new process containing the duplicate of the current program [duplicates the current process].
+exec (): Replaces the program in the current process with a new program.
+When fork () and exec () [in child] used in sequence the current child process will be replaced with a brand new program as seen in Assignment 1 part 2 but the parent of the replaced child process remains the same.
+
+
+
+
+
+
+
+
