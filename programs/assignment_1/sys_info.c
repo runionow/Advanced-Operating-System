@@ -74,19 +74,16 @@ int main(int nargs,char *argv[])
 				
 				/*Concating strings to generate bash path. Eg: /bin/date */
 				char *concatString1 = concat(concatString, storageBuffer);
-				
+				printf("Received String [CHILD]: %s\n", storageBuffer);
+
 				/*Handled echo*/
                 if((!(strcmp(storageBuffer,temp_message) == 0)) && (!(strcmp(storageBuffer,"echo") == 0)) ){
-                    printf("Received string [CHILD]: %s\n", storageBuffer);
                     execl(concatString1,storageBuffer, 0);
 				}
 				else if(strcmp(storageBuffer,"echo") == 0){
 					/*Running Bash-echo Commands using execl*/
                     execl(concatString1,storageBuffer,temp_message, 0);
 				}
-                else {
-                    printf("Received String [CHILD]: %s\n", storageBuffer);
-                }
         }
         else{
             printf("Failed to create a Process.");
