@@ -8,4 +8,4 @@ clean:
 	rm *.o output 
 
 run: output
-	./output
+	./output date
