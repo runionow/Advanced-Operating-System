@@ -27,6 +27,7 @@ const	struct	cmdent	cmdtab[] = {
 	{"polling_example",   FALSE,  xsh_polling_example},
 	{"message_example",   FALSE,  xsh_message_example},	
 	{"semaphore_example", FALSE,  xsh_semaphore_example},		
+	{"process_ring", FALSE,  xsh_process_ring},	
 #ifdef ARM_BBB
   {"arp",		FALSE,	xsh_arp},
   {"ipaddr",	FALSE,	xsh_ipaddr},

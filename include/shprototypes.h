@@ -85,11 +85,14 @@ extern  shellcmd xsh_hello	(int32, char *[]);
 /* in file xsh_create_example.c */
 extern  shellcmd xsh_create_example	(int32, char *[]);
 
-/* in file xsh_create_example.c */
+/* in file xsh_polling_example.c */
 extern  shellcmd xsh_polling_example (int32, char *[]);
 
-/* in file xsh_create_example.c */
+/* in file xsh_polling_example.c */
 extern  shellcmd xsh_polling_example (int32, char *[]);
 
-/* in file xsh_create_example.c */
+/* in file xsh_semaphore_example.c */
 extern  shellcmd xsh_semaphore_example (int32, char *[]);
+
+/* in file xsh_process_ring.c */
+extern  shellcmd xsh_process_ring (int32, char *[]);
