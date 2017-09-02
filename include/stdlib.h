@@ -15,3 +15,7 @@ uint32 rand(void);
 void srand(unsigned int);
 void *malloc(unsigned int nbytes);
 void free(void *pmem);
+
+long strtol(const char *nptr, char **endptr, register int base);
+unsigned long strtoul(const char *nptr, char **endptr, register int base);
+
