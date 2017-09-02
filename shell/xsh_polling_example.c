@@ -16,7 +16,7 @@
 
  process polling_consumer(volatile int32 *produce, volatile int32 *consume){
      volatile int32 last = -1;
-     printf("It came to polling_consumer here to execute")
+     printf("It came to polling_consumer here to execute");
      while(last < 3){
          /* Polling to see if the producer has produced a new value*/
          int32 tmp = *produce;
@@ -31,7 +31,7 @@
 
  process polling_producer(int32 *produce, volatile int32 *consume){
     int32 last = -1;
-    printf("It came to polling_producer here to execute")
+    printf("It came to polling_producer here to execute");
     while(last < 3){
         /* Polling to see if the consumer has consumed the last value*/
         int32 tmp = *consume;
@@ -45,17 +45,18 @@
 }
 
 
- shellcmd xsh_create_example(int nargs, char *args[]) {
+ shellcmd xsh_polling_example(int nargs, char *args[]) {
  
      /* Create_example*/
-     /* This process has the lower priority than the parent process*/
-     resume(create(print_it,1024,1,"after",2,21,3));
+     int32 produce = -1;
+     volatile int32 consume = -1;
+     resume(create(polling_producer,1024,20,"producer",2,&produce,&consume));
 
-     /* This process has the higher priority than the parent process*/
-     resume(create(print_it,1024,30,"after",2,42,10));
+     resume(create(polling_consumer,1024,20,"consumer",2,&produce,&consume));
      
      /*I should keep the synchronization to prevent the parent from exiting*/
+     
+     while (consume<3);
      return SHELL_OK;
-
-    }
+ }
  
