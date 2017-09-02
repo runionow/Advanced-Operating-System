@@ -87,3 +87,9 @@ extern  shellcmd xsh_create_example	(int32, char *[]);
 
 /* in file xsh_create_example.c */
 extern  shellcmd xsh_polling_example (int32, char *[]);
+
+/* in file xsh_create_example.c */
+extern  shellcmd xsh_polling_example (int32, char *[]);
+
+/* in file xsh_create_example.c */
+extern  shellcmd xsh_semaphore_example (int32, char *[]);
