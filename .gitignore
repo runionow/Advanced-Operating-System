@@ -27,7 +27,18 @@
 *.i*86
 *.x86_64
 *.hex
+*.bin
+*.boot
 
 # Debug files
 *.dSYM/
 *.su
+
+# Other
+*.map
+TAGS
+
+# Temp files and Hidden Files
+\#*\#
+*~
+.*

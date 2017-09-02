@@ -78,3 +78,8 @@ extern 	shellcmd xsh_hello	(int32,	char *[]);
 
 /* in file xsh_mmu.c */
 extern  shellcmd xsh_mmu	(int32, char *[]);
+
+extern shellcmd xsh_create_example(int, char *[]);
+extern shellcmd xsh_polling_example(int, char *[]);
+extern shellcmd xsh_semaphore_example(int, char *[]);
+extern shellcmd xsh_message_example(int, char *[]);
