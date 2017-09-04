@@ -1,15 +1,16 @@
-/* xsh_argecho.c - xsh_argecho */
+/* xsh_arg_example.c - xsh_arg_example */
+
+/*------------------------------------------------------------------------
+ * xhs_arg_example - display the value associated with the -p flag
+ *------------------------------------------------------------------------
+ */
 
 #include <xinu.h>
 #include <stdlib.h>
 #include <stdio.h>
 
-/*------------------------------------------------------------------------
- * xhs_argecho - display argecho message that lists shell commands
- *------------------------------------------------------------------------
- */
 void print_usage(void){
-  printf("Usage\n");
+  printf("Usage: ...\n");
 }
 
 shellcmd xsh_arg_example(int argc, char *args[])
@@ -30,6 +31,12 @@ shellcmd xsh_arg_example(int argc, char *args[])
         /* The end pointer hasn't advanced */
         print_usage();
         printf("-p flag expected an integer\n");
+        return SHELL_ERROR;
+      } else if (*endp != '\0'){
+       /* There was trailing garbage in the string that
+          wasn't converted to an integer. */
+        print_usage();
+        printf("-p recieved invalid integer\n");
         return SHELL_ERROR;
       } else if (!(0 <= p && p <= 64)) {
         /* The number is out of range */
