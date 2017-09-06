@@ -8,6 +8,6 @@
  int32 process_semaphores[64];
  int32 processCount;
  int32 rounds;
- volatile int32 initRounds = 0;
+ int32 initRounds;
 
 process decrementValue_polling(volatile int32 processIndex);

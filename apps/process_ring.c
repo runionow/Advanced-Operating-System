@@ -12,7 +12,7 @@ process decrementValue_polling(volatile int32 processIndex)
 {
     int32 tmp;
     while(initRounds<rounds){
-        int32 processValue = process1[processIndex] ;
+        int32 processValue = process_polling[processIndex] ;
         printf("Ring Element %d : Round %d : Value : %d\n",processIndex,initRounds,processValue);
         if(processIndex == processCount-1){
             tmp = 0;
@@ -23,7 +23,7 @@ process decrementValue_polling(volatile int32 processIndex)
             tmp  = processIndex + 1;
             processIndex = tmp;
         }
-        process1[tmp] = processValue - 1;
+        process_polling[tmp] = processValue - 1;
     }
     return OK;
 }

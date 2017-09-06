@@ -18,7 +18,7 @@
 shellcmd xsh_process_ring(int nargs, char *args[])
 {
     int32 i;
-
+    initRounds = 0;
     /*3 Process 3 Rounds*/
     processCount = 3;
     rounds = 3;
@@ -28,7 +28,7 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     }
 
     for(i=0;i<processCount;i++){
-        resume(create(decrementValue, 1024, 20,(char)i, 1,i));
+        resume(create(decrementValue_polling, 1024, 20,(char)i, 1,i));
     }
 
     while(initRounds<rounds);
