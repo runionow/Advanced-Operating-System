@@ -10,7 +10,7 @@
  int32 processCount;
  int32 rounds;
  int32 initRounds;
- struct time t;
+ //struct time t;
  
 process decrementValue_polling(volatile int32 processIndex);
 process decrementValue_semaphore(volatile int32 processIndex);

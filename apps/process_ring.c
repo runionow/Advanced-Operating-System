@@ -60,6 +60,7 @@ process decrementValue_polling(volatile int32 processIndex){
  */
 
 process decrementValue_semaphore(int32 processIndex){
+    int32 updatedIndex;
     while(initRounds<rounds){
         wait(process_semaphores[processIndex]);
         printf("Ring Element %d : Round %d : Value : %d\n",processIndex,initRounds,processValue_semaphore);
