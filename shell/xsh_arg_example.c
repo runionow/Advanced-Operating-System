@@ -16,16 +16,21 @@ void print_usage(void){
 shellcmd xsh_arg_example(int argc, char *args[])
 {
   int32 p = 2; /* specified default */
+  bool p_given = FALSE;
   char *endp;
   int32 i;
   for(i = 1; i < argc; i++){
     if (0 == strncmp("-p", args[i], 3)){
-      /* parse numeric argument to -p */
       if (! (i + 1 < argc)) {
         print_usage();
         printf("-p flag expected an argument\n");
         return SHELL_ERROR;
       }
+      if (p_given) {
+        printf("-p flag expected at most once\n");
+        return SHELL_ERROR;
+      }
+      /* parse numeric argument to -p */
       p = strtol(args[i + 1], &endp, 10);
       if (endp == args[i + 1]) {
         /* The end pointer hasn't advanced */
@@ -44,6 +49,7 @@ shellcmd xsh_arg_example(int argc, char *args[])
         printf("-p flag expected a number between 0 - 64\n");
         return SHELL_ERROR;
       }
+      p_given = TRUE;
       i += 1; /* Skip pass the numeric argument */
     } else /* if (...) */ { 
       // Handle other cases
