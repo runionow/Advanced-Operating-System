@@ -62,9 +62,12 @@ process decrementValue_polling(volatile int32 processIndex){
 process decrementValue_semaphore(int32 processIndex){
     int32 updatedIndex;
     while(initRounds<rounds){
-        wait(process_semaphores[processIndex]);
-        printf("Ring Element %d : Round %d : Value : %d\n",processIndex,initRounds,processValue_semaphore);
-        processValue_semaphore = processValue_semaphore -1;
+	wait(process_semaphores[processIndex]);
+        if(processValue_semaphore > -1){
+        	printf("Ring Element %d : Round %d : Value : %d\n",processIndex,initRounds,processValue_semaphore);
+        
+        liveCounter = liveCounter+1;
+	processValue_semaphore = processValue_semaphore -1;
 
         if(processIndex == processCount-1){
             updatedIndex = 0;
@@ -72,9 +75,10 @@ process decrementValue_semaphore(int32 processIndex){
         }
         else{
             updatedIndex = processIndex + 1;
-        }
+          }
+	}
         signal(process_semaphores[updatedIndex]);
     }
-    signal(process_doneSemaphores[processIndex])
+    signal(process_doneSemaphores[processIndex]);
     return OK;
 }

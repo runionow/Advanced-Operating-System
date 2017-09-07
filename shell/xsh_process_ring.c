@@ -18,10 +18,10 @@ shellcmd xsh_process_ring(int nargs, char *args[])
 {
     int32 i;
     initRounds = 0;
-    
+    liveCounter = 0;
     /*3 Process 3 Rounds*/
-    processCount = 3;
-    rounds = 3;
+    processCount = 4;
+    rounds = 4;
 
     /*Start Of Argument Processing*/
     // int32 p = 2; /* specified default */
@@ -112,9 +112,11 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     }
 
     for(i=0;i<processCount;i++){
-        wait(process_semaphores[i]);
+        wait(process_doneSemaphores[i]);
         semdelete(process_semaphores[i]); 
+	semdelete(process_doneSemaphores[i]);
     }
+
     /*End of Semaphore Block*/
     
     return SHELL_OK;

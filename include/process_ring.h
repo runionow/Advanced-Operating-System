@@ -11,6 +11,7 @@
  int32 processCount;
  int32 rounds;
  int32 initRounds;
+ int32 liveCounter;
  //struct time t;
  
 process decrementValue_polling(volatile int32 processIndex);
