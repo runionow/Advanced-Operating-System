@@ -75,5 +75,6 @@ process decrementValue_semaphore(int32 processIndex){
         }
         signal(process_semaphores[updatedIndex]);
     }
+    signal(process_doneSemaphores[processIndex])
     return OK;
 }

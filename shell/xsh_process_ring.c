@@ -101,6 +101,7 @@ shellcmd xsh_process_ring(int nargs, char *args[])
             else{
                 process_semaphores[i] = semcreate(0);
             }    
+                process_doneSemaphores[i] =semcreate(0);
         }
         processValue_semaphore = (processCount * rounds) - 1;
     }
@@ -108,6 +109,11 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     for (i = 0; i < processCount; i++)
     {
         resume(create(decrementValue_semaphore, 1024, 20, (char)i, 1, i));
+    }
+
+    for(i=0;i<processCount;i++){
+        wait(process_semaphores[i]);
+        semdelete(process_semaphores[i]); 
     }
     /*End of Semaphore Block*/
     
