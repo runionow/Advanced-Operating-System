@@ -76,10 +76,8 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     // return SHELL_OK;
     /*End of Srgument Processing*/
 
-    
-    
     /*Polling*/
-    /*if (processCount > 0 && processCount < 64 && rounds > 0)
+    if (processCount > 0 && processCount < 64 && rounds > 0)
     {
         process_polling[0] = (processCount * rounds) - 1;
     }
@@ -88,36 +86,38 @@ shellcmd xsh_process_ring(int nargs, char *args[])
         resume(create(decrementValue_polling, 1024, 20, (char)i, 1, i));
     }
     while (initRounds < rounds);
-    */
     /*End of polling Block*/
 
-    /*Semaphores*/
-    if (processCount > 0 && processCount < 64 && rounds > 0)
-    {
-        for(i=0;i<processCount;i++){
-            if(i==0){
-                process_semaphores[i] = semcreate(1);
-            }    
-            else{
-                process_semaphores[i] = semcreate(0);
-            }    
-                process_doneSemaphores[i] =semcreate(0);
-        }
-        processValue_semaphore = (processCount * rounds) - 1;
-    }
+    /*Semaphores - Working */
+    // if (processCount > 0 && processCount < 64 && rounds > 0)
+    // {
+    //     for (i = 0; i < processCount; i++)
+    //     {
+    //         if (i == 0)
+    //         {
+    //             process_semaphores[i] = semcreate(1);
+    //         }
+    //         else
+    //         {
+    //             process_semaphores[i] = semcreate(0);
+    //         }
+    //         process_doneSemaphores[i] = semcreate(0);
+    //     }
+    //     processValue_semaphore = (processCount * rounds) - 1;
+    // }
 
-    for (i = 0; i < processCount; i++)
-    {
-        resume(create(decrementValue_semaphore, 1024, 20, (char)i, 1, i));
-    }
+    // for (i = 0; i < processCount; i++)
+    // {
+    //     resume(create(decrementValue_semaphore, 1024, 20, (char)i, 1, i));
+    // }
 
-    for(i=0;i<processCount;i++){
-        wait(process_doneSemaphores[i]);
-        semdelete(process_semaphores[i]); 
-	semdelete(process_doneSemaphores[i]);
-    }
-
+    // for (i = 0; i < processCount; i++)
+    // {
+    //     wait(process_doneSemaphores[i]);
+    //     semdelete(process_semaphores[i]);
+    //     semdelete(process_doneSemaphores[i]);
+    // }
     /*End of Semaphore Block*/
-    
+
     return SHELL_OK;
 }
