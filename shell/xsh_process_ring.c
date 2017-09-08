@@ -85,7 +85,7 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     {
         resume(create(decrementValue_polling, 1024, 20, (char)i, 1, i));
     }
-    while (initRounds < rounds);
+    while (liveCounter < (processCount * rounds));
     /*End of polling Block*/
 
     /*Semaphores - Working */
