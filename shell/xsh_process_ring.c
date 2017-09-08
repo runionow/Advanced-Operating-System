@@ -16,6 +16,7 @@
 
 shellcmd xsh_process_ring(int nargs, char *args[])
 {
+    volatile int32 index = 0;
     int32 i;
     initRounds = 0;
     liveCounter = 0;
@@ -79,13 +80,13 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     /*Polling*/
     if (processCount > 0 && processCount < 64 && rounds > 0)
     {
-        process_polling[0] = (processCount * rounds) - 1;
+        pollingValueStore[0] = (processCount * rounds) - 1;
     }
     for (i = 0; i < processCount; i++)
     {
-        resume(create(decrementValue_polling, 1024, 20, (char)i, 1, &i));
+        resume(create(decrementValue_polling, 1024, 20, (char)i, 1, &index));
     }
-    while (liveCounter < (processCount * rounds));
+    while (index < (processCount * rounds));
     /*End of polling Block*/
 
     /*Semaphores - Working */
