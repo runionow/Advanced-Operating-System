@@ -11,10 +11,10 @@
  int32 processCount;
  int32 rounds;
  int32 initRounds;
- int32 pollingValueStore[6401]
- int32 liveCounter = 0;
+ int32 pollingValueStore[6401];
+ int32 liveCounter;
  //struct time t;
  
-process decrementValue_polling(volatile int32 processIndex);
+process decrementValue_polling(volatile *int32 processIndex);
 process decrementValue_semaphore(volatile int32 processIndex);
 void print_usage(void);

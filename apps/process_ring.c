@@ -33,13 +33,13 @@ void print_usage(void)
  * RETURNS : OK -> On Completion.
  */
 
-process decrementValue_polling(volatile int32 processIndex)
+process decrementValue_polling(volatile int32 *processIndex)
 {
     int32 initRounds = 0;
     while (initRounds < rounds)
     {
-        int32 processValue = process_polling[processIndex];
-        pollingValueStore[liveCounter] =  processValue;
+        int32 processValue = process_polling[*processIndex];
+        pollingValueStore[*processIndex] = processValue;
         processIndex++;
         printf("Ring Element %d : Round %d : Value : %d\n", processIndex, initRounds, processValue);
         if (processIndex == processCount - 1)
@@ -47,9 +47,12 @@ process decrementValue_polling(volatile int32 processIndex)
             initRounds++;
             processIndex = 0;
         }
+        else
+        {
+            processIndex = ProcessIndex + 1;
+        }
     }
-}
-return OK;
+    return OK;
 }
 
 /*
