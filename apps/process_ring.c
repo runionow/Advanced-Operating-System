@@ -35,21 +35,23 @@ void print_usage(void)
 
 process decrementValue_polling(volatile int32 *processIndex)
 {
-    int32 initRounds = 0;
-    while (initRounds < rounds)
-    {
-        int32 processValue = process_polling[*processIndex];
-        pollingValueStore[*processIndex] = processValue;
-        processIndex++;
-        printf("Ring Element %d : Round %d : Value : %d\n", processIndex, initRounds, processValue);
-        if (processIndex == processCount - 1)
+    int32 tmp = 0;
+    while (tmp < rounds)
+    {   
+        int32 processValue = pollingValueStore[*processIndex];
+	int32 nextValue = *processIndex+1;
+        pollingValueStore[nextValue] = processValue-1;
+        *processIndex = nextValue;
+        tmp++;
+        printf("Ring Element %d : Round %d : Value : %d\n", liveCounter, initRounds, processValue);
+        if (liveCounter == processCount - 1)
         {
             initRounds++;
-            processIndex = 0;
+            liveCounter = 0;
         }
         else
         {
-            processIndex = ProcessIndex + 1;
+            liveCounter = liveCounter + 1;
         }
     }
     return OK;
