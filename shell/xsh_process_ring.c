@@ -21,7 +21,7 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     initRounds = 0;
     liveCounter = 0;
     /*3 Process 3 Rounds*/
-    processCount = 4;
+    processCount = 10;
     rounds = 4;
 
     /*Start Of Argument Processing*/
