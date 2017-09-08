@@ -83,7 +83,7 @@ shellcmd xsh_process_ring(int nargs, char *args[])
     }
     for (i = 0; i < processCount; i++)
     {
-        resume(create(decrementValue_polling, 1024, 20, (char)i, 1, i));
+        resume(create(decrementValue_polling, 1024, 20, (char)i, 1, &i));
     }
     while (liveCounter < (processCount * rounds));
     /*End of polling Block*/
