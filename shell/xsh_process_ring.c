@@ -92,15 +92,16 @@ shellcmd xsh_process_ring(int nargs, char *args[])
                 print_usage();
             }
         }
-        //else /* if (...) */
+        //else
         //{
-        //    // Handle other cases
+        //    printf("Found No Arguments\n");
+        //    return SHELL_ERROR;
         //}
     }
     printf("Number of Processes: %d\n",processCount);
     printf("Number of Rounds: %d\n",rounds);
     
-    retval = gettime(&now)
+    retval = gettime(&now);
     /*End of Argument Processing*/
     if (impNumber == 0)
     {
@@ -150,7 +151,7 @@ shellcmd xsh_process_ring(int nargs, char *args[])
         }
         /*End of Semaphore Block*/
     }
-    retval1 = gettime(&now)
+    retval1 = gettime(&now);
     printf("Elapsed Seconds: %d\n",retval1-retval);
 
     return SHELL_OK;
