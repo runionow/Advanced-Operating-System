@@ -13,9 +13,10 @@
 #define	MINKEY	0x80000000	/* Min key that can be stored in queue	*/
 
 struct	qentry	{		/* One per process plus two per list	*/
-	int32	qkey;		/* Key on which the queue is ordered	*/
-	qid16	qnext;		/* Index of next process or tail	*/
-	qid16	qprev;		/* Index of previous process or head	*/
+	int32  qkey;		/* Key on which the queue is ordered	*/
+        pid32  pid;       /* Storing processID in structure */
+	struct qentry *qnext;   /* A struct pointer to next */
+	struct qentry *qprev;	/* A struct pointer to previous */
 };
 
 extern	struct qentry	queuetab[];
@@ -24,8 +25,8 @@ extern	struct qentry	queuetab[];
 
 #define	queuehead(q)	(q)
 #define	queuetail(q)	((q) + 1)
-#define	firstid(q)	(queuetab[queuehead(q)].qnext)
-#define	lastid(q)	(queuetab[queuetail(q)].qprev)
+#define	firstid(q)	(queuetab[queuehead(q)].qnext->pid)
+#define	lastid(q)	(queuetab[queuetail(q)].qprev->pid)
 #define	isempty(q)	(firstid(q) >= NPROC)
 #define	nonempty(q)	(firstid(q) <  NPROC)
 #define	firstkey(q)	(queuetab[firstid(q)].qkey)
