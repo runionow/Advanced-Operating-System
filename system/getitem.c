@@ -12,7 +12,9 @@ pid32	getfirst(
 					/*   valid with no check)	*/
 {
 	pid32	head;
-
+        if(isbadqid(q)){
+		return SYSERR;
+	}
 	if (isempty(q)) {
 		return EMPTY;
 	}
@@ -31,7 +33,9 @@ pid32	getlast(
 					/*   valid with no check)	*/
 {
 	pid32 tail;
-
+	if(isbadqid(q)){
+                return SYSERR;
+        }
 	if (isempty(q)) {
 		return EMPTY;
 	}
@@ -50,7 +54,9 @@ pid32	getitem(
 {
 	struct qentry *prev;
         struct qentry *next;
-
+        if(isbadpid(pid)){
+		return SYSERR;
+	}
 	next = queuetab[pid].qnext;	/* Following node in list	*/
 	prev = queuetab[pid].qprev;	/* Previous node in list	*/
 	//queuetab[prev].qnext = next;
