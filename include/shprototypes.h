@@ -88,8 +88,8 @@ extern  shellcmd xsh_create_example	(int32, char *[]);
 /* in file xsh_polling_example.c */
 extern  shellcmd xsh_polling_example (int32, char *[]);
 
-/* in file xsh_polling_example.c */
-extern  shellcmd xsh_polling_example (int32, char *[]);
+/* in file xsh_message_example.c */
+extern  shellcmd xsh_message_example (int32, char *[]);
 
 /* in file xsh_semaphore_example.c */
 extern  shellcmd xsh_semaphore_example (int32, char *[]);
