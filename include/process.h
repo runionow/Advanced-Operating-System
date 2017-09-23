@@ -17,7 +17,7 @@
 #define	PR_SUSP		5	/* Process is suspended			*/
 #define	PR_WAIT		6	/* Process is on semaphore queue	*/
 #define	PR_RECTIM	7	/* Process is receiving with timeout	*/
-
+#define PR_DYING        8       /* Process is about to Die              */
 /* Miscellaneous process definitions */
 
 #define	PNMLEN		16	/* Length of process "name"		*/

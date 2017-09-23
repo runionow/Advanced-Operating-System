@@ -24,8 +24,9 @@ pri16	resume(
 		restore(mask);
 		return (pri16)SYSERR;
 	}
-	prio = prptr->prprio;		/* Record priority to return	*/
+        /*Modified the default order as mentioned Assignment 4 | Q3*/
 	ready(pid);
+	prio = prptr->prprio;		/* Record priority to return	*/
 	restore(mask);
-	return prio;
+	return (prio);
 }

@@ -29,17 +29,23 @@ syscall	kill(
 	for (i=0; i<3; i++) {
 		close(prptr->prdesc[i]);
 	}
-	freestk(prptr->prstkbase, prptr->prstklen);
+        
+	if(prptr->prstate != PR_CURR){
+                freestk(prptr->prstkbase, prptr->prstklen);
+        }
+
+	//freestk(prptr->prstkbase, prptr->prstklen);
 
 	switch (prptr->prstate) {
 	case PR_CURR:
-		prptr->prstate = PR_FREE;	/* Suicide */
+		prptr->prstate = PR_DYING;	/* Suicide */
+                //printf("The process %d is moved to PR_DYING\n",pid);
 		resched();
 
 	case PR_SLEEP:
 	case PR_RECTIM:
 		unsleep(pid);
-		prptr->prstate = PR_FREE;
+		prptr->prstate = PR_FREE;	
 		break;
 
 	case PR_WAIT:

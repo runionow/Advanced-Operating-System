@@ -135,13 +135,23 @@ local	pid32	newpid(void)
 {
 	uint32	i;			/* iterate through all processes*/
 	static	pid32 nextpid = 1;	/* position in table to try or	*/
-					/*  one beyond end of table	*/
+	static  pid32 pidCounter = 1;				/*  one beyond end of table	*/
+	struct	procent *prptr;		/* Ptr to process table entry	*/
 
 	/* check all NPROC slots */
-
+        for(i=0;i<NPROC;i++){
+	    pidCounter %= NPROC;
+            	if(proctab[pidCounter].prstate == PR_DYING){
+		  prptr = &proctab[nextpid];	
+		  //printf("performing free of stack");	
+                  proctab[pidCounter].prstate = PR_FREE;
+		  freestk(prptr->prstkbase, prptr->prstklen);
+		}
+                 pidCounter++;            
+        }
 	for (i = 0; i < NPROC; i++) {
 		nextpid %= NPROC;	/* wrap around to beginning */
-		if (proctab[nextpid].prstate == PR_FREE) {
+                if (proctab[nextpid].prstate == PR_FREE) {
 			return nextpid++;
 		} else {
 			nextpid++;
