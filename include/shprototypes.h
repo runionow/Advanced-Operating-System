@@ -96,3 +96,6 @@ extern  shellcmd xsh_semaphore_example (int32, char *[]);
 
 /* in file xsh_process_ring.c */
 extern  shellcmd xsh_process_ring (int32, char *[]);
+
+/* in file xsh_test_resume.c */
+extern  shellcmd xsh_test_resume (int32, char *[]);
