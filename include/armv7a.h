@@ -32,7 +32,7 @@
 #define ARMV7A_IRQH_ADDR 0x4030CE38	/* IRQ exp handler address	*/
 
 #ifdef ARM_QEMU
-#define MAXADDR	0x20000000	/* 512 MB RAM starting from 0x00000000	*/
+#define MAXADDR	0x10000000	/* 512 MB RAM starting from 0x00000000	*/
 #endif
 
 #ifdef ARM_BBB
