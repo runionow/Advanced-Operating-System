@@ -1,0 +1,62 @@
+
+resched2.o:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <resched2>:
+   0:	e92d4070 	push	{r4, r5, r6, lr}
+   4:	e59f30cc 	ldr	r3, [pc, #204]	; d8 <resched2+0xd8>
+   8:	e5933000 	ldr	r3, [r3]
+   c:	e3530000 	cmp	r3, #0
+  10:	da000003 	ble	24 <resched2+0x24>
+  14:	e3a02001 	mov	r2, #1
+  18:	e59f30b8 	ldr	r3, [pc, #184]	; d8 <resched2+0xd8>
+  1c:	e5c32004 	strb	r2, [r3, #4]
+  20:	e8bd8070 	pop	{r4, r5, r6, pc}
+  24:	e59f30b0 	ldr	r3, [pc, #176]	; dc <resched2+0xdc>
+  28:	e5933000 	ldr	r3, [r3]
+  2c:	e0634183 	rsb	r4, r3, r3, lsl #3
+  30:	e1a04184 	lsl	r4, r4, #3
+  34:	e59fc0a4 	ldr	ip, [pc, #164]	; e0 <resched2+0xe0>
+  38:	e084500c 	add	r5, r4, ip
+  3c:	e18400bc 	strh	r0, [r4, ip]
+  40:	e2400001 	sub	r0, r0, #1
+  44:	e6ff0070 	uxth	r0, r0
+  48:	e3500001 	cmp	r0, #1
+  4c:	8a00000f 	bhi	90 <resched2+0x90>
+  50:	e1d520f2 	ldrsh	r2, [r5, #2]
+  54:	e59f1088 	ldr	r1, [pc, #136]	; e4 <resched2+0xe4>
+  58:	e1d110b0 	ldrh	r1, [r1]
+  5c:	e59f0084 	ldr	r0, [pc, #132]	; e8 <resched2+0xe8>
+  60:	e6bf6071 	sxth	r6, r1
+  64:	e0806206 	add	r6, r0, r6, lsl #4
+  68:	e5966008 	ldr	r6, [r6, #8]
+  6c:	e5966004 	ldr	r6, [r6, #4]
+  70:	e7900206 	ldr	r0, [r0, r6, lsl #4]
+  74:	e1520000 	cmp	r2, r0
+  78:	c8bd8070 	popgt	{r4, r5, r6, pc}
+  7c:	e3a00002 	mov	r0, #2
+  80:	e18400bc 	strh	r0, [r4, ip]
+  84:	e1a00003 	mov	r0, r3
+  88:	e6bf1071 	sxth	r1, r1
+  8c:	ebfffffe 	bl	0 <insert>
+  90:	e59f304c 	ldr	r3, [pc, #76]	; e4 <resched2+0xe4>
+  94:	e1d300f0 	ldrsh	r0, [r3]
+  98:	ebfffffe 	bl	0 <dequeue>
+  9c:	e59f3038 	ldr	r3, [pc, #56]	; dc <resched2+0xdc>
+  a0:	e5830000 	str	r0, [r3]
+  a4:	e0600180 	rsb	r0, r0, r0, lsl #3
+  a8:	e1a00180 	lsl	r0, r0, #3
+  ac:	e59f302c 	ldr	r3, [pc, #44]	; e0 <resched2+0xe0>
+  b0:	e0801003 	add	r1, r0, r3
+  b4:	e3a02001 	mov	r2, #1
+  b8:	e18020b3 	strh	r2, [r0, r3]
+  bc:	e3a02002 	mov	r2, #2
+  c0:	e59f3024 	ldr	r3, [pc, #36]	; ec <resched2+0xec>
+  c4:	e5832000 	str	r2, [r3]
+  c8:	e2850004 	add	r0, r5, #4
+  cc:	e2811004 	add	r1, r1, #4
+  d0:	ebfffffe 	bl	0 <ctxsw>
+  d4:	e8bd8070 	pop	{r4, r5, r6, pc}
+	...

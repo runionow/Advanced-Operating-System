@@ -1,0 +1,33 @@
+ 
+#include <xinu.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+struct procent *prptr;
+
+void test1(pid32 x) {
+ prptr = &proctab[x];
+ prptr -> prprio = 40;
+ printf("test 1");
+ //return SHELL_OK;
+}
+
+
+void test(pid32 x) {
+ printf("we got new_proc PID : %d\n",x);
+ pid32 new_proc1 = create(test1, 1024, 20, "f", 1,x); 
+ pri16 let1  = resume(new_proc1);
+ //sleep(2);
+ //return SHELL_OK;
+}
+
+shellcmd xsh_test_resume(int nargs, char *args[]) {
+  pri16 let;
+  pid32 new_proc = create(test, 1024, 20, "f", 1,getpid());
+  let = resume(new_proc);
+  printf("Initial prirority %d\n",let);
+  prptr = &proctab[getpid()];
+  pri16 priority = prptr -> prprio; 
+  printf("The priority of new_proc %d\n",priority);
+  return SHELL_OK;
+}

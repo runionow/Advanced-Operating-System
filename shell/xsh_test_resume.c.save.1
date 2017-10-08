@@ -1,0 +1,29 @@
+#include <xinu.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+struct procent *prptr;
+
+void test(sid32 producer,sid32 consumer) {  
+	kill(globalPId);
+	create(create(test, 1024, 30, "f", 1,);
+}
+
+void test1(pid32 proc1) {
+	wait(proc1);
+}
+
+shellcmd xsh_test_resume(int nargs, char *args[]) {
+
+  prptr = &proctab[getpid()];
+  priority = prptr -> prprio;
+ 
+  pid32 proc1  = create(test, 1024, 30, "f", 1,);
+  sleep(1);
+  pid32 proc2  = create(test1, 1024, 30, "f", 1,proc1);
+  pri16 prior  = 
+  
+  pri16 priority2 = resume(proc1)
+  
+  printf("\nPriority of getpid(): %d\n"
+}

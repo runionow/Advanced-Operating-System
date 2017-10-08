@@ -1,0 +1,193 @@
+
+resched.o:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <resched>:
+/*------------------------------------------------------------------------
+ *  resched  -  Reschedule processor to highest priority eligible process
+ *------------------------------------------------------------------------
+ */
+void	resched(void)		/* Assumes interrupts are disabled	*/
+{
+   0:	e92d4070 	push	{r4, r5, r6, lr}
+	struct procent *ptold;	/* Ptr to table entry for old process	*/
+	struct procent *ptnew;	/* Ptr to table entry for new process	*/
+
+	/* If rescheduling is deferred, record attempt and return */
+
+	if (Defer.ndefers > 0) {
+   4:	e59f30c0 	ldr	r3, [pc, #192]	; cc <resched+0xcc>
+   8:	e5933000 	ldr	r3, [r3]
+   c:	e3530000 	cmp	r3, #0
+  10:	da000003 	ble	24 <resched+0x24>
+		Defer.attempt = TRUE;
+  14:	e3a02001 	mov	r2, #1
+  18:	e59f30ac 	ldr	r3, [pc, #172]	; cc <resched+0xcc>
+  1c:	e5c32004 	strb	r2, [r3, #4]
+		return;
+  20:	e8bd8070 	pop	{r4, r5, r6, pc}
+	}
+
+	/* Point to process table entry for the current (old) process */
+
+	ptold = &proctab[currpid];
+  24:	e59f30a4 	ldr	r3, [pc, #164]	; d0 <resched+0xd0>
+  28:	e5930000 	ldr	r0, [r3]
+  2c:	e060c180 	rsb	ip, r0, r0, lsl #3
+  30:	e1a0c18c 	lsl	ip, ip, #3
+  34:	e59f3098 	ldr	r3, [pc, #152]	; d4 <resched+0xd4>
+  38:	e08c4003 	add	r4, ip, r3
+
+	if (ptold->prstate == PR_CURR) {  /* Process remains eligible */
+  3c:	e19c20b3 	ldrh	r2, [ip, r3]
+  40:	e3520001 	cmp	r2, #1
+  44:	1a00000e 	bne	84 <resched+0x84>
+		if (ptold->prprio > firstkey(readylist)) {
+  48:	e1d420f2 	ldrsh	r2, [r4, #2]
+  4c:	e59f1084 	ldr	r1, [pc, #132]	; d8 <resched+0xd8>
+  50:	e1d110b0 	ldrh	r1, [r1]
+  54:	e59f5080 	ldr	r5, [pc, #128]	; dc <resched+0xdc>
+  58:	e6bf6071 	sxth	r6, r1
+  5c:	e0856206 	add	r6, r5, r6, lsl #4
+  60:	e5966008 	ldr	r6, [r6, #8]
+  64:	e5966004 	ldr	r6, [r6, #4]
+  68:	e7955206 	ldr	r5, [r5, r6, lsl #4]
+  6c:	e1520005 	cmp	r2, r5
+  70:	c8bd8070 	popgt	{r4, r5, r6, pc}
+			return;
+		}
+
+		/* Old process will no longer remain current */
+
+		ptold->prstate = PR_READY;
+  74:	e3a0e002 	mov	lr, #2
+  78:	e18ce0b3 	strh	lr, [ip, r3]
+		insert(currpid, readylist, ptold->prprio);
+  7c:	e6bf1071 	sxth	r1, r1
+  80:	ebfffffe 	bl	0 <insert>
+	}
+
+	/* Force context switch to highest priority ready process */
+
+	currpid = dequeue(readylist);
+  84:	e59f304c 	ldr	r3, [pc, #76]	; d8 <resched+0xd8>
+  88:	e1d300f0 	ldrsh	r0, [r3]
+  8c:	ebfffffe 	bl	0 <dequeue>
+  90:	e59f3038 	ldr	r3, [pc, #56]	; d0 <resched+0xd0>
+  94:	e5830000 	str	r0, [r3]
+	ptnew = &proctab[currpid];
+  98:	e0600180 	rsb	r0, r0, r0, lsl #3
+  9c:	e1a00180 	lsl	r0, r0, #3
+  a0:	e59f302c 	ldr	r3, [pc, #44]	; d4 <resched+0xd4>
+  a4:	e0801003 	add	r1, r0, r3
+	ptnew->prstate = PR_CURR;
+  a8:	e3a02001 	mov	r2, #1
+  ac:	e18020b3 	strh	r2, [r0, r3]
+	preempt = QUANTUM;		/* Reset time slice for process	*/
+  b0:	e3a02002 	mov	r2, #2
+  b4:	e59f3024 	ldr	r3, [pc, #36]	; e0 <resched+0xe0>
+  b8:	e5832000 	str	r2, [r3]
+#ifdef MMU
+	FlushTLB();
+	setPageTable();
+#endif/*MMU*/
+
+	ctxsw(&ptold->prstkptr, &ptnew->prstkptr);
+  bc:	e2840004 	add	r0, r4, #4
+  c0:	e2811004 	add	r1, r1, #4
+  c4:	ebfffffe 	bl	0 <ctxsw>
+  c8:	e8bd8070 	pop	{r4, r5, r6, pc}
+	...
+
+000000e4 <resched_cntl>:
+ *------------------------------------------------------------------------
+ */
+status	resched_cntl(		/* Assumes interrupts are disabled	*/
+	  int32	defer		/* Either DEFER_START or DEFER_STOP	*/
+	)
+{
+  e4:	e92d4008 	push	{r3, lr}
+	switch (defer) {
+  e8:	e3500001 	cmp	r0, #1
+  ec:	0a000002 	beq	fc <resched_cntl+0x18>
+  f0:	e3500002 	cmp	r0, #2
+  f4:	0a00000b 	beq	128 <resched_cntl+0x44>
+  f8:	ea000019 	b	164 <resched_cntl+0x80>
+
+	    case DEFER_START:	/* Handle a deferral request */
+
+		if (Defer.ndefers++ == 0) {
+  fc:	e59f2088 	ldr	r2, [pc, #136]	; 18c <resched_cntl+0xa8>
+ 100:	e5923000 	ldr	r3, [r2]
+ 104:	e2831001 	add	r1, r3, #1
+ 108:	e5821000 	str	r1, [r2]
+ 10c:	e3530000 	cmp	r3, #0
+ 110:	1a000015 	bne	16c <resched_cntl+0x88>
+			Defer.attempt = FALSE;
+ 114:	e3a02000 	mov	r2, #0
+ 118:	e59f306c 	ldr	r3, [pc, #108]	; 18c <resched_cntl+0xa8>
+ 11c:	e5c32004 	strb	r2, [r3, #4]
+		}
+		return OK;
+ 120:	e3a00001 	mov	r0, #1
+ 124:	e8bd8008 	pop	{r3, pc}
+
+	    case DEFER_STOP:	/* Handle end of deferral */
+		if (Defer.ndefers <= 0) {
+ 128:	e59f305c 	ldr	r3, [pc, #92]	; 18c <resched_cntl+0xa8>
+ 12c:	e5933000 	ldr	r3, [r3]
+ 130:	e3530000 	cmp	r3, #0
+ 134:	da00000e 	ble	174 <resched_cntl+0x90>
+			return SYSERR;
+		}
+		if ( (--Defer.ndefers == 0) && Defer.attempt ) {
+ 138:	e2433001 	sub	r3, r3, #1
+ 13c:	e59f2048 	ldr	r2, [pc, #72]	; 18c <resched_cntl+0xa8>
+ 140:	e5823000 	str	r3, [r2]
+ 144:	e3530000 	cmp	r3, #0
+ 148:	1a00000b 	bne	17c <resched_cntl+0x98>
+ 14c:	e5d23004 	ldrb	r3, [r2, #4]
+ 150:	e3530000 	cmp	r3, #0
+ 154:	0a00000a 	beq	184 <resched_cntl+0xa0>
+			resched();
+ 158:	ebfffffe 	bl	0 <resched>
+		}
+		return OK;
+ 15c:	e3a00001 	mov	r0, #1
+ 160:	e8bd8008 	pop	{r3, pc}
+
+	    default:
+		return SYSERR;
+ 164:	e3e00000 	mvn	r0, #0
+ 168:	e8bd8008 	pop	{r3, pc}
+	    case DEFER_START:	/* Handle a deferral request */
+
+		if (Defer.ndefers++ == 0) {
+			Defer.attempt = FALSE;
+		}
+		return OK;
+ 16c:	e3a00001 	mov	r0, #1
+ 170:	e8bd8008 	pop	{r3, pc}
+
+	    case DEFER_STOP:	/* Handle end of deferral */
+		if (Defer.ndefers <= 0) {
+			return SYSERR;
+ 174:	e3e00000 	mvn	r0, #0
+ 178:	e8bd8008 	pop	{r3, pc}
+		}
+		if ( (--Defer.ndefers == 0) && Defer.attempt ) {
+			resched();
+		}
+		return OK;
+ 17c:	e3a00001 	mov	r0, #1
+ 180:	e8bd8008 	pop	{r3, pc}
+ 184:	e3a00001 	mov	r0, #1
+
+	    default:
+		return SYSERR;
+	}
+}
+ 188:	e8bd8008 	pop	{r3, pc}
+ 18c:	00000000 	.word	0x00000000
