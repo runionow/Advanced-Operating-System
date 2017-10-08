@@ -7597,6 +7597,80 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 binaries/xsh_process_ring.o
  .debug_macro   0x00000000       0xeb binaries/xsh_process_ring.o
  .debug_macro   0x00000000       0x8e binaries/xsh_process_ring.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .group         0x00000000        0x8 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000      0x83e binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x58 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xb2 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x6a binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x52 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x16 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x28 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000      0x1c1 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xa0 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x22 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x46 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xfa binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xdd binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x91 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x8e binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x82 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x2e binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x3a binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x4c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x3a binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xa0 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x34 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x7c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xee binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x7c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x20 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x34 binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0xeb binaries/xsh_prodcons.o
+ .debug_macro   0x00000000       0x8e binaries/xsh_prodcons.o
  .group         0x00000000        0x8 binaries/xsh_ps.o
  .group         0x00000000        0x8 binaries/xsh_ps.o
  .group         0x00000000        0x8 binaries/xsh_ps.o
@@ -7967,6 +8041,80 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 binaries/consume.o
  .debug_macro   0x00000000       0xeb binaries/consume.o
  .debug_macro   0x00000000       0x8e binaries/consume.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .group         0x00000000        0x8 binaries/future_prodcons.o
+ .debug_macro   0x00000000      0x83e binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x58 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xb2 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x6a binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x52 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x16 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x28 binaries/future_prodcons.o
+ .debug_macro   0x00000000      0x1c1 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xa0 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x22 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x46 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xfa binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xdd binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x91 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x8e binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x82 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x2e binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x3a binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x4c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x3a binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xa0 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x34 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x7c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xee binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x7c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x20 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x10 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x1c binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x34 binaries/future_prodcons.o
+ .debug_macro   0x00000000       0xeb binaries/future_prodcons.o
+ .debug_macro   0x00000000       0x8e binaries/future_prodcons.o
  .group         0x00000000        0x8 binaries/process_ring.o
  .group         0x00000000        0x8 binaries/process_ring.o
  .group         0x00000000        0x8 binaries/process_ring.o
@@ -12856,622 +13004,636 @@ Linker script and memory map
                 0x0001086c                freebuf
  .text          0x000108e8      0x13c binaries/freemem.o
                 0x000108e8                freemem
- .text          0x00010a24      0x408 binaries/future.o
+ .text          0x00010a24      0x410 binaries/future.o
                 0x00010a24                future_alloc
                 0x00010a44                future_free
                 0x00010a54                future_get
-                0x00010c58                future_set
- .text          0x00010e2c       0x78 binaries/getbuf.o
-                0x00010e2c                getbuf
- .text          0x00010ea4       0x50 binaries/getc.o
-                0x00010ea4                getc
- .text          0x00010ef4       0x68 binaries/getdev.o
-                0x00010ef4                getdev
- .text          0x00010f5c       0x9c binaries/getitem.o
-                0x00010f5c                getitem
-                0x00010f8c                getfirst
-                0x00010fc0                getlast
- .text          0x00010ff8       0xf8 binaries/getmem.o
-                0x00010ff8                getmem
- .text          0x000110f0       0x10 binaries/getpid.o
-                0x000110f0                getpid
- .text          0x00011100       0x58 binaries/getprio.o
-                0x00011100                getprio
- .text          0x00011158       0xc0 binaries/getstk.o
-                0x00011158                getstk
- .text          0x00011218       0x50 binaries/init.o
-                0x00011218                init
- .text          0x00011268      0x28c binaries/initialize.o
-                0x00011268                nulluser
-                0x00011494                stop
-                0x000114b8                delay
- .text          0x000114f4       0xc0 binaries/insert.o
-                0x000114f4                insert
- .text          0x000115b4      0x120 binaries/insertd.o
-                0x000115b4                insertd
- .text          0x000116d4        0x8 binaries/ioerr.o
-                0x000116d4                ioerr
- .text          0x000116dc        0x8 binaries/ionull.o
-                0x000116dc                ionull
- .text          0x000116e4      0x158 binaries/kill.o
-                0x000116e4                kill
- .text          0x0001183c       0xc4 binaries/mark.o
-                0x0001183c                markinit
-                0x00011868                mark
- .text          0x00011900       0x44 binaries/meminit.o
-                0x00011900                meminit
- .text          0x00011944      0x134 binaries/mkbufpool.o
-                0x00011944                mkbufpool
- .text          0x00011a78      0x160 binaries/mmu.o
-                0x00011a78                setPageTable
-                0x00011a98                setAccessControl
-                0x00011aa4                FlushTLB
-                0x00011ab0                enableMMU
-                0x00011ac0                initializeMMU
-                0x00011bc4                pageFaultHandler
- .text          0x00011bd8       0x7c binaries/newqueue.o
-                0x00011bd8                newqueue
- .text          0x00011c54       0x60 binaries/open.o
-                0x00011c54                open
- .text          0x00011cb4       0x20 binaries/panic.o
-                0x00011cb4                panic
- .text          0x00011cd4       0xa8 binaries/ptclear.o
-                0x00011cd4                _ptclear
- .text          0x00011d7c       0x78 binaries/ptcount.o
-                0x00011d7c                ptcount
- .text          0x00011df4       0xd4 binaries/ptcreate.o
-                0x00011df4                ptcreate
- .text          0x00011ec8       0x74 binaries/ptdelete.o
-                0x00011ec8                ptdelete
- .text          0x00011f3c       0xb8 binaries/ptinit.o
-                0x00011f3c                ptinit
- .text          0x00011ff4       0xd0 binaries/ptrecv.o
-                0x00011ff4                ptrecv
- .text          0x000120c4       0x64 binaries/ptreset.o
-                0x000120c4                ptreset
- .text          0x00012128       0xf0 binaries/ptsend.o
-                0x00012128                ptsend
- .text          0x00012218       0x58 binaries/putc.o
-                0x00012218                putc
- .text          0x00012270       0xe8 binaries/queue.o
-                0x00012270                enqueue
-                0x000122fc                dequeue
- .text          0x00012358       0x60 binaries/read.o
-                0x00012358                read
- .text          0x000123b8       0x70 binaries/ready.o
-                0x000123b8                ready
- .text          0x00012428       0x60 binaries/receive.o
-                0x00012428                receive
- .text          0x00012488       0x48 binaries/recvclr.o
-                0x00012488                recvclr
- .text          0x000124d0       0xb0 binaries/recvtime.o
-                0x000124d0                recvtime
- .text          0x00012580      0x18c binaries/resched.o
-                0x00012580                resched
-                0x00012660                resched_cntl
- .text          0x0001270c       0x90 binaries/resume.o
-                0x0001270c                resume
- .text          0x0001279c       0x58 binaries/seek.o
-                0x0001279c                seek
- .text          0x000127f4       0x54 binaries/semcount.o
-                0x000127f4                semcount
- .text          0x00012848       0xa8 binaries/semcreate.o
-                0x00012848                semcreate
- .text          0x000128f0       0xac binaries/semdelete.o
-                0x000128f0                semdelete
- .text          0x0001299c       0xa0 binaries/semreset.o
-                0x0001299c                semreset
- .text          0x00012a3c       0xbc binaries/send.o
-                0x00012a3c                send
- .text          0x00012af8       0x80 binaries/signal.o
-                0x00012af8                signal
- .text          0x00012b78       0xb0 binaries/signaln.o
-                0x00012b78                signaln
- .text          0x00012c28       0xcc binaries/sleep.o
-                0x00012c28                sleepms
-                0x00012cc4                sleep
- .text          0x00012cf4       0xb8 binaries/suspend.o
-                0x00012cf4                suspend
- .text          0x00012dac       0xac binaries/unsleep.o
-                0x00012dac                unsleep
- .text          0x00012e58       0x10 binaries/userret.o
-                0x00012e58                userret
- .text          0x00012e68       0xac binaries/wait.o
-                0x00012e68                wait
- .text          0x00012f14       0x88 binaries/wakeup.o
-                0x00012f14                wakeup
- .text          0x00012f9c       0x60 binaries/write.o
-                0x00012f9c                write
- .text          0x00012ffc       0x18 binaries/xdone.o
-                0x00012ffc                xdone
- .text          0x00013014       0x20 binaries/yield.o
-                0x00013014                yield
- .text          0x00013034       0xb8 binaries/clkhandler.o
-                0x00013034                clkhandler
- .text          0x000130ec       0x88 binaries/clkinit.o
-                0x000130ec                clkinit
- .text          0x00013174       0x58 binaries/gettime.o
-                0x00013174                get_datetime
-                0x00013194                set_datetime
-                0x000131b4                gettime
- .text          0x000131cc       0x2c binaries/kprintf.o
-                0x000131cc                kprintf
- .text          0x000131f8       0xd4 binaries/main.o
-                0x000131f8                counterproc
-                0x00013230                main
- .text          0x000132cc       0x68 binaries/pl190.o
-                0x000132cc                enable_irq
-                0x000132e4                disable_irq
-                0x000132fc                dispatch
- .text          0x00013334      0x130 binaries/platinit.o
-                0x00013334                platinit
- .text          0x00013464       0x48 binaries/sp804.o
-                0x00013464                sp804_init
-                0x00013478                clkcount
-                0x0001348c                clkupdate
- .text          0x000134ac       0x68 binaries/udelay.o
-                0x000134ac                udelay
- .text          0x00013514        0xc binaries/abs.o
-                0x00013514                abs
- .text          0x00013520      0x114 binaries/atoi.o
-                0x00013520                atoi
- .text          0x00013634      0x114 binaries/atol.o
-                0x00013634                atol
- .text          0x00013748       0x20 binaries/bzero.o
-                0x00013748                bzero
- .text          0x00013768        0x0 binaries/ctype_.o
- .text          0x00013768      0x948 binaries/doprnt.o
-                0x0001394c                _doprnt
- .text          0x000140b0      0x708 binaries/doscan.o
-                0x000140b0                _doscan
- .text          0x000147b8      0x878 binaries/fdoprnt.o
-                0x00014864                _fdoprnt
- .text          0x00015030       0x14 binaries/fgetc.o
-                0x00015030                fgetc
- .text          0x00015044       0x84 binaries/fgets.o
-                0x00015044                fgets
- .text          0x000150c8       0x3c binaries/fprintf.o
-                0x000150c8                fprintf
- .text          0x00015104       0x24 binaries/fputc.o
-                0x00015104                fputc
- .text          0x00015128       0x38 binaries/fputs.o
-                0x00015128                fputs
- .text          0x00015160       0x78 binaries/fscanf.o
-                0x00015194                fscanf
- .text          0x000151d8       0x2c binaries/getchar.o
-                0x000151d8                getchar
- .text          0x00015204        0xc binaries/labs.o
-                0x00015204                labs
- .text          0x00015210       0x48 binaries/memchr.o
-                0x00015210                memchr
- .text          0x00015258       0x60 binaries/memcmp.o
-                0x00015258                memcmp
- .text          0x000152b8       0x24 binaries/memcpy.o
-                0x000152b8                memcpy
- .text          0x000152dc       0x20 binaries/memset.o
-                0x000152dc                memset
- .text          0x000152fc       0x58 binaries/printf.o
-                0x000152fc                printf
- .text          0x00015354       0x2c binaries/putchar.o
-                0x00015354                putchar
- .text          0x00015380      0x250 binaries/qsort.o
-                0x000155b0                qsort
- .text          0x000155d0       0x40 binaries/rand.o
-                0x000155d0                srand
-                0x000155e0                rand
- .text          0x00015610       0x68 binaries/sprintf.o
-                0x00015628                sprintf
- .text          0x00015678       0x78 binaries/sscanf.o
-                0x000156ac                sscanf
- .text          0x000156f0       0x48 binaries/strchr.o
-                0x000156f0                strchr
- .text          0x00015738       0x54 binaries/strcmp.o
-                0x00015738                strcmp
- .text          0x0001578c       0x18 binaries/strcpy.o
-                0x0001578c                strcpy
- .text          0x000157a4       0x30 binaries/strlen.o
-                0x000157a4                strlen
- .text          0x000157d4       0x50 binaries/strncat.o
-                0x000157d4                strncat
- .text          0x00015824       0x54 binaries/strncmp.o
-                0x00015824                strncmp
- .text          0x00015878       0x80 binaries/strncpy.o
-                0x00015878                strncpy
- .text          0x000158f8       0x48 binaries/strnlen.o
-                0x000158f8                strnlen
- .text          0x00015940       0x58 binaries/strrchr.o
-                0x00015940                strrchr
- .text          0x00015998       0xb0 binaries/strstr.o
-                0x00015998                strstr
- .text          0x00015a48      0x120 binaries/addargs.o
-                0x00015a48                addargs
- .text          0x00015b68      0x2b4 binaries/lexan.o
-                0x00015b68                lexan
- .text          0x00015e1c      0x67c binaries/shell.o
-                0x00015e1c                shell
- .text          0x00016498       0x64 binaries/xsh_argecho.o
-                0x00016498                xsh_argecho
- .text          0x000164fc      0x224 binaries/xsh_cat.o
-                0x000164fc                xsh_cat
- .text          0x00016720       0x5c binaries/xsh_clear.o
-                0x00016720                xsh_clear
- .text          0x0001677c       0xe0 binaries/xsh_create_example.o
-                0x0001677c                print_it
-                0x000167dc                xsh_create_example
- .text          0x0001685c      0x270 binaries/xsh_date.o
-                0x0001685c                xsh_date
- .text          0x00016acc       0x98 binaries/xsh_devdump.o
-                0x00016acc                xsh_devdump
- .text          0x00016b64       0x68 binaries/xsh_echo.o
-                0x00016b64                xsh_echo
- .text          0x00016bcc        0x8 binaries/xsh_exit.o
-                0x00016bcc                xsh_exit
- .text          0x00016bd4       0x6c binaries/xsh_hello.o
-                0x00016bd4                xsh_hello
- .text          0x00016c40      0x39c binaries/xsh_help.o
-                0x00016c40                xsh_help
- .text          0x00016fdc      0x1e0 binaries/xsh_kill.o
-                0x00016fdc                xsh_kill
- .text          0x000171bc      0x294 binaries/xsh_led.o
-                0x000171bc                xsh_led
- .text          0x00017450      0x420 binaries/xsh_memdump.o
-                0x0001754c                xsh_memdump
- .text          0x00017870      0x21c binaries/xsh_memstat.o
-                0x00017870                xsh_memstat
- .text          0x00017a8c      0x114 binaries/xsh_message_example.o
-                0x00017a8c                msg_consumer
-                0x00017acc                msg_producer
-                0x00017b1c                xsh_message_example
- .text          0x00017ba0       0xbc binaries/xsh_mmu.o
-                0x00017ba0                function1
-                0x00017bd0                xsh_mmu
- .text          0x00017c5c      0x164 binaries/xsh_polling_example.o
-                0x00017c5c                polling_consumer
-                0x00017cc8                polling_producer
-                0x00017d30                xsh_polling_example
- .text          0x00017dc0      0x490 binaries/xsh_process_ring.o
-                0x00017dc0                xsh_process_ring
- .text          0x00018250      0x220 binaries/xsh_ps.o
-                0x00018250                xsh_ps
- .text          0x00018470      0x188 binaries/xsh_semaphore_example.o
-                0x00018470                sem_consumer
-                0x000184c4                sem_producer
-                0x00018520                xsh_semaphore_example
- .text          0x000185f8      0x1bc binaries/xsh_sleep.o
-                0x000185f8                xsh_sleep
- .text          0x000187b4      0x1b4 binaries/xsh_uptime.o
-                0x000187b4                xsh_uptime
- .text          0x00018968        0x4 binaries/consume.o
-                0x00018968                consumer
- .text          0x0001896c      0x1e0 binaries/process_ring.o
-                0x0001896c                print_usage
-                0x000189bc                decrementValue_polling
-                0x00018a68                decrementValue_semaphore
- .text          0x00018b4c        0x4 binaries/produce.o
-                0x00018b4c                producer
- .text          0x00018b50       0xc8 binaries/ttycontrol.o
-                0x00018b50                ttycontrol
- .text          0x00018c18       0x6c binaries/ttygetc.o
-                0x00018c18                ttygetc
- .text          0x00018c84      0x4d4 binaries/ttyhandle_in.o
-                0x00018d50                ttyhandle_in
- .text          0x00019158      0x14c binaries/ttyhandle_out.o
-                0x00019158                ttyhandle_out
- .text          0x000192a4       0xc8 binaries/ttyhandler.o
-                0x000192a4                ttyhandler
- .text          0x0001936c      0x120 binaries/ttyinit.o
-                0x0001936c                ttyinit
- .text          0x0001948c        0xc binaries/ttykickout.o
-                0x0001948c                ttykickout
- .text          0x00019498       0x78 binaries/ttyputc.o
-                0x00019498                ttyputc
- .text          0x00019510      0x110 binaries/ttyread.o
-                0x00019510                ttyread
- .text          0x00019620       0x4c binaries/ttywrite.o
-                0x00019620                ttywrite
- .text          0x0001966c      0x130 binaries/mount.o
-                0x0001966c                namlen
-                0x000196c0                mount
- .text          0x0001979c      0x1bc binaries/naminit.o
-                0x0001979c                naminit
- .text          0x00019958      0x234 binaries/nammap.o
-                0x00019958                namrepl
-                0x00019a90                namcpy
-                0x00019aec                nammap
- .text          0x00019b8c       0x40 binaries/namopen.o
-                0x00019b8c                namopen
- .text          0x00019bcc        0x8 binaries/ramclose.o
-                0x00019bcc                ramclose
- .text          0x00019bd4       0x3c binaries/raminit.o
-                0x00019bd4                raminit
- .text          0x00019c10        0x8 binaries/ramopen.o
-                0x00019c10                ramopen
- .text          0x00019c18       0x24 binaries/ramread.o
-                0x00019c18                ramread
- .text          0x00019c3c       0x20 binaries/ramwrite.o
-                0x00019c3c                ramwrite
- .text          0x00019c5c       0x8c binaries/lfdballoc.o
-                0x00019c5c                lfdballoc
- .text          0x00019ce8       0x4c binaries/lfdbfree.o
-                0x00019ce8                lfdbfree
- .text          0x00019d34       0xac binaries/lfflush.o
-                0x00019d34                lfflush
- .text          0x00019de0       0xc8 binaries/lfgetmode.o
-                0x00019de0                lfgetmode
- .text          0x00019ea8       0x68 binaries/lfiballoc.o
-                0x00019ea8                lfiballoc
- .text          0x00019f10       0x30 binaries/lfibclear.o
-                0x00019f10                lfibclear
- .text          0x00019f40       0x64 binaries/lfibget.o
-                0x00019f40                lfibget
- .text          0x00019fa4       0x84 binaries/lfibput.o
-                0x00019fa4                lfibput
- .text          0x0001a028       0x84 binaries/lflclose.o
-                0x0001a028                lflclose
- .text          0x0001a0ac       0xa0 binaries/lflcontrol.o
-                0x0001a0ac                lflcontrol
- .text          0x0001a14c       0xa8 binaries/lflgetc.o
-                0x0001a14c                lflgetc
- .text          0x0001a1f4       0xa8 binaries/lflinit.o
-                0x0001a1f4                lflinit
- .text          0x0001a29c       0xd8 binaries/lflputc.o
-                0x0001a29c                lflputc
- .text          0x0001a374       0x78 binaries/lflread.o
-                0x0001a374                lflread
- .text          0x0001a3ec       0x80 binaries/lflseek.o
-                0x0001a3ec                lflseek
- .text          0x0001a46c       0x54 binaries/lflwrite.o
-                0x0001a46c                lflwrite
- .text          0x0001a4c0      0x11c binaries/lfsckfmt.o
-                0x0001a4c0                lfsckfmt
- .text          0x0001a5dc      0x15c binaries/lfscreate.o
-                0x0001a5dc                lfscreate
- .text          0x0001a738      0x1e0 binaries/lfsetup.o
-                0x0001a738                lfsetup
- .text          0x0001a918       0x44 binaries/lfsinit.o
-                0x0001a918                lfsinit
- .text          0x0001a95c      0x304 binaries/lfsopen.o
-                0x0001a95c                lfsopen
- .text          0x0001ac60      0x104 binaries/lftruncate.o
-                0x0001ac60                lftruncate
- .text          0x0001ad64       0x44 binaries/kvprintf.o
-                0x0001ad64                kvprintf
- .text          0x0001ada8       0xc0 binaries/uartControl.o
-                0x0001ada8                uartControl
- .text          0x0001ae68       0x28 binaries/uartGetc.o
-                0x0001ae68                uartGetc
- .text          0x0001ae90       0xe8 binaries/uartInit.o
-                0x0001ae90                uartInit
- .text          0x0001af78       0x30 binaries/uartPutc.o
-                0x0001af78                uartPutc
- .text          0x0001afa8      0x100 binaries/uartRead.o
-                0x0001afa8                uartRead
- .text          0x0001b0a8       0xd0 binaries/uartStat.o
-                0x0001b0a8                uartStat
- .text          0x0001b178      0x114 binaries/uartWrite.o
-                0x0001b178                uartWrite
- .text          0x0001b28c       0x50 binaries/kgetc.o
-                0x0001b28c                kgetc
- .text          0x0001b2dc       0x4c binaries/kputc.o
-                0x0001b2dc                kputc
- .text          0x0001b328       0x94 binaries/uartHwInit.o
-                0x0001b328                uartHwInit
- .text          0x0001b3bc        0x8 binaries/uartHwPutc.o
-                0x0001b3bc                uartHwPutc
- .text          0x0001b3c4       0x64 binaries/uartHwStat.o
-                0x0001b3c4                uartHwStat
- .text          0x0001b428      0x16c binaries/uartInterrupt.o
-                0x0001b428                uartInterrupt
- .text          0x0001b594        0x0 binaries/Doxygroup.o
- .text          0x0001b594       0x5c binaries/loopbackClose.o
-                0x0001b594                loopbackClose
- .text          0x0001b5f0       0x74 binaries/loopbackControl.o
-                0x0001b5f0                loopbackControl
- .text          0x0001b664       0x8c binaries/loopbackGetc.o
-                0x0001b664                loopbackGetc
- .text          0x0001b6f0       0x2c binaries/loopbackInit.o
-                0x0001b6f0                loopbackInit
- .text          0x0001b71c       0x8c binaries/loopbackOpen.o
-                0x0001b71c                loopbackOpen
- .text          0x0001b7a8       0x88 binaries/loopbackPutc.o
-                0x0001b7a8                loopbackPutc
- .text          0x0001b830       0x70 binaries/loopbackRead.o
-                0x0001b830                loopbackRead
- .text          0x0001b8a0       0x7c binaries/loopbackWrite.o
-                0x0001b8a0                loopbackWrite
- .text          0x0001b91c      0x100 binaries/intr.o
-                0x0001b91c                disable
-                0x0001b928                restore
-                0x0001b94c                enable
-                0x0001b954                pause
-                0x0001b954                halt
-                0x0001b95c                irq_except
-                0x0001b98c                initevec
-                0x0001b9ec                expjmpinstr
- .text          0x0001ba1c       0x2c binaries/ctxsw.o
-                0x0001ba1c                ctxsw
- .text          0x0001ba48       0x30 binaries/irq_handler.o
-                0x0001ba48                irq_handler
- .text          0x0001ba78        0xc binaries/memory_barrier.o
-                0x0001ba78                dmb
- .text          0x0001ba84       0x30 binaries/page_fault.o
-                0x0001ba84                page_fault
- .text          0x0001bab4      0x114 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_udivsi3.o)
-                0x0001bab4                __udivsi3
-                0x0001bab4                __aeabi_uidiv
-                0x0001bba8                __aeabi_uidivmod
- .text          0x0001bbc8      0x148 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_divsi3.o)
-                0x0001bbc8                __aeabi_idiv
-                0x0001bbc8                __divsi3
-                0x0001bcf0                __aeabi_idivmod
- .text          0x0001bd10        0x4 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_dvmd_tls.o)
-                0x0001bd10                __aeabi_ldiv0
-                0x0001bd10                __aeabi_idiv0
+                0x00010c60                future_set
+ .text          0x00010e34       0x78 binaries/getbuf.o
+                0x00010e34                getbuf
+ .text          0x00010eac       0x50 binaries/getc.o
+                0x00010eac                getc
+ .text          0x00010efc       0x68 binaries/getdev.o
+                0x00010efc                getdev
+ .text          0x00010f64       0x9c binaries/getitem.o
+                0x00010f64                getitem
+                0x00010f94                getfirst
+                0x00010fc8                getlast
+ .text          0x00011000       0xf8 binaries/getmem.o
+                0x00011000                getmem
+ .text          0x000110f8       0x10 binaries/getpid.o
+                0x000110f8                getpid
+ .text          0x00011108       0x58 binaries/getprio.o
+                0x00011108                getprio
+ .text          0x00011160       0xc0 binaries/getstk.o
+                0x00011160                getstk
+ .text          0x00011220       0x50 binaries/init.o
+                0x00011220                init
+ .text          0x00011270      0x28c binaries/initialize.o
+                0x00011270                nulluser
+                0x0001149c                stop
+                0x000114c0                delay
+ .text          0x000114fc       0xc0 binaries/insert.o
+                0x000114fc                insert
+ .text          0x000115bc      0x120 binaries/insertd.o
+                0x000115bc                insertd
+ .text          0x000116dc        0x8 binaries/ioerr.o
+                0x000116dc                ioerr
+ .text          0x000116e4        0x8 binaries/ionull.o
+                0x000116e4                ionull
+ .text          0x000116ec      0x158 binaries/kill.o
+                0x000116ec                kill
+ .text          0x00011844       0xc4 binaries/mark.o
+                0x00011844                markinit
+                0x00011870                mark
+ .text          0x00011908       0x44 binaries/meminit.o
+                0x00011908                meminit
+ .text          0x0001194c      0x134 binaries/mkbufpool.o
+                0x0001194c                mkbufpool
+ .text          0x00011a80      0x160 binaries/mmu.o
+                0x00011a80                setPageTable
+                0x00011aa0                setAccessControl
+                0x00011aac                FlushTLB
+                0x00011ab8                enableMMU
+                0x00011ac8                initializeMMU
+                0x00011bcc                pageFaultHandler
+ .text          0x00011be0       0x7c binaries/newqueue.o
+                0x00011be0                newqueue
+ .text          0x00011c5c       0x60 binaries/open.o
+                0x00011c5c                open
+ .text          0x00011cbc       0x20 binaries/panic.o
+                0x00011cbc                panic
+ .text          0x00011cdc       0xa8 binaries/ptclear.o
+                0x00011cdc                _ptclear
+ .text          0x00011d84       0x78 binaries/ptcount.o
+                0x00011d84                ptcount
+ .text          0x00011dfc       0xd4 binaries/ptcreate.o
+                0x00011dfc                ptcreate
+ .text          0x00011ed0       0x74 binaries/ptdelete.o
+                0x00011ed0                ptdelete
+ .text          0x00011f44       0xb8 binaries/ptinit.o
+                0x00011f44                ptinit
+ .text          0x00011ffc       0xd0 binaries/ptrecv.o
+                0x00011ffc                ptrecv
+ .text          0x000120cc       0x64 binaries/ptreset.o
+                0x000120cc                ptreset
+ .text          0x00012130       0xf0 binaries/ptsend.o
+                0x00012130                ptsend
+ .text          0x00012220       0x58 binaries/putc.o
+                0x00012220                putc
+ .text          0x00012278       0xe8 binaries/queue.o
+                0x00012278                enqueue
+                0x00012304                dequeue
+ .text          0x00012360       0x60 binaries/read.o
+                0x00012360                read
+ .text          0x000123c0       0x70 binaries/ready.o
+                0x000123c0                ready
+ .text          0x00012430       0x60 binaries/receive.o
+                0x00012430                receive
+ .text          0x00012490       0x48 binaries/recvclr.o
+                0x00012490                recvclr
+ .text          0x000124d8       0xb0 binaries/recvtime.o
+                0x000124d8                recvtime
+ .text          0x00012588      0x18c binaries/resched.o
+                0x00012588                resched
+                0x00012668                resched_cntl
+ .text          0x00012714       0x90 binaries/resume.o
+                0x00012714                resume
+ .text          0x000127a4       0x58 binaries/seek.o
+                0x000127a4                seek
+ .text          0x000127fc       0x54 binaries/semcount.o
+                0x000127fc                semcount
+ .text          0x00012850       0xa8 binaries/semcreate.o
+                0x00012850                semcreate
+ .text          0x000128f8       0xac binaries/semdelete.o
+                0x000128f8                semdelete
+ .text          0x000129a4       0xa0 binaries/semreset.o
+                0x000129a4                semreset
+ .text          0x00012a44       0xbc binaries/send.o
+                0x00012a44                send
+ .text          0x00012b00       0x80 binaries/signal.o
+                0x00012b00                signal
+ .text          0x00012b80       0xb0 binaries/signaln.o
+                0x00012b80                signaln
+ .text          0x00012c30       0xcc binaries/sleep.o
+                0x00012c30                sleepms
+                0x00012ccc                sleep
+ .text          0x00012cfc       0xb8 binaries/suspend.o
+                0x00012cfc                suspend
+ .text          0x00012db4       0xac binaries/unsleep.o
+                0x00012db4                unsleep
+ .text          0x00012e60       0x10 binaries/userret.o
+                0x00012e60                userret
+ .text          0x00012e70       0xac binaries/wait.o
+                0x00012e70                wait
+ .text          0x00012f1c       0x88 binaries/wakeup.o
+                0x00012f1c                wakeup
+ .text          0x00012fa4       0x60 binaries/write.o
+                0x00012fa4                write
+ .text          0x00013004       0x18 binaries/xdone.o
+                0x00013004                xdone
+ .text          0x0001301c       0x20 binaries/yield.o
+                0x0001301c                yield
+ .text          0x0001303c       0xb8 binaries/clkhandler.o
+                0x0001303c                clkhandler
+ .text          0x000130f4       0x88 binaries/clkinit.o
+                0x000130f4                clkinit
+ .text          0x0001317c       0x58 binaries/gettime.o
+                0x0001317c                get_datetime
+                0x0001319c                set_datetime
+                0x000131bc                gettime
+ .text          0x000131d4       0x2c binaries/kprintf.o
+                0x000131d4                kprintf
+ .text          0x00013200       0xd4 binaries/main.o
+                0x00013200                counterproc
+                0x00013238                main
+ .text          0x000132d4       0x68 binaries/pl190.o
+                0x000132d4                enable_irq
+                0x000132ec                disable_irq
+                0x00013304                dispatch
+ .text          0x0001333c      0x130 binaries/platinit.o
+                0x0001333c                platinit
+ .text          0x0001346c       0x48 binaries/sp804.o
+                0x0001346c                sp804_init
+                0x00013480                clkcount
+                0x00013494                clkupdate
+ .text          0x000134b4       0x68 binaries/udelay.o
+                0x000134b4                udelay
+ .text          0x0001351c        0xc binaries/abs.o
+                0x0001351c                abs
+ .text          0x00013528      0x114 binaries/atoi.o
+                0x00013528                atoi
+ .text          0x0001363c      0x114 binaries/atol.o
+                0x0001363c                atol
+ .text          0x00013750       0x20 binaries/bzero.o
+                0x00013750                bzero
+ .text          0x00013770        0x0 binaries/ctype_.o
+ .text          0x00013770      0x948 binaries/doprnt.o
+                0x00013954                _doprnt
+ .text          0x000140b8      0x708 binaries/doscan.o
+                0x000140b8                _doscan
+ .text          0x000147c0      0x878 binaries/fdoprnt.o
+                0x0001486c                _fdoprnt
+ .text          0x00015038       0x14 binaries/fgetc.o
+                0x00015038                fgetc
+ .text          0x0001504c       0x84 binaries/fgets.o
+                0x0001504c                fgets
+ .text          0x000150d0       0x3c binaries/fprintf.o
+                0x000150d0                fprintf
+ .text          0x0001510c       0x24 binaries/fputc.o
+                0x0001510c                fputc
+ .text          0x00015130       0x38 binaries/fputs.o
+                0x00015130                fputs
+ .text          0x00015168       0x78 binaries/fscanf.o
+                0x0001519c                fscanf
+ .text          0x000151e0       0x2c binaries/getchar.o
+                0x000151e0                getchar
+ .text          0x0001520c        0xc binaries/labs.o
+                0x0001520c                labs
+ .text          0x00015218       0x48 binaries/memchr.o
+                0x00015218                memchr
+ .text          0x00015260       0x60 binaries/memcmp.o
+                0x00015260                memcmp
+ .text          0x000152c0       0x24 binaries/memcpy.o
+                0x000152c0                memcpy
+ .text          0x000152e4       0x20 binaries/memset.o
+                0x000152e4                memset
+ .text          0x00015304       0x58 binaries/printf.o
+                0x00015304                printf
+ .text          0x0001535c       0x2c binaries/putchar.o
+                0x0001535c                putchar
+ .text          0x00015388      0x250 binaries/qsort.o
+                0x000155b8                qsort
+ .text          0x000155d8       0x40 binaries/rand.o
+                0x000155d8                srand
+                0x000155e8                rand
+ .text          0x00015618       0x68 binaries/sprintf.o
+                0x00015630                sprintf
+ .text          0x00015680       0x78 binaries/sscanf.o
+                0x000156b4                sscanf
+ .text          0x000156f8       0x48 binaries/strchr.o
+                0x000156f8                strchr
+ .text          0x00015740       0x54 binaries/strcmp.o
+                0x00015740                strcmp
+ .text          0x00015794       0x18 binaries/strcpy.o
+                0x00015794                strcpy
+ .text          0x000157ac       0x30 binaries/strlen.o
+                0x000157ac                strlen
+ .text          0x000157dc       0x50 binaries/strncat.o
+                0x000157dc                strncat
+ .text          0x0001582c       0x54 binaries/strncmp.o
+                0x0001582c                strncmp
+ .text          0x00015880       0x80 binaries/strncpy.o
+                0x00015880                strncpy
+ .text          0x00015900       0x48 binaries/strnlen.o
+                0x00015900                strnlen
+ .text          0x00015948       0x58 binaries/strrchr.o
+                0x00015948                strrchr
+ .text          0x000159a0       0xb0 binaries/strstr.o
+                0x000159a0                strstr
+ .text          0x00015a50      0x120 binaries/addargs.o
+                0x00015a50                addargs
+ .text          0x00015b70      0x2b4 binaries/lexan.o
+                0x00015b70                lexan
+ .text          0x00015e24      0x67c binaries/shell.o
+                0x00015e24                shell
+ .text          0x000164a0       0x64 binaries/xsh_argecho.o
+                0x000164a0                xsh_argecho
+ .text          0x00016504      0x224 binaries/xsh_cat.o
+                0x00016504                xsh_cat
+ .text          0x00016728       0x5c binaries/xsh_clear.o
+                0x00016728                xsh_clear
+ .text          0x00016784       0xe0 binaries/xsh_create_example.o
+                0x00016784                print_it
+                0x000167e4                xsh_create_example
+ .text          0x00016864      0x270 binaries/xsh_date.o
+                0x00016864                xsh_date
+ .text          0x00016ad4       0x98 binaries/xsh_devdump.o
+                0x00016ad4                xsh_devdump
+ .text          0x00016b6c       0x68 binaries/xsh_echo.o
+                0x00016b6c                xsh_echo
+ .text          0x00016bd4        0x8 binaries/xsh_exit.o
+                0x00016bd4                xsh_exit
+ .text          0x00016bdc       0x6c binaries/xsh_hello.o
+                0x00016bdc                xsh_hello
+ .text          0x00016c48      0x39c binaries/xsh_help.o
+                0x00016c48                xsh_help
+ .text          0x00016fe4      0x1e0 binaries/xsh_kill.o
+                0x00016fe4                xsh_kill
+ .text          0x000171c4      0x294 binaries/xsh_led.o
+                0x000171c4                xsh_led
+ .text          0x00017458      0x420 binaries/xsh_memdump.o
+                0x00017554                xsh_memdump
+ .text          0x00017878      0x21c binaries/xsh_memstat.o
+                0x00017878                xsh_memstat
+ .text          0x00017a94      0x114 binaries/xsh_message_example.o
+                0x00017a94                msg_consumer
+                0x00017ad4                msg_producer
+                0x00017b24                xsh_message_example
+ .text          0x00017ba8       0xbc binaries/xsh_mmu.o
+                0x00017ba8                function1
+                0x00017bd8                xsh_mmu
+ .text          0x00017c64      0x164 binaries/xsh_polling_example.o
+                0x00017c64                polling_consumer
+                0x00017cd0                polling_producer
+                0x00017d38                xsh_polling_example
+ .text          0x00017dc8      0x490 binaries/xsh_process_ring.o
+                0x00017dc8                xsh_process_ring
+ .text          0x00018258      0x35c binaries/xsh_prodcons.o
+                0x00018258                help_prodcon
+                0x00018290                xsh_prodcons
+ .text          0x000185b4      0x220 binaries/xsh_ps.o
+                0x000185b4                xsh_ps
+ .text          0x000187d4      0x188 binaries/xsh_semaphore_example.o
+                0x000187d4                sem_consumer
+                0x00018828                sem_producer
+                0x00018884                xsh_semaphore_example
+ .text          0x0001895c      0x1bc binaries/xsh_sleep.o
+                0x0001895c                xsh_sleep
+ .text          0x00018b18      0x1b4 binaries/xsh_uptime.o
+                0x00018b18                xsh_uptime
+ .text          0x00018ccc        0x4 binaries/consume.o
+                0x00018ccc                consumer
+ .text          0x00018cd0       0x74 binaries/future_prodcons.o
+                0x00018cd0                future_prod
+                0x00018cfc                future_cons
+ .text          0x00018d44      0x1e0 binaries/process_ring.o
+                0x00018d44                print_usage
+                0x00018d94                decrementValue_polling
+                0x00018e40                decrementValue_semaphore
+ .text          0x00018f24        0x4 binaries/produce.o
+                0x00018f24                producer
+ .text          0x00018f28       0xc8 binaries/ttycontrol.o
+                0x00018f28                ttycontrol
+ .text          0x00018ff0       0x6c binaries/ttygetc.o
+                0x00018ff0                ttygetc
+ .text          0x0001905c      0x4d4 binaries/ttyhandle_in.o
+                0x00019128                ttyhandle_in
+ .text          0x00019530      0x14c binaries/ttyhandle_out.o
+                0x00019530                ttyhandle_out
+ .text          0x0001967c       0xc8 binaries/ttyhandler.o
+                0x0001967c                ttyhandler
+ .text          0x00019744      0x120 binaries/ttyinit.o
+                0x00019744                ttyinit
+ .text          0x00019864        0xc binaries/ttykickout.o
+                0x00019864                ttykickout
+ .text          0x00019870       0x78 binaries/ttyputc.o
+                0x00019870                ttyputc
+ .text          0x000198e8      0x110 binaries/ttyread.o
+                0x000198e8                ttyread
+ .text          0x000199f8       0x4c binaries/ttywrite.o
+                0x000199f8                ttywrite
+ .text          0x00019a44      0x130 binaries/mount.o
+                0x00019a44                namlen
+                0x00019a98                mount
+ .text          0x00019b74      0x1bc binaries/naminit.o
+                0x00019b74                naminit
+ .text          0x00019d30      0x234 binaries/nammap.o
+                0x00019d30                namrepl
+                0x00019e68                namcpy
+                0x00019ec4                nammap
+ .text          0x00019f64       0x40 binaries/namopen.o
+                0x00019f64                namopen
+ .text          0x00019fa4        0x8 binaries/ramclose.o
+                0x00019fa4                ramclose
+ .text          0x00019fac       0x3c binaries/raminit.o
+                0x00019fac                raminit
+ .text          0x00019fe8        0x8 binaries/ramopen.o
+                0x00019fe8                ramopen
+ .text          0x00019ff0       0x24 binaries/ramread.o
+                0x00019ff0                ramread
+ .text          0x0001a014       0x20 binaries/ramwrite.o
+                0x0001a014                ramwrite
+ .text          0x0001a034       0x8c binaries/lfdballoc.o
+                0x0001a034                lfdballoc
+ .text          0x0001a0c0       0x4c binaries/lfdbfree.o
+                0x0001a0c0                lfdbfree
+ .text          0x0001a10c       0xac binaries/lfflush.o
+                0x0001a10c                lfflush
+ .text          0x0001a1b8       0xc8 binaries/lfgetmode.o
+                0x0001a1b8                lfgetmode
+ .text          0x0001a280       0x68 binaries/lfiballoc.o
+                0x0001a280                lfiballoc
+ .text          0x0001a2e8       0x30 binaries/lfibclear.o
+                0x0001a2e8                lfibclear
+ .text          0x0001a318       0x64 binaries/lfibget.o
+                0x0001a318                lfibget
+ .text          0x0001a37c       0x84 binaries/lfibput.o
+                0x0001a37c                lfibput
+ .text          0x0001a400       0x84 binaries/lflclose.o
+                0x0001a400                lflclose
+ .text          0x0001a484       0xa0 binaries/lflcontrol.o
+                0x0001a484                lflcontrol
+ .text          0x0001a524       0xa8 binaries/lflgetc.o
+                0x0001a524                lflgetc
+ .text          0x0001a5cc       0xa8 binaries/lflinit.o
+                0x0001a5cc                lflinit
+ .text          0x0001a674       0xd8 binaries/lflputc.o
+                0x0001a674                lflputc
+ .text          0x0001a74c       0x78 binaries/lflread.o
+                0x0001a74c                lflread
+ .text          0x0001a7c4       0x80 binaries/lflseek.o
+                0x0001a7c4                lflseek
+ .text          0x0001a844       0x54 binaries/lflwrite.o
+                0x0001a844                lflwrite
+ .text          0x0001a898      0x11c binaries/lfsckfmt.o
+                0x0001a898                lfsckfmt
+ .text          0x0001a9b4      0x15c binaries/lfscreate.o
+                0x0001a9b4                lfscreate
+ .text          0x0001ab10      0x1e0 binaries/lfsetup.o
+                0x0001ab10                lfsetup
+ .text          0x0001acf0       0x44 binaries/lfsinit.o
+                0x0001acf0                lfsinit
+ .text          0x0001ad34      0x304 binaries/lfsopen.o
+                0x0001ad34                lfsopen
+ .text          0x0001b038      0x104 binaries/lftruncate.o
+                0x0001b038                lftruncate
+ .text          0x0001b13c       0x44 binaries/kvprintf.o
+                0x0001b13c                kvprintf
+ .text          0x0001b180       0xc0 binaries/uartControl.o
+                0x0001b180                uartControl
+ .text          0x0001b240       0x28 binaries/uartGetc.o
+                0x0001b240                uartGetc
+ .text          0x0001b268       0xe8 binaries/uartInit.o
+                0x0001b268                uartInit
+ .text          0x0001b350       0x30 binaries/uartPutc.o
+                0x0001b350                uartPutc
+ .text          0x0001b380      0x100 binaries/uartRead.o
+                0x0001b380                uartRead
+ .text          0x0001b480       0xd0 binaries/uartStat.o
+                0x0001b480                uartStat
+ .text          0x0001b550      0x114 binaries/uartWrite.o
+                0x0001b550                uartWrite
+ .text          0x0001b664       0x50 binaries/kgetc.o
+                0x0001b664                kgetc
+ .text          0x0001b6b4       0x4c binaries/kputc.o
+                0x0001b6b4                kputc
+ .text          0x0001b700       0x94 binaries/uartHwInit.o
+                0x0001b700                uartHwInit
+ .text          0x0001b794        0x8 binaries/uartHwPutc.o
+                0x0001b794                uartHwPutc
+ .text          0x0001b79c       0x64 binaries/uartHwStat.o
+                0x0001b79c                uartHwStat
+ .text          0x0001b800      0x16c binaries/uartInterrupt.o
+                0x0001b800                uartInterrupt
+ .text          0x0001b96c        0x0 binaries/Doxygroup.o
+ .text          0x0001b96c       0x5c binaries/loopbackClose.o
+                0x0001b96c                loopbackClose
+ .text          0x0001b9c8       0x74 binaries/loopbackControl.o
+                0x0001b9c8                loopbackControl
+ .text          0x0001ba3c       0x8c binaries/loopbackGetc.o
+                0x0001ba3c                loopbackGetc
+ .text          0x0001bac8       0x2c binaries/loopbackInit.o
+                0x0001bac8                loopbackInit
+ .text          0x0001baf4       0x8c binaries/loopbackOpen.o
+                0x0001baf4                loopbackOpen
+ .text          0x0001bb80       0x88 binaries/loopbackPutc.o
+                0x0001bb80                loopbackPutc
+ .text          0x0001bc08       0x70 binaries/loopbackRead.o
+                0x0001bc08                loopbackRead
+ .text          0x0001bc78       0x7c binaries/loopbackWrite.o
+                0x0001bc78                loopbackWrite
+ .text          0x0001bcf4      0x100 binaries/intr.o
+                0x0001bcf4                disable
+                0x0001bd00                restore
+                0x0001bd24                enable
+                0x0001bd2c                pause
+                0x0001bd2c                halt
+                0x0001bd34                irq_except
+                0x0001bd64                initevec
+                0x0001bdc4                expjmpinstr
+ .text          0x0001bdf4       0x2c binaries/ctxsw.o
+                0x0001bdf4                ctxsw
+ .text          0x0001be20       0x30 binaries/irq_handler.o
+                0x0001be20                irq_handler
+ .text          0x0001be50        0xc binaries/memory_barrier.o
+                0x0001be50                dmb
+ .text          0x0001be5c       0x30 binaries/page_fault.o
+                0x0001be5c                page_fault
+ .text          0x0001be8c      0x114 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_udivsi3.o)
+                0x0001be8c                __udivsi3
+                0x0001be8c                __aeabi_uidiv
+                0x0001bf80                __aeabi_uidivmod
+ .text          0x0001bfa0      0x148 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_divsi3.o)
+                0x0001bfa0                __aeabi_idiv
+                0x0001bfa0                __divsi3
+                0x0001c0c8                __aeabi_idivmod
+ .text          0x0001c0e8        0x4 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_dvmd_tls.o)
+                0x0001c0e8                __aeabi_ldiv0
+                0x0001c0e8                __aeabi_idiv0
  *(.rodata .rodata.*)
  .rodata.str1.4
-                0x0001bd14       0x78 binaries/ascdate.o
+                0x0001c0ec       0x78 binaries/ascdate.o
  .rodata.str1.4
-                0x0001bd8c       0x6e binaries/conf.o
+                0x0001c164       0x6e binaries/conf.o
                                  0x70 (size before relaxing)
- *fill*         0x0001bdfa        0x2 
+ *fill*         0x0001c1d2        0x2 
  .rodata.str1.4
-                0x0001bdfc      0x140 binaries/initialize.o
+                0x0001c1d4      0x140 binaries/initialize.o
                                 0x144 (size before relaxing)
  .rodata.str1.4
-                0x0001bf3c       0x14 binaries/mmu.o
+                0x0001c314       0x14 binaries/mmu.o
  .rodata.str1.4
-                0x0001bf50       0x10 binaries/panic.o
+                0x0001c328       0x10 binaries/panic.o
  .rodata.str1.4
-                0x0001bf60       0x1c binaries/ptinit.o
+                0x0001c338       0x1c binaries/ptinit.o
  .rodata.str1.4
-                0x0001bf7c       0x25 binaries/ptsend.o
+                0x0001c354       0x25 binaries/ptsend.o
                                  0x28 (size before relaxing)
- *fill*         0x0001bfa1        0x3 
+ *fill*         0x0001c379        0x3 
  .rodata.str1.4
-                0x0001bfa4       0x27 binaries/xdone.o
+                0x0001c37c       0x27 binaries/xdone.o
                                  0x28 (size before relaxing)
- *fill*         0x0001bfcb        0x1 
+ *fill*         0x0001c3a3        0x1 
  .rodata.str1.4
-                0x0001bfcc       0x26 binaries/clkinit.o
+                0x0001c3a4       0x26 binaries/clkinit.o
                                  0x28 (size before relaxing)
- *fill*         0x0001bff2        0x2 
+ *fill*         0x0001c3ca        0x2 
  .rodata.str1.4
-                0x0001bff4       0x42 binaries/main.o
+                0x0001c3cc       0x42 binaries/main.o
                                  0x44 (size before relaxing)
- *fill*         0x0001c036        0x2 
+ *fill*         0x0001c40e        0x2 
  .rodata.str1.4
-                0x0001c038       0x19 binaries/platinit.o
+                0x0001c410       0x19 binaries/platinit.o
                                  0x1c (size before relaxing)
- *fill*         0x0001c051        0x3 
- .rodata        0x0001c054       0x84 binaries/ctype_.o
-                0x0001c054                _ctype_
+ *fill*         0x0001c429        0x3 
+ .rodata        0x0001c42c       0x84 binaries/ctype_.o
+                0x0001c42c                _ctype_
  .rodata.str1.4
-                0x0001c0d8       0x2f binaries/doprnt.o
+                0x0001c4b0       0x2f binaries/doprnt.o
                                  0x30 (size before relaxing)
  .rodata.str1.4
                 0x00000000       0x30 binaries/fdoprnt.o
- *fill*         0x0001c107        0x1 
- .rodata        0x0001c108       0xfc binaries/shell.o
-                0x0001c108                cmdtab
+ *fill*         0x0001c4df        0x1 
+ .rodata        0x0001c4e0      0x108 binaries/shell.o
+                0x0001c4e0                cmdtab
  .rodata.str1.4
-                0x0001c204      0x31a binaries/shell.o
-                                0x324 (size before relaxing)
- *fill*         0x0001c51e        0x2 
+                0x0001c5e8      0x326 binaries/shell.o
+                                0x330 (size before relaxing)
+ *fill*         0x0001c90e        0x2 
  .rodata.str1.4
-                0x0001c520       0x29 binaries/xsh_argecho.o
+                0x0001c910       0x29 binaries/xsh_argecho.o
                                  0x30 (size before relaxing)
- *fill*         0x0001c549        0x3 
+ *fill*         0x0001c939        0x3 
  .rodata.str1.4
-                0x0001c54c       0xcd binaries/xsh_cat.o
+                0x0001c93c       0xcd binaries/xsh_cat.o
                                  0xd4 (size before relaxing)
- *fill*         0x0001c619        0x3 
+ *fill*         0x0001ca09        0x3 
  .rodata.str1.4
-                0x0001c61c       0x15 binaries/xsh_clear.o
+                0x0001ca0c       0x15 binaries/xsh_clear.o
                                  0x18 (size before relaxing)
- *fill*         0x0001c631        0x3 
+ *fill*         0x0001ca21        0x3 
  .rodata.str1.4
-                0x0001c634       0x2e binaries/xsh_create_example.o
+                0x0001ca24       0x2e binaries/xsh_create_example.o
                                  0x34 (size before relaxing)
- *fill*         0x0001c662        0x2 
+ *fill*         0x0001ca52        0x2 
  .rodata.str1.4
-                0x0001c664      0x1af binaries/xsh_date.o
+                0x0001ca54      0x1af binaries/xsh_date.o
                                 0x1cc (size before relaxing)
- *fill*         0x0001c813        0x1 
+ *fill*         0x0001cc03        0x1 
  .rodata.str1.4
-                0x0001c814       0x61 binaries/xsh_devdump.o
+                0x0001cc04       0x61 binaries/xsh_devdump.o
                                  0x64 (size before relaxing)
- *fill*         0x0001c875        0x3 
+ *fill*         0x0001cc65        0x3 
  .rodata.str1.4
-                0x0001c878        0x8 binaries/xsh_echo.o
+                0x0001cc68        0x8 binaries/xsh_echo.o
                                   0xc (size before relaxing)
  .rodata.str1.4
-                0x0001c880       0x78 binaries/xsh_hello.o
+                0x0001cc70       0x78 binaries/xsh_hello.o
  .rodata.str1.4
-                0x0001c8f8       0xe7 binaries/xsh_help.o
+                0x0001cce8       0xe7 binaries/xsh_help.o
                                 0x17c (size before relaxing)
- *fill*         0x0001c9df        0x1 
+ *fill*         0x0001cdcf        0x1 
  .rodata.str1.4
-                0x0001c9e0       0xc8 binaries/xsh_kill.o
+                0x0001cdd0       0xc8 binaries/xsh_kill.o
                                 0x138 (size before relaxing)
  .rodata.str1.4
-                0x0001caa8       0xf7 binaries/xsh_led.o
+                0x0001ce98       0xf7 binaries/xsh_led.o
                                 0x16c (size before relaxing)
- *fill*         0x0001cb9f        0x1 
+ *fill*         0x0001cf8f        0x1 
  .rodata.str1.4
-                0x0001cba0      0x1ea binaries/xsh_memdump.o
+                0x0001cf90      0x1ea binaries/xsh_memdump.o
                                 0x264 (size before relaxing)
- *fill*         0x0001cd8a        0x2 
+ *fill*         0x0001d17a        0x2 
  .rodata.str1.4
-                0x0001cd8c      0x1cc binaries/xsh_memstat.o
+                0x0001d17c      0x1cc binaries/xsh_memstat.o
                                 0x234 (size before relaxing)
  .rodata.str1.4
-                0x0001cf58       0x35 binaries/xsh_message_example.o
+                0x0001d348       0x35 binaries/xsh_message_example.o
                                  0x38 (size before relaxing)
- *fill*         0x0001cf8d        0x3 
+ *fill*         0x0001d37d        0x3 
  .rodata.str1.4
-                0x0001cf90       0x33 binaries/xsh_mmu.o
+                0x0001d380       0x33 binaries/xsh_mmu.o
                                  0x34 (size before relaxing)
- *fill*         0x0001cfc3        0x1 
+ *fill*         0x0001d3b3        0x1 
  .rodata.str1.4
-                0x0001cfc4       0x75 binaries/xsh_polling_example.o
+                0x0001d3b4       0x75 binaries/xsh_polling_example.o
                                  0x90 (size before relaxing)
- *fill*         0x0001d039        0x3 
+ *fill*         0x0001d429        0x3 
  .rodata.str1.4
-                0x0001d03c      0x105 binaries/xsh_process_ring.o
+                0x0001d42c      0x105 binaries/xsh_process_ring.o
                                 0x110 (size before relaxing)
- *fill*         0x0001d141        0x3 
- .rodata        0x0001d144       0x20 binaries/xsh_ps.o
+ *fill*         0x0001d531        0x3 
  .rodata.str1.4
-                0x0001d164      0x12a binaries/xsh_ps.o
+                0x0001d534      0x116 binaries/xsh_prodcons.o
+                                0x134 (size before relaxing)
+ *fill*         0x0001d64a        0x2 
+ .rodata        0x0001d64c       0x20 binaries/xsh_ps.o
+ .rodata.str1.4
+                0x0001d66c      0x12a binaries/xsh_ps.o
                                 0x1d4 (size before relaxing)
  .rodata.str1.4
                 0x00000000       0x38 binaries/xsh_semaphore_example.o
- *fill*         0x0001d28e        0x2 
+ *fill*         0x0001d796        0x2 
  .rodata.str1.4
-                0x0001d290       0x5e binaries/xsh_sleep.o
+                0x0001d798       0x5e binaries/xsh_sleep.o
                                  0xf8 (size before relaxing)
- *fill*         0x0001d2ee        0x2 
+ *fill*         0x0001d7f6        0x2 
  .rodata.str1.4
-                0x0001d2f0       0x77 binaries/xsh_uptime.o
+                0x0001d7f8       0x77 binaries/xsh_uptime.o
                                 0x114 (size before relaxing)
- *fill*         0x0001d367        0x1 
+ *fill*         0x0001d86f        0x1 
  .rodata.str1.4
-                0x0001d368       0xc5 binaries/process_ring.o
+                0x0001d870       0x31 binaries/future_prodcons.o
+                                 0x34 (size before relaxing)
+ *fill*         0x0001d8a1        0x3 
+ .rodata.str1.4
+                0x0001d8a4       0xc5 binaries/process_ring.o
                                  0xc8 (size before relaxing)
- *fill*         0x0001d42d        0x3 
+ *fill*         0x0001d969        0x3 
  .rodata.str1.4
-                0x0001d430       0x86 binaries/naminit.o
+                0x0001d96c       0x86 binaries/naminit.o
                                  0x90 (size before relaxing)
- *fill*         0x0001d4b6        0x2 
+ *fill*         0x0001d9f2        0x2 
  .rodata.str1.4
-                0x0001d4b8        0x9 binaries/raminit.o
+                0x0001d9f4        0x9 binaries/raminit.o
                                   0xc (size before relaxing)
- *fill*         0x0001d4c1        0x3 
+ *fill*         0x0001d9fd        0x3 
  .rodata.str1.4
-                0x0001d4c4       0x37 binaries/lfdballoc.o
+                0x0001da00       0x37 binaries/lfdballoc.o
                                  0x38 (size before relaxing)
- *fill*         0x0001d4fb        0x1 
+ *fill*         0x0001da37        0x1 
  .rodata.str1.4
-                0x0001d4fc       0x14 binaries/lfiballoc.o
+                0x0001da38       0x14 binaries/lfiballoc.o
  .rodata.str1.4
-                0x0001d510       0x23 binaries/lflcontrol.o
+                0x0001da4c       0x23 binaries/lflcontrol.o
                                  0x24 (size before relaxing)
- *fill*         0x0001d533        0x1 
+ *fill*         0x0001da6f        0x1 
  .rodata.str1.4
-                0x0001d534       0xbb binaries/lfsckfmt.o
+                0x0001da70       0xbb binaries/lfsckfmt.o
                                  0xbc (size before relaxing)
- *fill*         0x0001d5ef        0x1 
+ *fill*         0x0001db2b        0x1 
  .rodata.str1.4
-                0x0001d5f0       0xde binaries/uartStat.o
+                0x0001db2c       0xde binaries/uartStat.o
                                  0xe4 (size before relaxing)
- *fill*         0x0001d6ce        0x2 
- .rodata        0x0001d6d0        0x8 binaries/uartHwStat.o
+ *fill*         0x0001dc0a        0x2 
+ .rodata        0x0001dc0c        0x8 binaries/uartHwStat.o
  .rodata.str1.4
-                0x0001d6d8       0x6c binaries/uartHwStat.o
+                0x0001dc14       0x6c binaries/uartHwStat.o
                                  0x9c (size before relaxing)
-                0x0001d744                etext = ABSOLUTE (.)
+                0x0001dc80                etext = ABSOLUTE (.)
                 0x0001e000                . = ALIGN (0x1000)
- *fill*         0x0001d744      0x8bc 
+ *fill*         0x0001dc80      0x380 
 
 .glue_7         0x0001e000        0x0
  .glue_7        0x00000000        0x0 linker stubs
@@ -13638,11 +13800,13 @@ Linker script and memory map
  .data          0x0001e46c        0x0 binaries/xsh_mmu.o
  .data          0x0001e46c        0x0 binaries/xsh_polling_example.o
  .data          0x0001e46c        0x0 binaries/xsh_process_ring.o
+ .data          0x0001e46c        0x0 binaries/xsh_prodcons.o
  .data          0x0001e46c        0x0 binaries/xsh_ps.o
  .data          0x0001e46c        0x0 binaries/xsh_semaphore_example.o
  .data          0x0001e46c        0x0 binaries/xsh_sleep.o
  .data          0x0001e46c        0x0 binaries/xsh_uptime.o
  .data          0x0001e46c        0x0 binaries/consume.o
+ .data          0x0001e46c        0x0 binaries/future_prodcons.o
  .data          0x0001e46c        0x0 binaries/process_ring.o
  .data          0x0001e46c        0x0 binaries/produce.o
  .data          0x0001e46c        0x0 binaries/ttycontrol.o
@@ -13863,11 +14027,13 @@ Linker script and memory map
  .bss           0x00020014        0x0 binaries/xsh_mmu.o
  .bss           0x00020014        0x0 binaries/xsh_polling_example.o
  .bss           0x00020014        0x0 binaries/xsh_process_ring.o
+ .bss           0x00020014        0x0 binaries/xsh_prodcons.o
  .bss           0x00020014        0x0 binaries/xsh_ps.o
  .bss           0x00020014        0x0 binaries/xsh_semaphore_example.o
  .bss           0x00020014        0x0 binaries/xsh_sleep.o
  .bss           0x00020014        0x0 binaries/xsh_uptime.o
  .bss           0x00020014        0x0 binaries/consume.o
+ .bss           0x00020014        0x0 binaries/future_prodcons.o
  .bss           0x00020014        0x0 binaries/process_ring.o
  .bss           0x00020014        0x0 binaries/produce.o
  .bss           0x00020014        0x0 binaries/ttycontrol.o
@@ -14152,11 +14318,13 @@ LOAD binaries/xsh_message_example.o
 LOAD binaries/xsh_mmu.o
 LOAD binaries/xsh_polling_example.o
 LOAD binaries/xsh_process_ring.o
+LOAD binaries/xsh_prodcons.o
 LOAD binaries/xsh_ps.o
 LOAD binaries/xsh_semaphore_example.o
 LOAD binaries/xsh_sleep.o
 LOAD binaries/xsh_uptime.o
 LOAD binaries/consume.o
+LOAD binaries/future_prodcons.o
 LOAD binaries/process_ring.o
 LOAD binaries/produce.o
 LOAD binaries/ttycontrol.o
@@ -14504,163 +14672,167 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .ARM.attributes
                 0x00001bae       0x35 binaries/xsh_process_ring.o
  .ARM.attributes
-                0x00001be3       0x35 binaries/xsh_ps.o
+                0x00001be3       0x35 binaries/xsh_prodcons.o
  .ARM.attributes
-                0x00001c18       0x35 binaries/xsh_semaphore_example.o
+                0x00001c18       0x35 binaries/xsh_ps.o
  .ARM.attributes
-                0x00001c4d       0x35 binaries/xsh_sleep.o
+                0x00001c4d       0x35 binaries/xsh_semaphore_example.o
  .ARM.attributes
-                0x00001c82       0x35 binaries/xsh_uptime.o
+                0x00001c82       0x35 binaries/xsh_sleep.o
  .ARM.attributes
-                0x00001cb7       0x35 binaries/consume.o
+                0x00001cb7       0x35 binaries/xsh_uptime.o
  .ARM.attributes
-                0x00001cec       0x35 binaries/process_ring.o
+                0x00001cec       0x35 binaries/consume.o
  .ARM.attributes
-                0x00001d21       0x35 binaries/produce.o
+                0x00001d21       0x35 binaries/future_prodcons.o
  .ARM.attributes
-                0x00001d56       0x35 binaries/ttycontrol.o
+                0x00001d56       0x35 binaries/process_ring.o
  .ARM.attributes
-                0x00001d8b       0x35 binaries/ttygetc.o
+                0x00001d8b       0x35 binaries/produce.o
  .ARM.attributes
-                0x00001dc0       0x35 binaries/ttyhandle_in.o
+                0x00001dc0       0x35 binaries/ttycontrol.o
  .ARM.attributes
-                0x00001df5       0x35 binaries/ttyhandle_out.o
+                0x00001df5       0x35 binaries/ttygetc.o
  .ARM.attributes
-                0x00001e2a       0x35 binaries/ttyhandler.o
+                0x00001e2a       0x35 binaries/ttyhandle_in.o
  .ARM.attributes
-                0x00001e5f       0x35 binaries/ttyinit.o
+                0x00001e5f       0x35 binaries/ttyhandle_out.o
  .ARM.attributes
-                0x00001e94       0x35 binaries/ttykickout.o
+                0x00001e94       0x35 binaries/ttyhandler.o
  .ARM.attributes
-                0x00001ec9       0x35 binaries/ttyputc.o
+                0x00001ec9       0x35 binaries/ttyinit.o
  .ARM.attributes
-                0x00001efe       0x35 binaries/ttyread.o
+                0x00001efe       0x35 binaries/ttykickout.o
  .ARM.attributes
-                0x00001f33       0x35 binaries/ttywrite.o
+                0x00001f33       0x35 binaries/ttyputc.o
  .ARM.attributes
-                0x00001f68       0x35 binaries/mount.o
+                0x00001f68       0x35 binaries/ttyread.o
  .ARM.attributes
-                0x00001f9d       0x35 binaries/naminit.o
+                0x00001f9d       0x35 binaries/ttywrite.o
  .ARM.attributes
-                0x00001fd2       0x35 binaries/nammap.o
+                0x00001fd2       0x35 binaries/mount.o
  .ARM.attributes
-                0x00002007       0x35 binaries/namopen.o
+                0x00002007       0x35 binaries/naminit.o
  .ARM.attributes
-                0x0000203c       0x35 binaries/ramclose.o
+                0x0000203c       0x35 binaries/nammap.o
  .ARM.attributes
-                0x00002071       0x35 binaries/raminit.o
+                0x00002071       0x35 binaries/namopen.o
  .ARM.attributes
-                0x000020a6       0x35 binaries/ramopen.o
+                0x000020a6       0x35 binaries/ramclose.o
  .ARM.attributes
-                0x000020db       0x35 binaries/ramread.o
+                0x000020db       0x35 binaries/raminit.o
  .ARM.attributes
-                0x00002110       0x35 binaries/ramwrite.o
+                0x00002110       0x35 binaries/ramopen.o
  .ARM.attributes
-                0x00002145       0x35 binaries/lfdballoc.o
+                0x00002145       0x35 binaries/ramread.o
  .ARM.attributes
-                0x0000217a       0x35 binaries/lfdbfree.o
+                0x0000217a       0x35 binaries/ramwrite.o
  .ARM.attributes
-                0x000021af       0x35 binaries/lfflush.o
+                0x000021af       0x35 binaries/lfdballoc.o
  .ARM.attributes
-                0x000021e4       0x35 binaries/lfgetmode.o
+                0x000021e4       0x35 binaries/lfdbfree.o
  .ARM.attributes
-                0x00002219       0x35 binaries/lfiballoc.o
+                0x00002219       0x35 binaries/lfflush.o
  .ARM.attributes
-                0x0000224e       0x35 binaries/lfibclear.o
+                0x0000224e       0x35 binaries/lfgetmode.o
  .ARM.attributes
-                0x00002283       0x35 binaries/lfibget.o
+                0x00002283       0x35 binaries/lfiballoc.o
  .ARM.attributes
-                0x000022b8       0x35 binaries/lfibput.o
+                0x000022b8       0x35 binaries/lfibclear.o
  .ARM.attributes
-                0x000022ed       0x35 binaries/lflclose.o
+                0x000022ed       0x35 binaries/lfibget.o
  .ARM.attributes
-                0x00002322       0x35 binaries/lflcontrol.o
+                0x00002322       0x35 binaries/lfibput.o
  .ARM.attributes
-                0x00002357       0x35 binaries/lflgetc.o
+                0x00002357       0x35 binaries/lflclose.o
  .ARM.attributes
-                0x0000238c       0x35 binaries/lflinit.o
+                0x0000238c       0x35 binaries/lflcontrol.o
  .ARM.attributes
-                0x000023c1       0x35 binaries/lflputc.o
+                0x000023c1       0x35 binaries/lflgetc.o
  .ARM.attributes
-                0x000023f6       0x35 binaries/lflread.o
+                0x000023f6       0x35 binaries/lflinit.o
  .ARM.attributes
-                0x0000242b       0x35 binaries/lflseek.o
+                0x0000242b       0x35 binaries/lflputc.o
  .ARM.attributes
-                0x00002460       0x35 binaries/lflwrite.o
+                0x00002460       0x35 binaries/lflread.o
  .ARM.attributes
-                0x00002495       0x35 binaries/lfsckfmt.o
+                0x00002495       0x35 binaries/lflseek.o
  .ARM.attributes
-                0x000024ca       0x35 binaries/lfscreate.o
+                0x000024ca       0x35 binaries/lflwrite.o
  .ARM.attributes
-                0x000024ff       0x35 binaries/lfsetup.o
+                0x000024ff       0x35 binaries/lfsckfmt.o
  .ARM.attributes
-                0x00002534       0x35 binaries/lfsinit.o
+                0x00002534       0x35 binaries/lfscreate.o
  .ARM.attributes
-                0x00002569       0x35 binaries/lfsopen.o
+                0x00002569       0x35 binaries/lfsetup.o
  .ARM.attributes
-                0x0000259e       0x35 binaries/lftruncate.o
+                0x0000259e       0x35 binaries/lfsinit.o
  .ARM.attributes
-                0x000025d3       0x35 binaries/kvprintf.o
+                0x000025d3       0x35 binaries/lfsopen.o
  .ARM.attributes
-                0x00002608       0x35 binaries/uartControl.o
+                0x00002608       0x35 binaries/lftruncate.o
  .ARM.attributes
-                0x0000263d       0x35 binaries/uartGetc.o
+                0x0000263d       0x35 binaries/kvprintf.o
  .ARM.attributes
-                0x00002672       0x35 binaries/uartInit.o
+                0x00002672       0x35 binaries/uartControl.o
  .ARM.attributes
-                0x000026a7       0x35 binaries/uartPutc.o
+                0x000026a7       0x35 binaries/uartGetc.o
  .ARM.attributes
-                0x000026dc       0x35 binaries/uartRead.o
+                0x000026dc       0x35 binaries/uartInit.o
  .ARM.attributes
-                0x00002711       0x35 binaries/uartStat.o
+                0x00002711       0x35 binaries/uartPutc.o
  .ARM.attributes
-                0x00002746       0x35 binaries/uartWrite.o
+                0x00002746       0x35 binaries/uartRead.o
  .ARM.attributes
-                0x0000277b       0x35 binaries/kgetc.o
+                0x0000277b       0x35 binaries/uartStat.o
  .ARM.attributes
-                0x000027b0       0x35 binaries/kputc.o
+                0x000027b0       0x35 binaries/uartWrite.o
  .ARM.attributes
-                0x000027e5       0x35 binaries/uartHwInit.o
+                0x000027e5       0x35 binaries/kgetc.o
  .ARM.attributes
-                0x0000281a       0x35 binaries/uartHwPutc.o
+                0x0000281a       0x35 binaries/kputc.o
  .ARM.attributes
-                0x0000284f       0x35 binaries/uartHwStat.o
+                0x0000284f       0x35 binaries/uartHwInit.o
  .ARM.attributes
-                0x00002884       0x35 binaries/uartInterrupt.o
+                0x00002884       0x35 binaries/uartHwPutc.o
  .ARM.attributes
-                0x000028b9       0x35 binaries/Doxygroup.o
+                0x000028b9       0x35 binaries/uartHwStat.o
  .ARM.attributes
-                0x000028ee       0x35 binaries/loopbackClose.o
+                0x000028ee       0x35 binaries/uartInterrupt.o
  .ARM.attributes
-                0x00002923       0x35 binaries/loopbackControl.o
+                0x00002923       0x35 binaries/Doxygroup.o
  .ARM.attributes
-                0x00002958       0x35 binaries/loopbackGetc.o
+                0x00002958       0x35 binaries/loopbackClose.o
  .ARM.attributes
-                0x0000298d       0x35 binaries/loopbackInit.o
+                0x0000298d       0x35 binaries/loopbackControl.o
  .ARM.attributes
-                0x000029c2       0x35 binaries/loopbackOpen.o
+                0x000029c2       0x35 binaries/loopbackGetc.o
  .ARM.attributes
-                0x000029f7       0x35 binaries/loopbackPutc.o
+                0x000029f7       0x35 binaries/loopbackInit.o
  .ARM.attributes
-                0x00002a2c       0x35 binaries/loopbackRead.o
+                0x00002a2c       0x35 binaries/loopbackOpen.o
  .ARM.attributes
-                0x00002a61       0x35 binaries/loopbackWrite.o
+                0x00002a61       0x35 binaries/loopbackPutc.o
  .ARM.attributes
-                0x00002a96       0x25 binaries/intr.o
+                0x00002a96       0x35 binaries/loopbackRead.o
  .ARM.attributes
-                0x00002abb       0x25 binaries/ctxsw.o
+                0x00002acb       0x35 binaries/loopbackWrite.o
  .ARM.attributes
-                0x00002ae0       0x25 binaries/irq_handler.o
+                0x00002b00       0x25 binaries/intr.o
  .ARM.attributes
-                0x00002b05       0x25 binaries/memory_barrier.o
+                0x00002b25       0x25 binaries/ctxsw.o
  .ARM.attributes
-                0x00002b2a       0x25 binaries/page_fault.o
+                0x00002b4a       0x25 binaries/irq_handler.o
  .ARM.attributes
-                0x00002b4f       0x18 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_udivsi3.o)
+                0x00002b6f       0x25 binaries/memory_barrier.o
  .ARM.attributes
-                0x00002b67       0x18 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_divsi3.o)
+                0x00002b94       0x25 binaries/page_fault.o
  .ARM.attributes
-                0x00002b7f       0x18 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_dvmd_tls.o)
+                0x00002bb9       0x18 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00002bd1       0x18 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00002be9       0x18 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_dvmd_tls.o)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 binaries/ascdate.o
@@ -14798,11 +14970,13 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .comment       0x00000000       0x71 binaries/xsh_mmu.o
  .comment       0x00000000       0x71 binaries/xsh_polling_example.o
  .comment       0x00000000       0x71 binaries/xsh_process_ring.o
+ .comment       0x00000000       0x71 binaries/xsh_prodcons.o
  .comment       0x00000000       0x71 binaries/xsh_ps.o
  .comment       0x00000000       0x71 binaries/xsh_semaphore_example.o
  .comment       0x00000000       0x71 binaries/xsh_sleep.o
  .comment       0x00000000       0x71 binaries/xsh_uptime.o
  .comment       0x00000000       0x71 binaries/consume.o
+ .comment       0x00000000       0x71 binaries/future_prodcons.o
  .comment       0x00000000       0x71 binaries/process_ring.o
  .comment       0x00000000       0x71 binaries/produce.o
  .comment       0x00000000       0x71 binaries/ttycontrol.o
@@ -14870,7 +15044,7 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .comment       0x00000000       0x71 binaries/loopbackRead.o
  .comment       0x00000000       0x71 binaries/loopbackWrite.o
 
-.debug_line     0x00000000    0x1961c
+.debug_line     0x00000000    0x19adf
  .debug_line    0x00000000       0x87 binaries/start.o
  .debug_line    0x00000087      0x2a3 binaries/ascdate.o
  .debug_line    0x0000032a      0x222 binaries/bufinit.o
@@ -14883,207 +15057,209 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_line    0x00001298      0x21e binaries/exit.o
  .debug_line    0x000014b6      0x234 binaries/freebuf.o
  .debug_line    0x000016ea      0x24e binaries/freemem.o
- .debug_line    0x00001938      0x2aa binaries/future.o
- .debug_line    0x00001be2      0x231 binaries/getbuf.o
- .debug_line    0x00001e13      0x226 binaries/getc.o
- .debug_line    0x00002039      0x228 binaries/getdev.o
- .debug_line    0x00002261      0x234 binaries/getitem.o
- .debug_line    0x00002495      0x24b binaries/getmem.o
- .debug_line    0x000026e0      0x220 binaries/getpid.o
- .debug_line    0x00002900      0x22f binaries/getprio.o
- .debug_line    0x00002b2f      0x23a binaries/getstk.o
- .debug_line    0x00002d69      0x226 binaries/init.o
- .debug_line    0x00002f8f      0x298 binaries/initialize.o
- .debug_line    0x00003227      0x238 binaries/insert.o
- .debug_line    0x0000345f      0x251 binaries/insertd.o
- .debug_line    0x000036b0      0x21f binaries/ioerr.o
- .debug_line    0x000038cf      0x220 binaries/ionull.o
- .debug_line    0x00003aef      0x23b binaries/kill.o
- .debug_line    0x00003d2a      0x236 binaries/mark.o
- .debug_line    0x00003f60      0x225 binaries/meminit.o
- .debug_line    0x00004185      0x24f binaries/mkbufpool.o
- .debug_line    0x000043d4      0x279 binaries/mmu.o
- .debug_line    0x0000464d      0x231 binaries/newqueue.o
- .debug_line    0x0000487e      0x226 binaries/open.o
- .debug_line    0x00004aa4      0x220 binaries/panic.o
- .debug_line    0x00004cc4      0x237 binaries/ptclear.o
- .debug_line    0x00004efb      0x236 binaries/ptcount.o
- .debug_line    0x00005131      0x244 binaries/ptcreate.o
- .debug_line    0x00005375      0x234 binaries/ptdelete.o
- .debug_line    0x000055a9      0x245 binaries/ptinit.o
- .debug_line    0x000057ee      0x244 binaries/ptrecv.o
- .debug_line    0x00005a32      0x232 binaries/ptreset.o
- .debug_line    0x00005c64      0x242 binaries/ptsend.o
- .debug_line    0x00005ea6      0x226 binaries/putc.o
- .debug_line    0x000060cc      0x241 binaries/queue.o
- .debug_line    0x0000630d      0x226 binaries/read.o
- .debug_line    0x00006533      0x231 binaries/ready.o
- .debug_line    0x00006764      0x229 binaries/receive.o
- .debug_line    0x0000698d      0x228 binaries/recvclr.o
- .debug_line    0x00006bb5      0x237 binaries/recvtime.o
- .debug_line    0x00006dec      0x248 binaries/resched.o
- .debug_line    0x00007034      0x233 binaries/resume.o
- .debug_line    0x00007267      0x226 binaries/seek.o
- .debug_line    0x0000748d      0x230 binaries/semcount.o
- .debug_line    0x000076bd      0x23d binaries/semcreate.o
- .debug_line    0x000078fa      0x233 binaries/semdelete.o
- .debug_line    0x00007b2d      0x23b binaries/semreset.o
- .debug_line    0x00007d68      0x236 binaries/send.o
- .debug_line    0x00007f9e      0x22c binaries/signal.o
- .debug_line    0x000081ca      0x231 binaries/signaln.o
- .debug_line    0x000083fb      0x234 binaries/sleep.o
- .debug_line    0x0000862f      0x238 binaries/suspend.o
- .debug_line    0x00008867      0x236 binaries/unsleep.o
- .debug_line    0x00008a9d      0x221 binaries/userret.o
- .debug_line    0x00008cbe      0x22e binaries/wait.o
- .debug_line    0x00008eec      0x22c binaries/wakeup.o
- .debug_line    0x00009118      0x227 binaries/write.o
- .debug_line    0x0000933f      0x220 binaries/xdone.o
- .debug_line    0x0000955f      0x222 binaries/yield.o
- .debug_line    0x00009781      0x25e binaries/clkhandler.o
- .debug_line    0x000099df      0x253 binaries/clkinit.o
- .debug_line    0x00009c32      0x23a binaries/gettime.o
- .debug_line    0x00009e6c       0x89 binaries/kprintf.o
- .debug_line    0x00009ef5      0x24d binaries/main.o
- .debug_line    0x0000a142      0x255 binaries/pl190.o
- .debug_line    0x0000a397      0x287 binaries/platinit.o
- .debug_line    0x0000a61e      0x244 binaries/sp804.o
- .debug_line    0x0000a862      0x264 binaries/udelay.o
- .debug_line    0x0000aac6       0x3d binaries/abs.o
- .debug_line    0x0000ab03       0x58 binaries/atoi.o
- .debug_line    0x0000ab5b       0x58 binaries/atol.o
- .debug_line    0x0000abb3       0x4c binaries/bzero.o
- .debug_line    0x0000abff       0x46 binaries/ctype_.o
- .debug_line    0x0000ac45      0x28a binaries/doprnt.o
- .debug_line    0x0000aecf      0x15a binaries/doscan.o
- .debug_line    0x0000b029      0x22b binaries/fdoprnt.o
- .debug_line    0x0000b254       0x41 binaries/fgetc.o
- .debug_line    0x0000b295       0x56 binaries/fgets.o
- .debug_line    0x0000b2eb      0x23a binaries/fprintf.o
- .debug_line    0x0000b525       0x41 binaries/fputc.o
- .debug_line    0x0000b566       0x43 binaries/fputs.o
- .debug_line    0x0000b5a9       0x4f binaries/fscanf.o
- .debug_line    0x0000b5f8      0x21d binaries/getchar.o
- .debug_line    0x0000b815       0x3e binaries/labs.o
- .debug_line    0x0000b853       0x44 binaries/memchr.o
- .debug_line    0x0000b897       0x46 binaries/memcmp.o
- .debug_line    0x0000b8dd       0x4c binaries/memcpy.o
- .debug_line    0x0000b929       0x4c binaries/memset.o
- .debug_line    0x0000b975      0x23a binaries/printf.o
- .debug_line    0x0000bbaf      0x21d binaries/putchar.o
- .debug_line    0x0000bdcc       0xab binaries/qsort.o
- .debug_line    0x0000be77       0x41 binaries/rand.o
- .debug_line    0x0000beb8       0x70 binaries/sprintf.o
- .debug_line    0x0000bf28       0x4b binaries/sscanf.o
- .debug_line    0x0000bf73       0x45 binaries/strchr.o
- .debug_line    0x0000bfb8       0x4a binaries/strcmp.o
- .debug_line    0x0000c002       0x45 binaries/strcpy.o
- .debug_line    0x0000c047       0x45 binaries/strlen.o
- .debug_line    0x0000c08c       0x53 binaries/strncat.o
- .debug_line    0x0000c0df       0x51 binaries/strncmp.o
- .debug_line    0x0000c130       0x50 binaries/strncpy.o
- .debug_line    0x0000c180       0x4d binaries/strnlen.o
- .debug_line    0x0000c1cd       0x49 binaries/strrchr.o
- .debug_line    0x0000c216       0x60 binaries/strstr.o
- .debug_line    0x0000c276      0x259 binaries/addargs.o
- .debug_line    0x0000c4cf      0x299 binaries/lexan.o
- .debug_line    0x0000c768      0x325 binaries/shell.o
- .debug_line    0x0000ca8d      0x234 binaries/xsh_argecho.o
- .debug_line    0x0000ccc1      0x26a binaries/xsh_cat.o
- .debug_line    0x0000cf2b      0x228 binaries/xsh_clear.o
- .debug_line    0x0000d153      0x241 binaries/xsh_create_example.o
- .debug_line    0x0000d394      0x252 binaries/xsh_date.o
- .debug_line    0x0000d5e6      0x238 binaries/xsh_devdump.o
- .debug_line    0x0000d81e      0x232 binaries/xsh_echo.o
- .debug_line    0x0000da50      0x221 binaries/xsh_exit.o
- .debug_line    0x0000dc71      0x22e binaries/xsh_hello.o
- .debug_line    0x0000de9f      0x285 binaries/xsh_help.o
- .debug_line    0x0000e124      0x258 binaries/xsh_kill.o
- .debug_line    0x0000e37c      0x253 binaries/xsh_led.o
- .debug_line    0x0000e5cf      0x2bd binaries/xsh_memdump.o
- .debug_line    0x0000e88c      0x262 binaries/xsh_memstat.o
- .debug_line    0x0000eaee      0x244 binaries/xsh_message_example.o
- .debug_line    0x0000ed32      0x226 binaries/xsh_mmu.o
- .debug_line    0x0000ef58      0x259 binaries/xsh_polling_example.o
- .debug_line    0x0000f1b1      0x2ff binaries/xsh_process_ring.o
- .debug_line    0x0000f4b0      0x240 binaries/xsh_ps.o
- .debug_line    0x0000f6f0      0x259 binaries/xsh_semaphore_example.o
- .debug_line    0x0000f949      0x253 binaries/xsh_sleep.o
- .debug_line    0x0000fb9c      0x24a binaries/xsh_uptime.o
- .debug_line    0x0000fde6      0x21c binaries/consume.o
- .debug_line    0x00010002      0x277 binaries/process_ring.o
- .debug_line    0x00010279      0x21c binaries/produce.o
- .debug_line    0x00010495      0x23b binaries/ttycontrol.o
- .debug_line    0x000106d0      0x23b binaries/ttygetc.o
- .debug_line    0x0001090b      0x2c5 binaries/ttyhandle_in.o
- .debug_line    0x00010bd0      0x274 binaries/ttyhandle_out.o
- .debug_line    0x00010e44      0x23f binaries/ttyhandler.o
- .debug_line    0x00011083      0x24b binaries/ttyinit.o
- .debug_line    0x000112ce      0x228 binaries/ttykickout.o
- .debug_line    0x000114f6      0x234 binaries/ttyputc.o
- .debug_line    0x0001172a      0x253 binaries/ttyread.o
- .debug_line    0x0001197d      0x23c binaries/ttywrite.o
- .debug_line    0x00011bb9      0x25d binaries/mount.o
- .debug_line    0x00011e16      0x25e binaries/naminit.o
- .debug_line    0x00012074      0x283 binaries/nammap.o
- .debug_line    0x000122f7      0x229 binaries/namopen.o
- .debug_line    0x00012520      0x226 binaries/ramclose.o
- .debug_line    0x00012746      0x234 binaries/raminit.o
- .debug_line    0x0001297a      0x225 binaries/ramopen.o
- .debug_line    0x00012b9f      0x233 binaries/ramread.o
- .debug_line    0x00012dd2      0x234 binaries/ramwrite.o
- .debug_line    0x00013006      0x231 binaries/lfdballoc.o
- .debug_line    0x00013237      0x22a binaries/lfdbfree.o
- .debug_line    0x00013461      0x236 binaries/lfflush.o
- .debug_line    0x00013697      0x24c binaries/lfgetmode.o
- .debug_line    0x000138e3      0x22e binaries/lfiballoc.o
- .debug_line    0x00013b11      0x236 binaries/lfibclear.o
- .debug_line    0x00013d47      0x231 binaries/lfibget.o
- .debug_line    0x00013f78      0x237 binaries/lfibput.o
- .debug_line    0x000141af      0x237 binaries/lflclose.o
- .debug_line    0x000143e6      0x236 binaries/lflcontrol.o
- .debug_line    0x0001461c      0x233 binaries/lflgetc.o
- .debug_line    0x0001484f      0x23f binaries/lflinit.o
- .debug_line    0x00014a8e      0x238 binaries/lflputc.o
- .debug_line    0x00014cc6      0x23f binaries/lflread.o
- .debug_line    0x00014f05      0x231 binaries/lflseek.o
- .debug_line    0x00015136      0x232 binaries/lflwrite.o
- .debug_line    0x00015368      0x24e binaries/lfsckfmt.o
- .debug_line    0x000155b6      0x277 binaries/lfscreate.o
- .debug_line    0x0001582d      0x26a binaries/lfsetup.o
- .debug_line    0x00015a97      0x229 binaries/lfsinit.o
- .debug_line    0x00015cc0      0x28b binaries/lfsopen.o
- .debug_line    0x00015f4b      0x254 binaries/lftruncate.o
- .debug_line    0x0001619f      0x244 binaries/kvprintf.o
- .debug_line    0x000163e3      0x23d binaries/uartControl.o
- .debug_line    0x00016620      0x22b binaries/uartGetc.o
- .debug_line    0x0001684b      0x247 binaries/uartInit.o
- .debug_line    0x00016a92      0x22b binaries/uartPutc.o
- .debug_line    0x00016cbd      0x24b binaries/uartRead.o
- .debug_line    0x00016f08      0x234 binaries/uartStat.o
- .debug_line    0x0001713c      0x24f binaries/uartWrite.o
- .debug_line    0x0001738b      0x241 binaries/kgetc.o
- .debug_line    0x000175cc      0x241 binaries/kputc.o
- .debug_line    0x0001780d      0x251 binaries/uartHwInit.o
- .debug_line    0x00017a5e      0x23a binaries/uartHwPutc.o
- .debug_line    0x00017c98      0x241 binaries/uartHwStat.o
- .debug_line    0x00017ed9      0x27f binaries/uartInterrupt.o
- .debug_line    0x00018158       0x3f binaries/Doxygroup.o
- .debug_line    0x00018197      0x252 binaries/loopbackClose.o
- .debug_line    0x000183e9      0x24f binaries/loopbackControl.o
- .debug_line    0x00018638      0x248 binaries/loopbackGetc.o
- .debug_line    0x00018880      0x24c binaries/loopbackInit.o
- .debug_line    0x00018acc      0x256 binaries/loopbackOpen.o
- .debug_line    0x00018d22      0x248 binaries/loopbackPutc.o
- .debug_line    0x00018f6a      0x255 binaries/loopbackRead.o
- .debug_line    0x000191bf      0x255 binaries/loopbackWrite.o
- .debug_line    0x00019414       0x86 binaries/intr.o
- .debug_line    0x0001949a       0x5d binaries/ctxsw.o
- .debug_line    0x000194f7       0x66 binaries/irq_handler.o
- .debug_line    0x0001955d       0x5e binaries/memory_barrier.o
- .debug_line    0x000195bb       0x61 binaries/page_fault.o
+ .debug_line    0x00001938      0x2ab binaries/future.o
+ .debug_line    0x00001be3      0x231 binaries/getbuf.o
+ .debug_line    0x00001e14      0x226 binaries/getc.o
+ .debug_line    0x0000203a      0x228 binaries/getdev.o
+ .debug_line    0x00002262      0x234 binaries/getitem.o
+ .debug_line    0x00002496      0x24b binaries/getmem.o
+ .debug_line    0x000026e1      0x220 binaries/getpid.o
+ .debug_line    0x00002901      0x22f binaries/getprio.o
+ .debug_line    0x00002b30      0x23a binaries/getstk.o
+ .debug_line    0x00002d6a      0x226 binaries/init.o
+ .debug_line    0x00002f90      0x298 binaries/initialize.o
+ .debug_line    0x00003228      0x238 binaries/insert.o
+ .debug_line    0x00003460      0x251 binaries/insertd.o
+ .debug_line    0x000036b1      0x21f binaries/ioerr.o
+ .debug_line    0x000038d0      0x220 binaries/ionull.o
+ .debug_line    0x00003af0      0x23b binaries/kill.o
+ .debug_line    0x00003d2b      0x236 binaries/mark.o
+ .debug_line    0x00003f61      0x225 binaries/meminit.o
+ .debug_line    0x00004186      0x24f binaries/mkbufpool.o
+ .debug_line    0x000043d5      0x279 binaries/mmu.o
+ .debug_line    0x0000464e      0x231 binaries/newqueue.o
+ .debug_line    0x0000487f      0x226 binaries/open.o
+ .debug_line    0x00004aa5      0x220 binaries/panic.o
+ .debug_line    0x00004cc5      0x237 binaries/ptclear.o
+ .debug_line    0x00004efc      0x236 binaries/ptcount.o
+ .debug_line    0x00005132      0x244 binaries/ptcreate.o
+ .debug_line    0x00005376      0x234 binaries/ptdelete.o
+ .debug_line    0x000055aa      0x245 binaries/ptinit.o
+ .debug_line    0x000057ef      0x244 binaries/ptrecv.o
+ .debug_line    0x00005a33      0x232 binaries/ptreset.o
+ .debug_line    0x00005c65      0x242 binaries/ptsend.o
+ .debug_line    0x00005ea7      0x226 binaries/putc.o
+ .debug_line    0x000060cd      0x241 binaries/queue.o
+ .debug_line    0x0000630e      0x226 binaries/read.o
+ .debug_line    0x00006534      0x231 binaries/ready.o
+ .debug_line    0x00006765      0x229 binaries/receive.o
+ .debug_line    0x0000698e      0x228 binaries/recvclr.o
+ .debug_line    0x00006bb6      0x237 binaries/recvtime.o
+ .debug_line    0x00006ded      0x248 binaries/resched.o
+ .debug_line    0x00007035      0x233 binaries/resume.o
+ .debug_line    0x00007268      0x226 binaries/seek.o
+ .debug_line    0x0000748e      0x230 binaries/semcount.o
+ .debug_line    0x000076be      0x23d binaries/semcreate.o
+ .debug_line    0x000078fb      0x233 binaries/semdelete.o
+ .debug_line    0x00007b2e      0x23b binaries/semreset.o
+ .debug_line    0x00007d69      0x236 binaries/send.o
+ .debug_line    0x00007f9f      0x22c binaries/signal.o
+ .debug_line    0x000081cb      0x231 binaries/signaln.o
+ .debug_line    0x000083fc      0x234 binaries/sleep.o
+ .debug_line    0x00008630      0x238 binaries/suspend.o
+ .debug_line    0x00008868      0x236 binaries/unsleep.o
+ .debug_line    0x00008a9e      0x221 binaries/userret.o
+ .debug_line    0x00008cbf      0x22e binaries/wait.o
+ .debug_line    0x00008eed      0x22c binaries/wakeup.o
+ .debug_line    0x00009119      0x227 binaries/write.o
+ .debug_line    0x00009340      0x220 binaries/xdone.o
+ .debug_line    0x00009560      0x222 binaries/yield.o
+ .debug_line    0x00009782      0x25e binaries/clkhandler.o
+ .debug_line    0x000099e0      0x253 binaries/clkinit.o
+ .debug_line    0x00009c33      0x23a binaries/gettime.o
+ .debug_line    0x00009e6d       0x89 binaries/kprintf.o
+ .debug_line    0x00009ef6      0x24d binaries/main.o
+ .debug_line    0x0000a143      0x255 binaries/pl190.o
+ .debug_line    0x0000a398      0x287 binaries/platinit.o
+ .debug_line    0x0000a61f      0x244 binaries/sp804.o
+ .debug_line    0x0000a863      0x264 binaries/udelay.o
+ .debug_line    0x0000aac7       0x3d binaries/abs.o
+ .debug_line    0x0000ab04       0x58 binaries/atoi.o
+ .debug_line    0x0000ab5c       0x58 binaries/atol.o
+ .debug_line    0x0000abb4       0x4c binaries/bzero.o
+ .debug_line    0x0000ac00       0x46 binaries/ctype_.o
+ .debug_line    0x0000ac46      0x28a binaries/doprnt.o
+ .debug_line    0x0000aed0      0x15a binaries/doscan.o
+ .debug_line    0x0000b02a      0x22b binaries/fdoprnt.o
+ .debug_line    0x0000b255       0x41 binaries/fgetc.o
+ .debug_line    0x0000b296       0x56 binaries/fgets.o
+ .debug_line    0x0000b2ec      0x23a binaries/fprintf.o
+ .debug_line    0x0000b526       0x41 binaries/fputc.o
+ .debug_line    0x0000b567       0x43 binaries/fputs.o
+ .debug_line    0x0000b5aa       0x4f binaries/fscanf.o
+ .debug_line    0x0000b5f9      0x21d binaries/getchar.o
+ .debug_line    0x0000b816       0x3e binaries/labs.o
+ .debug_line    0x0000b854       0x44 binaries/memchr.o
+ .debug_line    0x0000b898       0x46 binaries/memcmp.o
+ .debug_line    0x0000b8de       0x4c binaries/memcpy.o
+ .debug_line    0x0000b92a       0x4c binaries/memset.o
+ .debug_line    0x0000b976      0x23a binaries/printf.o
+ .debug_line    0x0000bbb0      0x21d binaries/putchar.o
+ .debug_line    0x0000bdcd       0xab binaries/qsort.o
+ .debug_line    0x0000be78       0x41 binaries/rand.o
+ .debug_line    0x0000beb9       0x70 binaries/sprintf.o
+ .debug_line    0x0000bf29       0x4b binaries/sscanf.o
+ .debug_line    0x0000bf74       0x45 binaries/strchr.o
+ .debug_line    0x0000bfb9       0x4a binaries/strcmp.o
+ .debug_line    0x0000c003       0x45 binaries/strcpy.o
+ .debug_line    0x0000c048       0x45 binaries/strlen.o
+ .debug_line    0x0000c08d       0x53 binaries/strncat.o
+ .debug_line    0x0000c0e0       0x51 binaries/strncmp.o
+ .debug_line    0x0000c131       0x50 binaries/strncpy.o
+ .debug_line    0x0000c181       0x4d binaries/strnlen.o
+ .debug_line    0x0000c1ce       0x49 binaries/strrchr.o
+ .debug_line    0x0000c217       0x60 binaries/strstr.o
+ .debug_line    0x0000c277      0x259 binaries/addargs.o
+ .debug_line    0x0000c4d0      0x299 binaries/lexan.o
+ .debug_line    0x0000c769      0x325 binaries/shell.o
+ .debug_line    0x0000ca8e      0x234 binaries/xsh_argecho.o
+ .debug_line    0x0000ccc2      0x26a binaries/xsh_cat.o
+ .debug_line    0x0000cf2c      0x228 binaries/xsh_clear.o
+ .debug_line    0x0000d154      0x241 binaries/xsh_create_example.o
+ .debug_line    0x0000d395      0x252 binaries/xsh_date.o
+ .debug_line    0x0000d5e7      0x238 binaries/xsh_devdump.o
+ .debug_line    0x0000d81f      0x232 binaries/xsh_echo.o
+ .debug_line    0x0000da51      0x221 binaries/xsh_exit.o
+ .debug_line    0x0000dc72      0x22e binaries/xsh_hello.o
+ .debug_line    0x0000dea0      0x285 binaries/xsh_help.o
+ .debug_line    0x0000e125      0x258 binaries/xsh_kill.o
+ .debug_line    0x0000e37d      0x253 binaries/xsh_led.o
+ .debug_line    0x0000e5d0      0x2bd binaries/xsh_memdump.o
+ .debug_line    0x0000e88d      0x262 binaries/xsh_memstat.o
+ .debug_line    0x0000eaef      0x244 binaries/xsh_message_example.o
+ .debug_line    0x0000ed33      0x226 binaries/xsh_mmu.o
+ .debug_line    0x0000ef59      0x259 binaries/xsh_polling_example.o
+ .debug_line    0x0000f1b2      0x2ff binaries/xsh_process_ring.o
+ .debug_line    0x0000f4b1      0x279 binaries/xsh_prodcons.o
+ .debug_line    0x0000f72a      0x240 binaries/xsh_ps.o
+ .debug_line    0x0000f96a      0x259 binaries/xsh_semaphore_example.o
+ .debug_line    0x0000fbc3      0x253 binaries/xsh_sleep.o
+ .debug_line    0x0000fe16      0x24a binaries/xsh_uptime.o
+ .debug_line    0x00010060      0x21c binaries/consume.o
+ .debug_line    0x0001027c      0x249 binaries/future_prodcons.o
+ .debug_line    0x000104c5      0x277 binaries/process_ring.o
+ .debug_line    0x0001073c      0x21c binaries/produce.o
+ .debug_line    0x00010958      0x23b binaries/ttycontrol.o
+ .debug_line    0x00010b93      0x23b binaries/ttygetc.o
+ .debug_line    0x00010dce      0x2c5 binaries/ttyhandle_in.o
+ .debug_line    0x00011093      0x274 binaries/ttyhandle_out.o
+ .debug_line    0x00011307      0x23f binaries/ttyhandler.o
+ .debug_line    0x00011546      0x24b binaries/ttyinit.o
+ .debug_line    0x00011791      0x228 binaries/ttykickout.o
+ .debug_line    0x000119b9      0x234 binaries/ttyputc.o
+ .debug_line    0x00011bed      0x253 binaries/ttyread.o
+ .debug_line    0x00011e40      0x23c binaries/ttywrite.o
+ .debug_line    0x0001207c      0x25d binaries/mount.o
+ .debug_line    0x000122d9      0x25e binaries/naminit.o
+ .debug_line    0x00012537      0x283 binaries/nammap.o
+ .debug_line    0x000127ba      0x229 binaries/namopen.o
+ .debug_line    0x000129e3      0x226 binaries/ramclose.o
+ .debug_line    0x00012c09      0x234 binaries/raminit.o
+ .debug_line    0x00012e3d      0x225 binaries/ramopen.o
+ .debug_line    0x00013062      0x233 binaries/ramread.o
+ .debug_line    0x00013295      0x234 binaries/ramwrite.o
+ .debug_line    0x000134c9      0x231 binaries/lfdballoc.o
+ .debug_line    0x000136fa      0x22a binaries/lfdbfree.o
+ .debug_line    0x00013924      0x236 binaries/lfflush.o
+ .debug_line    0x00013b5a      0x24c binaries/lfgetmode.o
+ .debug_line    0x00013da6      0x22e binaries/lfiballoc.o
+ .debug_line    0x00013fd4      0x236 binaries/lfibclear.o
+ .debug_line    0x0001420a      0x231 binaries/lfibget.o
+ .debug_line    0x0001443b      0x237 binaries/lfibput.o
+ .debug_line    0x00014672      0x237 binaries/lflclose.o
+ .debug_line    0x000148a9      0x236 binaries/lflcontrol.o
+ .debug_line    0x00014adf      0x233 binaries/lflgetc.o
+ .debug_line    0x00014d12      0x23f binaries/lflinit.o
+ .debug_line    0x00014f51      0x238 binaries/lflputc.o
+ .debug_line    0x00015189      0x23f binaries/lflread.o
+ .debug_line    0x000153c8      0x231 binaries/lflseek.o
+ .debug_line    0x000155f9      0x232 binaries/lflwrite.o
+ .debug_line    0x0001582b      0x24e binaries/lfsckfmt.o
+ .debug_line    0x00015a79      0x277 binaries/lfscreate.o
+ .debug_line    0x00015cf0      0x26a binaries/lfsetup.o
+ .debug_line    0x00015f5a      0x229 binaries/lfsinit.o
+ .debug_line    0x00016183      0x28b binaries/lfsopen.o
+ .debug_line    0x0001640e      0x254 binaries/lftruncate.o
+ .debug_line    0x00016662      0x244 binaries/kvprintf.o
+ .debug_line    0x000168a6      0x23d binaries/uartControl.o
+ .debug_line    0x00016ae3      0x22b binaries/uartGetc.o
+ .debug_line    0x00016d0e      0x247 binaries/uartInit.o
+ .debug_line    0x00016f55      0x22b binaries/uartPutc.o
+ .debug_line    0x00017180      0x24b binaries/uartRead.o
+ .debug_line    0x000173cb      0x234 binaries/uartStat.o
+ .debug_line    0x000175ff      0x24f binaries/uartWrite.o
+ .debug_line    0x0001784e      0x241 binaries/kgetc.o
+ .debug_line    0x00017a8f      0x241 binaries/kputc.o
+ .debug_line    0x00017cd0      0x251 binaries/uartHwInit.o
+ .debug_line    0x00017f21      0x23a binaries/uartHwPutc.o
+ .debug_line    0x0001815b      0x241 binaries/uartHwStat.o
+ .debug_line    0x0001839c      0x27f binaries/uartInterrupt.o
+ .debug_line    0x0001861b       0x3f binaries/Doxygroup.o
+ .debug_line    0x0001865a      0x252 binaries/loopbackClose.o
+ .debug_line    0x000188ac      0x24f binaries/loopbackControl.o
+ .debug_line    0x00018afb      0x248 binaries/loopbackGetc.o
+ .debug_line    0x00018d43      0x24c binaries/loopbackInit.o
+ .debug_line    0x00018f8f      0x256 binaries/loopbackOpen.o
+ .debug_line    0x000191e5      0x248 binaries/loopbackPutc.o
+ .debug_line    0x0001942d      0x255 binaries/loopbackRead.o
+ .debug_line    0x00019682      0x255 binaries/loopbackWrite.o
+ .debug_line    0x000198d7       0x86 binaries/intr.o
+ .debug_line    0x0001995d       0x5d binaries/ctxsw.o
+ .debug_line    0x000199ba       0x66 binaries/irq_handler.o
+ .debug_line    0x00019a20       0x5e binaries/memory_barrier.o
+ .debug_line    0x00019a7e       0x61 binaries/page_fault.o
 
-.debug_info     0x00000000    0x23160
+.debug_info     0x00000000    0x23b9b
  .debug_info    0x00000000       0x6b binaries/start.o
  .debug_info    0x0000006b      0x309 binaries/ascdate.o
  .debug_info    0x00000374      0x11e binaries/bufinit.o
@@ -15219,84 +15395,86 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_info    0x000120e4      0x237 binaries/xsh_mmu.o
  .debug_info    0x0001231b      0x327 binaries/xsh_polling_example.o
  .debug_info    0x00012642      0x5ea binaries/xsh_process_ring.o
- .debug_info    0x00012c2c      0x42a binaries/xsh_ps.o
- .debug_info    0x00013056      0x4ca binaries/xsh_semaphore_example.o
- .debug_info    0x00013520      0x3a7 binaries/xsh_sleep.o
- .debug_info    0x000138c7      0x419 binaries/xsh_uptime.o
- .debug_info    0x00013ce0       0x88 binaries/consume.o
- .debug_info    0x00013d68      0x328 binaries/process_ring.o
- .debug_info    0x00014090       0x88 binaries/produce.o
- .debug_info    0x00014118      0x4ca binaries/ttycontrol.o
- .debug_info    0x000145e2      0x45f binaries/ttygetc.o
- .debug_info    0x00014a41      0x82d binaries/ttyhandle_in.o
- .debug_info    0x0001526e      0x478 binaries/ttyhandle_out.o
- .debug_info    0x000156e6      0x660 binaries/ttyhandler.o
- .debug_info    0x00015d46      0x60b binaries/ttyinit.o
- .debug_info    0x00016351      0x1e1 binaries/ttykickout.o
- .debug_info    0x00016532      0x5e1 binaries/ttyputc.o
- .debug_info    0x00016b13      0x4ef binaries/ttyread.o
- .debug_info    0x00017002      0x284 binaries/ttywrite.o
- .debug_info    0x00017286      0x26b binaries/mount.o
- .debug_info    0x000174f1      0x51c binaries/naminit.o
- .debug_info    0x00017a0d      0x36f binaries/nammap.o
- .debug_info    0x00017d7c      0x30e binaries/namopen.o
- .debug_info    0x0001808a      0x23b binaries/ramclose.o
- .debug_info    0x000182c5      0x2e7 binaries/raminit.o
- .debug_info    0x000185ac      0x255 binaries/ramopen.o
- .debug_info    0x00018801      0x2ee binaries/ramread.o
- .debug_info    0x00018aef      0x2ee binaries/ramwrite.o
- .debug_info    0x00018ddd      0x34e binaries/lfdballoc.o
- .debug_info    0x0001912b      0x2c7 binaries/lfdbfree.o
- .debug_info    0x000193f2      0x3a3 binaries/lfflush.o
- .debug_info    0x00019795       0xbc binaries/lfgetmode.o
- .debug_info    0x00019851      0x2e3 binaries/lfiballoc.o
- .debug_info    0x00019b34      0x11b binaries/lfibclear.o
- .debug_info    0x00019c4f      0x1bb binaries/lfibget.o
- .debug_info    0x00019e0a      0x21b binaries/lfibput.o
- .debug_info    0x0001a025      0x535 binaries/lflclose.o
- .debug_info    0x0001a55a      0x5da binaries/lflcontrol.o
- .debug_info    0x0001ab34      0x499 binaries/lflgetc.o
- .debug_info    0x0001afcd      0x495 binaries/lflinit.o
- .debug_info    0x0001b462      0x55c binaries/lflputc.o
- .debug_info    0x0001b9be      0x29c binaries/lflread.o
- .debug_info    0x0001bc5a      0x457 binaries/lflseek.o
- .debug_info    0x0001c0b1      0x290 binaries/lflwrite.o
- .debug_info    0x0001c341      0x433 binaries/lfsckfmt.o
- .debug_info    0x0001c774      0x458 binaries/lfscreate.o
- .debug_info    0x0001cbcc      0x581 binaries/lfsetup.o
- .debug_info    0x0001d14d      0x3e9 binaries/lfsinit.o
- .debug_info    0x0001d536      0x63f binaries/lfsopen.o
- .debug_info    0x0001db75      0x434 binaries/lftruncate.o
- .debug_info    0x0001dfa9      0x326 binaries/kvprintf.o
- .debug_info    0x0001e2cf      0x3c3 binaries/uartControl.o
- .debug_info    0x0001e692      0x292 binaries/uartGetc.o
- .debug_info    0x0001e924      0x42b binaries/uartInit.o
- .debug_info    0x0001ed4f      0x29e binaries/uartPutc.o
- .debug_info    0x0001efed      0x466 binaries/uartRead.o
- .debug_info    0x0001f453      0x495 binaries/uartStat.o
- .debug_info    0x0001f8e8      0x487 binaries/uartWrite.o
- .debug_info    0x0001fd6f      0x4a4 binaries/kgetc.o
- .debug_info    0x00020213      0x4a2 binaries/kputc.o
- .debug_info    0x000206b5      0x4f1 binaries/uartHwInit.o
- .debug_info    0x00020ba6      0x198 binaries/uartHwPutc.o
- .debug_info    0x00020d3e      0x246 binaries/uartHwStat.o
- .debug_info    0x00020f84      0x525 binaries/uartInterrupt.o
- .debug_info    0x000214a9       0x21 binaries/Doxygroup.o
- .debug_info    0x000214ca      0x357 binaries/loopbackClose.o
- .debug_info    0x00021821      0x311 binaries/loopbackControl.o
- .debug_info    0x00021b32      0x384 binaries/loopbackGetc.o
- .debug_info    0x00021eb6      0x2db binaries/loopbackInit.o
- .debug_info    0x00022191      0x39b binaries/loopbackOpen.o
- .debug_info    0x0002252c      0x39a binaries/loopbackPutc.o
- .debug_info    0x000228c6      0x340 binaries/loopbackRead.o
- .debug_info    0x00022c06      0x342 binaries/loopbackWrite.o
- .debug_info    0x00022f48       0x58 binaries/intr.o
- .debug_info    0x00022fa0       0x6b binaries/ctxsw.o
- .debug_info    0x0002300b       0x71 binaries/irq_handler.o
- .debug_info    0x0002307c       0x74 binaries/memory_barrier.o
- .debug_info    0x000230f0       0x70 binaries/page_fault.o
+ .debug_info    0x00012c2c      0x7a0 binaries/xsh_prodcons.o
+ .debug_info    0x000133cc      0x42a binaries/xsh_ps.o
+ .debug_info    0x000137f6      0x4ca binaries/xsh_semaphore_example.o
+ .debug_info    0x00013cc0      0x3a7 binaries/xsh_sleep.o
+ .debug_info    0x00014067      0x419 binaries/xsh_uptime.o
+ .debug_info    0x00014480       0x88 binaries/consume.o
+ .debug_info    0x00014508      0x29b binaries/future_prodcons.o
+ .debug_info    0x000147a3      0x328 binaries/process_ring.o
+ .debug_info    0x00014acb       0x88 binaries/produce.o
+ .debug_info    0x00014b53      0x4ca binaries/ttycontrol.o
+ .debug_info    0x0001501d      0x45f binaries/ttygetc.o
+ .debug_info    0x0001547c      0x82d binaries/ttyhandle_in.o
+ .debug_info    0x00015ca9      0x478 binaries/ttyhandle_out.o
+ .debug_info    0x00016121      0x660 binaries/ttyhandler.o
+ .debug_info    0x00016781      0x60b binaries/ttyinit.o
+ .debug_info    0x00016d8c      0x1e1 binaries/ttykickout.o
+ .debug_info    0x00016f6d      0x5e1 binaries/ttyputc.o
+ .debug_info    0x0001754e      0x4ef binaries/ttyread.o
+ .debug_info    0x00017a3d      0x284 binaries/ttywrite.o
+ .debug_info    0x00017cc1      0x26b binaries/mount.o
+ .debug_info    0x00017f2c      0x51c binaries/naminit.o
+ .debug_info    0x00018448      0x36f binaries/nammap.o
+ .debug_info    0x000187b7      0x30e binaries/namopen.o
+ .debug_info    0x00018ac5      0x23b binaries/ramclose.o
+ .debug_info    0x00018d00      0x2e7 binaries/raminit.o
+ .debug_info    0x00018fe7      0x255 binaries/ramopen.o
+ .debug_info    0x0001923c      0x2ee binaries/ramread.o
+ .debug_info    0x0001952a      0x2ee binaries/ramwrite.o
+ .debug_info    0x00019818      0x34e binaries/lfdballoc.o
+ .debug_info    0x00019b66      0x2c7 binaries/lfdbfree.o
+ .debug_info    0x00019e2d      0x3a3 binaries/lfflush.o
+ .debug_info    0x0001a1d0       0xbc binaries/lfgetmode.o
+ .debug_info    0x0001a28c      0x2e3 binaries/lfiballoc.o
+ .debug_info    0x0001a56f      0x11b binaries/lfibclear.o
+ .debug_info    0x0001a68a      0x1bb binaries/lfibget.o
+ .debug_info    0x0001a845      0x21b binaries/lfibput.o
+ .debug_info    0x0001aa60      0x535 binaries/lflclose.o
+ .debug_info    0x0001af95      0x5da binaries/lflcontrol.o
+ .debug_info    0x0001b56f      0x499 binaries/lflgetc.o
+ .debug_info    0x0001ba08      0x495 binaries/lflinit.o
+ .debug_info    0x0001be9d      0x55c binaries/lflputc.o
+ .debug_info    0x0001c3f9      0x29c binaries/lflread.o
+ .debug_info    0x0001c695      0x457 binaries/lflseek.o
+ .debug_info    0x0001caec      0x290 binaries/lflwrite.o
+ .debug_info    0x0001cd7c      0x433 binaries/lfsckfmt.o
+ .debug_info    0x0001d1af      0x458 binaries/lfscreate.o
+ .debug_info    0x0001d607      0x581 binaries/lfsetup.o
+ .debug_info    0x0001db88      0x3e9 binaries/lfsinit.o
+ .debug_info    0x0001df71      0x63f binaries/lfsopen.o
+ .debug_info    0x0001e5b0      0x434 binaries/lftruncate.o
+ .debug_info    0x0001e9e4      0x326 binaries/kvprintf.o
+ .debug_info    0x0001ed0a      0x3c3 binaries/uartControl.o
+ .debug_info    0x0001f0cd      0x292 binaries/uartGetc.o
+ .debug_info    0x0001f35f      0x42b binaries/uartInit.o
+ .debug_info    0x0001f78a      0x29e binaries/uartPutc.o
+ .debug_info    0x0001fa28      0x466 binaries/uartRead.o
+ .debug_info    0x0001fe8e      0x495 binaries/uartStat.o
+ .debug_info    0x00020323      0x487 binaries/uartWrite.o
+ .debug_info    0x000207aa      0x4a4 binaries/kgetc.o
+ .debug_info    0x00020c4e      0x4a2 binaries/kputc.o
+ .debug_info    0x000210f0      0x4f1 binaries/uartHwInit.o
+ .debug_info    0x000215e1      0x198 binaries/uartHwPutc.o
+ .debug_info    0x00021779      0x246 binaries/uartHwStat.o
+ .debug_info    0x000219bf      0x525 binaries/uartInterrupt.o
+ .debug_info    0x00021ee4       0x21 binaries/Doxygroup.o
+ .debug_info    0x00021f05      0x357 binaries/loopbackClose.o
+ .debug_info    0x0002225c      0x311 binaries/loopbackControl.o
+ .debug_info    0x0002256d      0x384 binaries/loopbackGetc.o
+ .debug_info    0x000228f1      0x2db binaries/loopbackInit.o
+ .debug_info    0x00022bcc      0x39b binaries/loopbackOpen.o
+ .debug_info    0x00022f67      0x39a binaries/loopbackPutc.o
+ .debug_info    0x00023301      0x340 binaries/loopbackRead.o
+ .debug_info    0x00023641      0x342 binaries/loopbackWrite.o
+ .debug_info    0x00023983       0x58 binaries/intr.o
+ .debug_info    0x000239db       0x6b binaries/ctxsw.o
+ .debug_info    0x00023a46       0x71 binaries/irq_handler.o
+ .debug_info    0x00023ab7       0x74 binaries/memory_barrier.o
+ .debug_info    0x00023b2b       0x70 binaries/page_fault.o
 
-.debug_abbrev   0x00000000     0xdd19
+.debug_abbrev   0x00000000     0xdfaf
  .debug_abbrev  0x00000000       0x14 binaries/start.o
  .debug_abbrev  0x00000014      0x112 binaries/ascdate.o
  .debug_abbrev  0x00000126       0x9e binaries/bufinit.o
@@ -15432,84 +15610,86 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_abbrev  0x00008271      0x126 binaries/xsh_mmu.o
  .debug_abbrev  0x00008397      0x129 binaries/xsh_polling_example.o
  .debug_abbrev  0x000084c0      0x192 binaries/xsh_process_ring.o
- .debug_abbrev  0x00008652      0x140 binaries/xsh_ps.o
- .debug_abbrev  0x00008792      0x119 binaries/xsh_semaphore_example.o
- .debug_abbrev  0x000088ab      0x131 binaries/xsh_sleep.o
- .debug_abbrev  0x000089dc      0x15e binaries/xsh_uptime.o
- .debug_abbrev  0x00008b3a       0x54 binaries/consume.o
- .debug_abbrev  0x00008b8e      0x15f binaries/process_ring.o
- .debug_abbrev  0x00008ced       0x54 binaries/produce.o
- .debug_abbrev  0x00008d41      0x143 binaries/ttycontrol.o
- .debug_abbrev  0x00008e84      0x12e binaries/ttygetc.o
- .debug_abbrev  0x00008fb2      0x1dd binaries/ttyhandle_in.o
- .debug_abbrev  0x0000918f      0x128 binaries/ttyhandle_out.o
- .debug_abbrev  0x000092b7      0x19d binaries/ttyhandler.o
- .debug_abbrev  0x00009454      0x181 binaries/ttyinit.o
- .debug_abbrev  0x000095d5       0xb2 binaries/ttykickout.o
- .debug_abbrev  0x00009687      0x172 binaries/ttyputc.o
- .debug_abbrev  0x000097f9      0x167 binaries/ttyread.o
- .debug_abbrev  0x00009960       0xd6 binaries/ttywrite.o
- .debug_abbrev  0x00009a36      0x13b binaries/mount.o
- .debug_abbrev  0x00009b71      0x15b binaries/naminit.o
- .debug_abbrev  0x00009ccc      0x12e binaries/nammap.o
- .debug_abbrev  0x00009dfa      0x128 binaries/namopen.o
- .debug_abbrev  0x00009f22       0xaa binaries/ramclose.o
- .debug_abbrev  0x00009fcc      0x11c binaries/raminit.o
- .debug_abbrev  0x0000a0e8       0xb9 binaries/ramopen.o
- .debug_abbrev  0x0000a1a1      0x12d binaries/ramread.o
- .debug_abbrev  0x0000a2ce      0x12d binaries/ramwrite.o
- .debug_abbrev  0x0000a3fb      0x155 binaries/lfdballoc.o
- .debug_abbrev  0x0000a550      0x130 binaries/lfdbfree.o
- .debug_abbrev  0x0000a680      0x12b binaries/lfflush.o
- .debug_abbrev  0x0000a7ab       0x8a binaries/lfgetmode.o
- .debug_abbrev  0x0000a835      0x140 binaries/lfiballoc.o
- .debug_abbrev  0x0000a975       0xba binaries/lfibclear.o
- .debug_abbrev  0x0000aa2f      0x112 binaries/lfibget.o
- .debug_abbrev  0x0000ab41      0x127 binaries/lfibput.o
- .debug_abbrev  0x0000ac68      0x156 binaries/lflclose.o
- .debug_abbrev  0x0000adbe      0x186 binaries/lflcontrol.o
- .debug_abbrev  0x0000af44      0x165 binaries/lflgetc.o
- .debug_abbrev  0x0000b0a9      0x154 binaries/lflinit.o
- .debug_abbrev  0x0000b1fd      0x174 binaries/lflputc.o
- .debug_abbrev  0x0000b371       0xe5 binaries/lflread.o
- .debug_abbrev  0x0000b456      0x13d binaries/lflseek.o
- .debug_abbrev  0x0000b593       0xe5 binaries/lflwrite.o
- .debug_abbrev  0x0000b678      0x170 binaries/lfsckfmt.o
- .debug_abbrev  0x0000b7e8      0x199 binaries/lfscreate.o
- .debug_abbrev  0x0000b981      0x173 binaries/lfsetup.o
- .debug_abbrev  0x0000baf4      0x12d binaries/lfsinit.o
- .debug_abbrev  0x0000bc21      0x17d binaries/lfsopen.o
- .debug_abbrev  0x0000bd9e      0x174 binaries/lftruncate.o
- .debug_abbrev  0x0000bf12      0x177 binaries/kvprintf.o
- .debug_abbrev  0x0000c089      0x135 binaries/uartControl.o
- .debug_abbrev  0x0000c1be       0xf4 binaries/uartGetc.o
- .debug_abbrev  0x0000c2b2      0x176 binaries/uartInit.o
- .debug_abbrev  0x0000c428       0xfb binaries/uartPutc.o
- .debug_abbrev  0x0000c523      0x1d0 binaries/uartRead.o
- .debug_abbrev  0x0000c6f3      0x185 binaries/uartStat.o
- .debug_abbrev  0x0000c878      0x1cf binaries/uartWrite.o
- .debug_abbrev  0x0000ca47      0x135 binaries/kgetc.o
- .debug_abbrev  0x0000cb7c      0x135 binaries/kputc.o
- .debug_abbrev  0x0000ccb1      0x188 binaries/uartHwInit.o
- .debug_abbrev  0x0000ce39       0xa9 binaries/uartHwPutc.o
- .debug_abbrev  0x0000cee2      0x121 binaries/uartHwStat.o
- .debug_abbrev  0x0000d003      0x1b1 binaries/uartInterrupt.o
- .debug_abbrev  0x0000d1b4       0x13 binaries/Doxygroup.o
- .debug_abbrev  0x0000d1c7      0x178 binaries/loopbackClose.o
- .debug_abbrev  0x0000d33f      0x11f binaries/loopbackControl.o
- .debug_abbrev  0x0000d45e      0x18d binaries/loopbackGetc.o
- .debug_abbrev  0x0000d5eb      0x105 binaries/loopbackInit.o
- .debug_abbrev  0x0000d6f0      0x18b binaries/loopbackOpen.o
- .debug_abbrev  0x0000d87b      0x19c binaries/loopbackPutc.o
- .debug_abbrev  0x0000da17      0x149 binaries/loopbackRead.o
- .debug_abbrev  0x0000db60      0x155 binaries/loopbackWrite.o
- .debug_abbrev  0x0000dcb5       0x14 binaries/intr.o
- .debug_abbrev  0x0000dcc9       0x14 binaries/ctxsw.o
- .debug_abbrev  0x0000dcdd       0x14 binaries/irq_handler.o
- .debug_abbrev  0x0000dcf1       0x14 binaries/memory_barrier.o
- .debug_abbrev  0x0000dd05       0x14 binaries/page_fault.o
+ .debug_abbrev  0x00008652      0x17d binaries/xsh_prodcons.o
+ .debug_abbrev  0x000087cf      0x140 binaries/xsh_ps.o
+ .debug_abbrev  0x0000890f      0x119 binaries/xsh_semaphore_example.o
+ .debug_abbrev  0x00008a28      0x131 binaries/xsh_sleep.o
+ .debug_abbrev  0x00008b59      0x15e binaries/xsh_uptime.o
+ .debug_abbrev  0x00008cb7       0x54 binaries/consume.o
+ .debug_abbrev  0x00008d0b      0x119 binaries/future_prodcons.o
+ .debug_abbrev  0x00008e24      0x15f binaries/process_ring.o
+ .debug_abbrev  0x00008f83       0x54 binaries/produce.o
+ .debug_abbrev  0x00008fd7      0x143 binaries/ttycontrol.o
+ .debug_abbrev  0x0000911a      0x12e binaries/ttygetc.o
+ .debug_abbrev  0x00009248      0x1dd binaries/ttyhandle_in.o
+ .debug_abbrev  0x00009425      0x128 binaries/ttyhandle_out.o
+ .debug_abbrev  0x0000954d      0x19d binaries/ttyhandler.o
+ .debug_abbrev  0x000096ea      0x181 binaries/ttyinit.o
+ .debug_abbrev  0x0000986b       0xb2 binaries/ttykickout.o
+ .debug_abbrev  0x0000991d      0x172 binaries/ttyputc.o
+ .debug_abbrev  0x00009a8f      0x167 binaries/ttyread.o
+ .debug_abbrev  0x00009bf6       0xd6 binaries/ttywrite.o
+ .debug_abbrev  0x00009ccc      0x13b binaries/mount.o
+ .debug_abbrev  0x00009e07      0x15b binaries/naminit.o
+ .debug_abbrev  0x00009f62      0x12e binaries/nammap.o
+ .debug_abbrev  0x0000a090      0x128 binaries/namopen.o
+ .debug_abbrev  0x0000a1b8       0xaa binaries/ramclose.o
+ .debug_abbrev  0x0000a262      0x11c binaries/raminit.o
+ .debug_abbrev  0x0000a37e       0xb9 binaries/ramopen.o
+ .debug_abbrev  0x0000a437      0x12d binaries/ramread.o
+ .debug_abbrev  0x0000a564      0x12d binaries/ramwrite.o
+ .debug_abbrev  0x0000a691      0x155 binaries/lfdballoc.o
+ .debug_abbrev  0x0000a7e6      0x130 binaries/lfdbfree.o
+ .debug_abbrev  0x0000a916      0x12b binaries/lfflush.o
+ .debug_abbrev  0x0000aa41       0x8a binaries/lfgetmode.o
+ .debug_abbrev  0x0000aacb      0x140 binaries/lfiballoc.o
+ .debug_abbrev  0x0000ac0b       0xba binaries/lfibclear.o
+ .debug_abbrev  0x0000acc5      0x112 binaries/lfibget.o
+ .debug_abbrev  0x0000add7      0x127 binaries/lfibput.o
+ .debug_abbrev  0x0000aefe      0x156 binaries/lflclose.o
+ .debug_abbrev  0x0000b054      0x186 binaries/lflcontrol.o
+ .debug_abbrev  0x0000b1da      0x165 binaries/lflgetc.o
+ .debug_abbrev  0x0000b33f      0x154 binaries/lflinit.o
+ .debug_abbrev  0x0000b493      0x174 binaries/lflputc.o
+ .debug_abbrev  0x0000b607       0xe5 binaries/lflread.o
+ .debug_abbrev  0x0000b6ec      0x13d binaries/lflseek.o
+ .debug_abbrev  0x0000b829       0xe5 binaries/lflwrite.o
+ .debug_abbrev  0x0000b90e      0x170 binaries/lfsckfmt.o
+ .debug_abbrev  0x0000ba7e      0x199 binaries/lfscreate.o
+ .debug_abbrev  0x0000bc17      0x173 binaries/lfsetup.o
+ .debug_abbrev  0x0000bd8a      0x12d binaries/lfsinit.o
+ .debug_abbrev  0x0000beb7      0x17d binaries/lfsopen.o
+ .debug_abbrev  0x0000c034      0x174 binaries/lftruncate.o
+ .debug_abbrev  0x0000c1a8      0x177 binaries/kvprintf.o
+ .debug_abbrev  0x0000c31f      0x135 binaries/uartControl.o
+ .debug_abbrev  0x0000c454       0xf4 binaries/uartGetc.o
+ .debug_abbrev  0x0000c548      0x176 binaries/uartInit.o
+ .debug_abbrev  0x0000c6be       0xfb binaries/uartPutc.o
+ .debug_abbrev  0x0000c7b9      0x1d0 binaries/uartRead.o
+ .debug_abbrev  0x0000c989      0x185 binaries/uartStat.o
+ .debug_abbrev  0x0000cb0e      0x1cf binaries/uartWrite.o
+ .debug_abbrev  0x0000ccdd      0x135 binaries/kgetc.o
+ .debug_abbrev  0x0000ce12      0x135 binaries/kputc.o
+ .debug_abbrev  0x0000cf47      0x188 binaries/uartHwInit.o
+ .debug_abbrev  0x0000d0cf       0xa9 binaries/uartHwPutc.o
+ .debug_abbrev  0x0000d178      0x121 binaries/uartHwStat.o
+ .debug_abbrev  0x0000d299      0x1b1 binaries/uartInterrupt.o
+ .debug_abbrev  0x0000d44a       0x13 binaries/Doxygroup.o
+ .debug_abbrev  0x0000d45d      0x178 binaries/loopbackClose.o
+ .debug_abbrev  0x0000d5d5      0x11f binaries/loopbackControl.o
+ .debug_abbrev  0x0000d6f4      0x18d binaries/loopbackGetc.o
+ .debug_abbrev  0x0000d881      0x105 binaries/loopbackInit.o
+ .debug_abbrev  0x0000d986      0x18b binaries/loopbackOpen.o
+ .debug_abbrev  0x0000db11      0x19c binaries/loopbackPutc.o
+ .debug_abbrev  0x0000dcad      0x149 binaries/loopbackRead.o
+ .debug_abbrev  0x0000ddf6      0x155 binaries/loopbackWrite.o
+ .debug_abbrev  0x0000df4b       0x14 binaries/intr.o
+ .debug_abbrev  0x0000df5f       0x14 binaries/ctxsw.o
+ .debug_abbrev  0x0000df73       0x14 binaries/irq_handler.o
+ .debug_abbrev  0x0000df87       0x14 binaries/memory_barrier.o
+ .debug_abbrev  0x0000df9b       0x14 binaries/page_fault.o
 
-.debug_aranges  0x00000000     0x1a48
+.debug_aranges  0x00000000     0x1a88
  .debug_aranges
                 0x00000000       0x20 binaries/start.o
  .debug_aranges
@@ -15781,159 +15961,163 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_aranges
                 0x000010b0       0x20 binaries/xsh_process_ring.o
  .debug_aranges
-                0x000010d0       0x20 binaries/xsh_ps.o
+                0x000010d0       0x20 binaries/xsh_prodcons.o
  .debug_aranges
-                0x000010f0       0x20 binaries/xsh_semaphore_example.o
+                0x000010f0       0x20 binaries/xsh_ps.o
  .debug_aranges
-                0x00001110       0x20 binaries/xsh_sleep.o
+                0x00001110       0x20 binaries/xsh_semaphore_example.o
  .debug_aranges
-                0x00001130       0x20 binaries/xsh_uptime.o
+                0x00001130       0x20 binaries/xsh_sleep.o
  .debug_aranges
-                0x00001150       0x20 binaries/consume.o
+                0x00001150       0x20 binaries/xsh_uptime.o
  .debug_aranges
-                0x00001170       0x20 binaries/process_ring.o
+                0x00001170       0x20 binaries/consume.o
  .debug_aranges
-                0x00001190       0x20 binaries/produce.o
+                0x00001190       0x20 binaries/future_prodcons.o
  .debug_aranges
-                0x000011b0       0x20 binaries/ttycontrol.o
+                0x000011b0       0x20 binaries/process_ring.o
  .debug_aranges
-                0x000011d0       0x20 binaries/ttygetc.o
+                0x000011d0       0x20 binaries/produce.o
  .debug_aranges
-                0x000011f0       0x20 binaries/ttyhandle_in.o
+                0x000011f0       0x20 binaries/ttycontrol.o
  .debug_aranges
-                0x00001210       0x20 binaries/ttyhandle_out.o
+                0x00001210       0x20 binaries/ttygetc.o
  .debug_aranges
-                0x00001230       0x20 binaries/ttyhandler.o
+                0x00001230       0x20 binaries/ttyhandle_in.o
  .debug_aranges
-                0x00001250       0x20 binaries/ttyinit.o
+                0x00001250       0x20 binaries/ttyhandle_out.o
  .debug_aranges
-                0x00001270       0x20 binaries/ttykickout.o
+                0x00001270       0x20 binaries/ttyhandler.o
  .debug_aranges
-                0x00001290       0x20 binaries/ttyputc.o
+                0x00001290       0x20 binaries/ttyinit.o
  .debug_aranges
-                0x000012b0       0x20 binaries/ttyread.o
+                0x000012b0       0x20 binaries/ttykickout.o
  .debug_aranges
-                0x000012d0       0x20 binaries/ttywrite.o
+                0x000012d0       0x20 binaries/ttyputc.o
  .debug_aranges
-                0x000012f0       0x20 binaries/mount.o
+                0x000012f0       0x20 binaries/ttyread.o
  .debug_aranges
-                0x00001310       0x20 binaries/naminit.o
+                0x00001310       0x20 binaries/ttywrite.o
  .debug_aranges
-                0x00001330       0x20 binaries/nammap.o
+                0x00001330       0x20 binaries/mount.o
  .debug_aranges
-                0x00001350       0x20 binaries/namopen.o
+                0x00001350       0x20 binaries/naminit.o
  .debug_aranges
-                0x00001370       0x20 binaries/ramclose.o
+                0x00001370       0x20 binaries/nammap.o
  .debug_aranges
-                0x00001390       0x20 binaries/raminit.o
+                0x00001390       0x20 binaries/namopen.o
  .debug_aranges
-                0x000013b0       0x20 binaries/ramopen.o
+                0x000013b0       0x20 binaries/ramclose.o
  .debug_aranges
-                0x000013d0       0x20 binaries/ramread.o
+                0x000013d0       0x20 binaries/raminit.o
  .debug_aranges
-                0x000013f0       0x20 binaries/ramwrite.o
+                0x000013f0       0x20 binaries/ramopen.o
  .debug_aranges
-                0x00001410       0x20 binaries/lfdballoc.o
+                0x00001410       0x20 binaries/ramread.o
  .debug_aranges
-                0x00001430       0x20 binaries/lfdbfree.o
+                0x00001430       0x20 binaries/ramwrite.o
  .debug_aranges
-                0x00001450       0x20 binaries/lfflush.o
+                0x00001450       0x20 binaries/lfdballoc.o
  .debug_aranges
-                0x00001470       0x20 binaries/lfgetmode.o
+                0x00001470       0x20 binaries/lfdbfree.o
  .debug_aranges
-                0x00001490       0x20 binaries/lfiballoc.o
+                0x00001490       0x20 binaries/lfflush.o
  .debug_aranges
-                0x000014b0       0x20 binaries/lfibclear.o
+                0x000014b0       0x20 binaries/lfgetmode.o
  .debug_aranges
-                0x000014d0       0x20 binaries/lfibget.o
+                0x000014d0       0x20 binaries/lfiballoc.o
  .debug_aranges
-                0x000014f0       0x20 binaries/lfibput.o
+                0x000014f0       0x20 binaries/lfibclear.o
  .debug_aranges
-                0x00001510       0x20 binaries/lflclose.o
+                0x00001510       0x20 binaries/lfibget.o
  .debug_aranges
-                0x00001530       0x20 binaries/lflcontrol.o
+                0x00001530       0x20 binaries/lfibput.o
  .debug_aranges
-                0x00001550       0x20 binaries/lflgetc.o
+                0x00001550       0x20 binaries/lflclose.o
  .debug_aranges
-                0x00001570       0x20 binaries/lflinit.o
+                0x00001570       0x20 binaries/lflcontrol.o
  .debug_aranges
-                0x00001590       0x20 binaries/lflputc.o
+                0x00001590       0x20 binaries/lflgetc.o
  .debug_aranges
-                0x000015b0       0x20 binaries/lflread.o
+                0x000015b0       0x20 binaries/lflinit.o
  .debug_aranges
-                0x000015d0       0x20 binaries/lflseek.o
+                0x000015d0       0x20 binaries/lflputc.o
  .debug_aranges
-                0x000015f0       0x20 binaries/lflwrite.o
+                0x000015f0       0x20 binaries/lflread.o
  .debug_aranges
-                0x00001610       0x20 binaries/lfsckfmt.o
+                0x00001610       0x20 binaries/lflseek.o
  .debug_aranges
-                0x00001630       0x20 binaries/lfscreate.o
+                0x00001630       0x20 binaries/lflwrite.o
  .debug_aranges
-                0x00001650       0x20 binaries/lfsetup.o
+                0x00001650       0x20 binaries/lfsckfmt.o
  .debug_aranges
-                0x00001670       0x20 binaries/lfsinit.o
+                0x00001670       0x20 binaries/lfscreate.o
  .debug_aranges
-                0x00001690       0x20 binaries/lfsopen.o
+                0x00001690       0x20 binaries/lfsetup.o
  .debug_aranges
-                0x000016b0       0x20 binaries/lftruncate.o
+                0x000016b0       0x20 binaries/lfsinit.o
  .debug_aranges
-                0x000016d0       0x20 binaries/kvprintf.o
+                0x000016d0       0x20 binaries/lfsopen.o
  .debug_aranges
-                0x000016f0       0x20 binaries/uartControl.o
+                0x000016f0       0x20 binaries/lftruncate.o
  .debug_aranges
-                0x00001710       0x20 binaries/uartGetc.o
+                0x00001710       0x20 binaries/kvprintf.o
  .debug_aranges
-                0x00001730       0x20 binaries/uartInit.o
+                0x00001730       0x20 binaries/uartControl.o
  .debug_aranges
-                0x00001750       0x20 binaries/uartPutc.o
+                0x00001750       0x20 binaries/uartGetc.o
  .debug_aranges
-                0x00001770       0x20 binaries/uartRead.o
+                0x00001770       0x20 binaries/uartInit.o
  .debug_aranges
-                0x00001790       0x20 binaries/uartStat.o
+                0x00001790       0x20 binaries/uartPutc.o
  .debug_aranges
-                0x000017b0       0x20 binaries/uartWrite.o
+                0x000017b0       0x20 binaries/uartRead.o
  .debug_aranges
-                0x000017d0       0x20 binaries/kgetc.o
+                0x000017d0       0x20 binaries/uartStat.o
  .debug_aranges
-                0x000017f0       0x20 binaries/kputc.o
+                0x000017f0       0x20 binaries/uartWrite.o
  .debug_aranges
-                0x00001810       0x20 binaries/uartHwInit.o
+                0x00001810       0x20 binaries/kgetc.o
  .debug_aranges
-                0x00001830       0x20 binaries/uartHwPutc.o
+                0x00001830       0x20 binaries/kputc.o
  .debug_aranges
-                0x00001850       0x20 binaries/uartHwStat.o
+                0x00001850       0x20 binaries/uartHwInit.o
  .debug_aranges
-                0x00001870       0x20 binaries/uartInterrupt.o
+                0x00001870       0x20 binaries/uartHwPutc.o
  .debug_aranges
-                0x00001890       0x18 binaries/Doxygroup.o
+                0x00001890       0x20 binaries/uartHwStat.o
  .debug_aranges
-                0x000018a8       0x20 binaries/loopbackClose.o
+                0x000018b0       0x20 binaries/uartInterrupt.o
  .debug_aranges
-                0x000018c8       0x20 binaries/loopbackControl.o
+                0x000018d0       0x18 binaries/Doxygroup.o
  .debug_aranges
-                0x000018e8       0x20 binaries/loopbackGetc.o
+                0x000018e8       0x20 binaries/loopbackClose.o
  .debug_aranges
-                0x00001908       0x20 binaries/loopbackInit.o
+                0x00001908       0x20 binaries/loopbackControl.o
  .debug_aranges
-                0x00001928       0x20 binaries/loopbackOpen.o
+                0x00001928       0x20 binaries/loopbackGetc.o
  .debug_aranges
-                0x00001948       0x20 binaries/loopbackPutc.o
+                0x00001948       0x20 binaries/loopbackInit.o
  .debug_aranges
-                0x00001968       0x20 binaries/loopbackRead.o
+                0x00001968       0x20 binaries/loopbackOpen.o
  .debug_aranges
-                0x00001988       0x20 binaries/loopbackWrite.o
+                0x00001988       0x20 binaries/loopbackPutc.o
  .debug_aranges
-                0x000019a8       0x20 binaries/intr.o
+                0x000019a8       0x20 binaries/loopbackRead.o
  .debug_aranges
-                0x000019c8       0x20 binaries/ctxsw.o
+                0x000019c8       0x20 binaries/loopbackWrite.o
  .debug_aranges
-                0x000019e8       0x20 binaries/irq_handler.o
+                0x000019e8       0x20 binaries/intr.o
  .debug_aranges
-                0x00001a08       0x20 binaries/memory_barrier.o
+                0x00001a08       0x20 binaries/ctxsw.o
  .debug_aranges
-                0x00001a28       0x20 binaries/page_fault.o
+                0x00001a28       0x20 binaries/irq_handler.o
+ .debug_aranges
+                0x00001a48       0x20 binaries/memory_barrier.o
+ .debug_aranges
+                0x00001a68       0x20 binaries/page_fault.o
 
-.debug_loc      0x00000000     0xc875
+.debug_loc      0x00000000     0xca2a
  .debug_loc     0x00000000      0x5c4 binaries/ascdate.o
  .debug_loc     0x000005c4       0x9d binaries/chprio.o
  .debug_loc     0x00000661       0xb2 binaries/close.o
@@ -15942,179 +16126,181 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_loc     0x00000afc      0x107 binaries/evec.o
  .debug_loc     0x00000c03       0xcf binaries/freebuf.o
  .debug_loc     0x00000cd2      0x196 binaries/freemem.o
- .debug_loc     0x00000e68      0x2ff binaries/future.o
- .debug_loc     0x00001167       0x88 binaries/getbuf.o
- .debug_loc     0x000011ef       0xb2 binaries/getc.o
- .debug_loc     0x000012a1       0x5b binaries/getdev.o
- .debug_loc     0x000012fc       0xd8 binaries/getitem.o
- .debug_loc     0x000013d4      0x16e binaries/getmem.o
- .debug_loc     0x00001542       0x4a binaries/getprio.o
- .debug_loc     0x0000158c      0x133 binaries/getstk.o
- .debug_loc     0x000016bf       0xb2 binaries/init.o
- .debug_loc     0x00001771      0x122 binaries/initialize.o
- .debug_loc     0x00001893       0xd6 binaries/insert.o
- .debug_loc     0x00001969      0x173 binaries/insertd.o
- .debug_loc     0x00001adc       0xa8 binaries/kill.o
- .debug_loc     0x00001b84       0x4a binaries/mark.o
- .debug_loc     0x00001bce      0x184 binaries/mkbufpool.o
- .debug_loc     0x00001d52       0xe6 binaries/mmu.o
- .debug_loc     0x00001e38       0xee binaries/open.o
- .debug_loc     0x00001f26       0x1e binaries/panic.o
- .debug_loc     0x00001f44       0x7b binaries/ptclear.o
- .debug_loc     0x00001fbf       0xbf binaries/ptcount.o
- .debug_loc     0x0000207e       0xa5 binaries/ptcreate.o
- .debug_loc     0x00002123       0x8c binaries/ptdelete.o
- .debug_loc     0x000021af       0xbf binaries/ptinit.o
- .debug_loc     0x0000226e       0xa4 binaries/ptrecv.o
- .debug_loc     0x00002312       0x95 binaries/ptreset.o
- .debug_loc     0x000023a7       0xac binaries/ptsend.o
- .debug_loc     0x00002453       0xd3 binaries/putc.o
- .debug_loc     0x00002526      0x10e binaries/queue.o
- .debug_loc     0x00002634       0xee binaries/read.o
- .debug_loc     0x00002722       0x78 binaries/ready.o
- .debug_loc     0x0000279a       0x1e binaries/receive.o
- .debug_loc     0x000027b8       0x26 binaries/recvclr.o
- .debug_loc     0x000027de       0x86 binaries/recvtime.o
- .debug_loc     0x00002864       0xd7 binaries/resched.o
- .debug_loc     0x0000293b       0xcd binaries/resume.o
- .debug_loc     0x00002a08       0xd0 binaries/seek.o
- .debug_loc     0x00002ad8       0x4a binaries/semcount.o
- .debug_loc     0x00002b22       0x9d binaries/semcreate.o
- .debug_loc     0x00002bbf       0x76 binaries/semdelete.o
- .debug_loc     0x00002c35       0xbb binaries/semreset.o
- .debug_loc     0x00002cf0      0x116 binaries/send.o
- .debug_loc     0x00002e06       0xae binaries/signal.o
- .debug_loc     0x00002eb4       0xac binaries/signaln.o
- .debug_loc     0x00002f60       0xb3 binaries/sleep.o
- .debug_loc     0x00003013       0xab binaries/suspend.o
- .debug_loc     0x000030be       0x7b binaries/unsleep.o
- .debug_loc     0x00003139       0xc1 binaries/wait.o
- .debug_loc     0x000031fa       0xee binaries/write.o
- .debug_loc     0x000032e8       0x1e binaries/yield.o
- .debug_loc     0x00003306       0x1e binaries/gettime.o
- .debug_loc     0x00003324       0x73 binaries/pl190.o
- .debug_loc     0x00003397       0x78 binaries/platinit.o
- .debug_loc     0x0000340f       0x9e binaries/udelay.o
- .debug_loc     0x000034ad       0x2c binaries/abs.o
- .debug_loc     0x000034d9       0xa4 binaries/atoi.o
- .debug_loc     0x0000357d       0xa4 binaries/atol.o
- .debug_loc     0x00003621       0x41 binaries/bzero.o
- .debug_loc     0x00003662      0xf12 binaries/doprnt.o
- .debug_loc     0x00004574      0xab9 binaries/doscan.o
- .debug_loc     0x0000502d      0xd2b binaries/fdoprnt.o
- .debug_loc     0x00005d58       0x34 binaries/fgetc.o
- .debug_loc     0x00005d8c       0xfe binaries/fgets.o
- .debug_loc     0x00005e8a       0x2c binaries/fprintf.o
- .debug_loc     0x00005eb6       0x4a binaries/fputc.o
- .debug_loc     0x00005f00       0xd5 binaries/fputs.o
- .debug_loc     0x00005fd5      0x102 binaries/fscanf.o
- .debug_loc     0x000060d7       0x2c binaries/labs.o
- .debug_loc     0x00006103       0xe3 binaries/memchr.o
- .debug_loc     0x000061e6      0x193 binaries/memcmp.o
- .debug_loc     0x00006379       0x8b binaries/memcpy.o
- .debug_loc     0x00006404       0x53 binaries/memset.o
- .debug_loc     0x00006457       0x21 binaries/putchar.o
- .debug_loc     0x00006478      0x3a0 binaries/qsort.o
- .debug_loc     0x00006818       0x6f binaries/sprintf.o
- .debug_loc     0x00006887       0xd3 binaries/sscanf.o
- .debug_loc     0x0000695a       0x57 binaries/strchr.o
- .debug_loc     0x000069b1       0xc3 binaries/strcmp.o
- .debug_loc     0x00006a74       0x6a binaries/strlen.o
- .debug_loc     0x00006ade       0xc9 binaries/strncat.o
- .debug_loc     0x00006ba7       0xe8 binaries/strncmp.o
- .debug_loc     0x00006c8f      0x123 binaries/strncpy.o
- .debug_loc     0x00006db2       0x6a binaries/strnlen.o
- .debug_loc     0x00006e1c       0x6a binaries/strrchr.o
- .debug_loc     0x00006e86       0xc6 binaries/strstr.o
- .debug_loc     0x00006f4c      0x1b1 binaries/addargs.o
- .debug_loc     0x000070fd      0x3cb binaries/lexan.o
- .debug_loc     0x000074c8      0x454 binaries/shell.o
- .debug_loc     0x0000791c       0x76 binaries/xsh_argecho.o
- .debug_loc     0x00007992      0x16b binaries/xsh_cat.o
- .debug_loc     0x00007afd       0x7f binaries/xsh_clear.o
- .debug_loc     0x00007b7c       0x9d binaries/xsh_create_example.o
- .debug_loc     0x00007c19       0xc9 binaries/xsh_date.o
- .debug_loc     0x00007ce2       0xb6 binaries/xsh_devdump.o
- .debug_loc     0x00007d98       0x76 binaries/xsh_echo.o
- .debug_loc     0x00007e0e       0x21 binaries/xsh_exit.o
- .debug_loc     0x00007e2f       0x3c binaries/xsh_hello.o
- .debug_loc     0x00007e6b      0x2a8 binaries/xsh_help.o
- .debug_loc     0x00008113      0x17e binaries/xsh_kill.o
- .debug_loc     0x00008291       0xd2 binaries/xsh_led.o
- .debug_loc     0x00008363      0x58c binaries/xsh_memdump.o
- .debug_loc     0x000088ef      0x162 binaries/xsh_memstat.o
- .debug_loc     0x00008a51      0x123 binaries/xsh_message_example.o
- .debug_loc     0x00008b74       0x42 binaries/xsh_mmu.o
- .debug_loc     0x00008bb6      0x114 binaries/xsh_polling_example.o
- .debug_loc     0x00008cca      0x1e1 binaries/xsh_process_ring.o
- .debug_loc     0x00008eab       0xcc binaries/xsh_ps.o
- .debug_loc     0x00008f77      0x1cc binaries/xsh_semaphore_example.o
- .debug_loc     0x00009143      0x19a binaries/xsh_sleep.o
- .debug_loc     0x000092dd      0x118 binaries/xsh_uptime.o
- .debug_loc     0x000093f5       0xb7 binaries/process_ring.o
- .debug_loc     0x000094ac      0x15f binaries/ttycontrol.o
- .debug_loc     0x0000960b       0x40 binaries/ttygetc.o
- .debug_loc     0x0000964b      0x25c binaries/ttyhandle_in.o
- .debug_loc     0x000098a7      0x154 binaries/ttyhandle_out.o
- .debug_loc     0x000099fb       0xe9 binaries/ttyhandler.o
- .debug_loc     0x00009ae4       0x31 binaries/ttyinit.o
- .debug_loc     0x00009b15       0x3f binaries/ttyputc.o
- .debug_loc     0x00009b54      0x248 binaries/ttyread.o
- .debug_loc     0x00009d9c       0xd0 binaries/ttywrite.o
- .debug_loc     0x00009e6c      0x1f9 binaries/mount.o
- .debug_loc     0x0000a065      0x19b binaries/naminit.o
- .debug_loc     0x0000a200      0x5b2 binaries/nammap.o
- .debug_loc     0x0000a7b2       0x89 binaries/namopen.o
- .debug_loc     0x0000a83b       0x21 binaries/ramclose.o
- .debug_loc     0x0000a85c       0x21 binaries/raminit.o
- .debug_loc     0x0000a87d       0x21 binaries/ramopen.o
- .debug_loc     0x0000a89e       0x95 binaries/ramread.o
- .debug_loc     0x0000a933       0x8a binaries/ramwrite.o
- .debug_loc     0x0000a9bd       0x31 binaries/lfdballoc.o
- .debug_loc     0x0000a9ee       0x58 binaries/lfdbfree.o
- .debug_loc     0x0000aa46       0x34 binaries/lfflush.o
- .debug_loc     0x0000aa7a      0x10c binaries/lfgetmode.o
- .debug_loc     0x0000ab86       0x1e binaries/lfiballoc.o
- .debug_loc     0x0000aba4       0x40 binaries/lfibclear.o
- .debug_loc     0x0000abe4       0xb7 binaries/lfibget.o
- .debug_loc     0x0000ac9b      0x104 binaries/lfibput.o
- .debug_loc     0x0000ad9f       0x21 binaries/lflclose.o
- .debug_loc     0x0000adc0       0x9f binaries/lflcontrol.o
- .debug_loc     0x0000ae5f       0x41 binaries/lflgetc.o
- .debug_loc     0x0000aea0       0x40 binaries/lflinit.o
- .debug_loc     0x0000aee0       0x55 binaries/lflputc.o
- .debug_loc     0x0000af35      0x15e binaries/lflread.o
- .debug_loc     0x0000b093       0x3f binaries/lflseek.o
- .debug_loc     0x0000b0d2       0xea binaries/lflwrite.o
- .debug_loc     0x0000b1bc       0xe1 binaries/lfsckfmt.o
- .debug_loc     0x0000b29d      0x2f8 binaries/lfscreate.o
- .debug_loc     0x0000b595      0x14f binaries/lfsetup.o
- .debug_loc     0x0000b6e4       0x21 binaries/lfsinit.o
- .debug_loc     0x0000b705      0x46c binaries/lfsopen.o
- .debug_loc     0x0000bb71       0xaa binaries/lftruncate.o
- .debug_loc     0x0000bc1b       0x78 binaries/kvprintf.o
- .debug_loc     0x0000bc93      0x1ac binaries/uartControl.o
- .debug_loc     0x0000be3f       0x34 binaries/uartGetc.o
- .debug_loc     0x0000be73       0x1e binaries/uartInit.o
- .debug_loc     0x0000be91       0x5f binaries/uartPutc.o
- .debug_loc     0x0000bef0       0xfd binaries/uartRead.o
- .debug_loc     0x0000bfed       0x21 binaries/uartStat.o
- .debug_loc     0x0000c00e      0x134 binaries/uartWrite.o
- .debug_loc     0x0000c142       0x34 binaries/kgetc.o
- .debug_loc     0x0000c176       0x21 binaries/kputc.o
- .debug_loc     0x0000c197       0x1e binaries/uartHwInit.o
- .debug_loc     0x0000c1b5       0x6d binaries/uartHwStat.o
- .debug_loc     0x0000c222       0x5d binaries/uartInterrupt.o
- .debug_loc     0x0000c27f       0x55 binaries/loopbackClose.o
- .debug_loc     0x0000c2d4      0x121 binaries/loopbackControl.o
- .debug_loc     0x0000c3f5       0x70 binaries/loopbackGetc.o
- .debug_loc     0x0000c465       0x50 binaries/loopbackInit.o
- .debug_loc     0x0000c4b5       0x55 binaries/loopbackOpen.o
- .debug_loc     0x0000c50a       0x80 binaries/loopbackPutc.o
- .debug_loc     0x0000c58a      0x174 binaries/loopbackRead.o
- .debug_loc     0x0000c6fe      0x177 binaries/loopbackWrite.o
+ .debug_loc     0x00000e68      0x2e6 binaries/future.o
+ .debug_loc     0x0000114e       0x88 binaries/getbuf.o
+ .debug_loc     0x000011d6       0xb2 binaries/getc.o
+ .debug_loc     0x00001288       0x5b binaries/getdev.o
+ .debug_loc     0x000012e3       0xd8 binaries/getitem.o
+ .debug_loc     0x000013bb      0x16e binaries/getmem.o
+ .debug_loc     0x00001529       0x4a binaries/getprio.o
+ .debug_loc     0x00001573      0x133 binaries/getstk.o
+ .debug_loc     0x000016a6       0xb2 binaries/init.o
+ .debug_loc     0x00001758      0x122 binaries/initialize.o
+ .debug_loc     0x0000187a       0xd6 binaries/insert.o
+ .debug_loc     0x00001950      0x173 binaries/insertd.o
+ .debug_loc     0x00001ac3       0xa8 binaries/kill.o
+ .debug_loc     0x00001b6b       0x4a binaries/mark.o
+ .debug_loc     0x00001bb5      0x184 binaries/mkbufpool.o
+ .debug_loc     0x00001d39       0xe6 binaries/mmu.o
+ .debug_loc     0x00001e1f       0xee binaries/open.o
+ .debug_loc     0x00001f0d       0x1e binaries/panic.o
+ .debug_loc     0x00001f2b       0x7b binaries/ptclear.o
+ .debug_loc     0x00001fa6       0xbf binaries/ptcount.o
+ .debug_loc     0x00002065       0xa5 binaries/ptcreate.o
+ .debug_loc     0x0000210a       0x8c binaries/ptdelete.o
+ .debug_loc     0x00002196       0xbf binaries/ptinit.o
+ .debug_loc     0x00002255       0xa4 binaries/ptrecv.o
+ .debug_loc     0x000022f9       0x95 binaries/ptreset.o
+ .debug_loc     0x0000238e       0xac binaries/ptsend.o
+ .debug_loc     0x0000243a       0xd3 binaries/putc.o
+ .debug_loc     0x0000250d      0x10e binaries/queue.o
+ .debug_loc     0x0000261b       0xee binaries/read.o
+ .debug_loc     0x00002709       0x78 binaries/ready.o
+ .debug_loc     0x00002781       0x1e binaries/receive.o
+ .debug_loc     0x0000279f       0x26 binaries/recvclr.o
+ .debug_loc     0x000027c5       0x86 binaries/recvtime.o
+ .debug_loc     0x0000284b       0xd7 binaries/resched.o
+ .debug_loc     0x00002922       0xcd binaries/resume.o
+ .debug_loc     0x000029ef       0xd0 binaries/seek.o
+ .debug_loc     0x00002abf       0x4a binaries/semcount.o
+ .debug_loc     0x00002b09       0x9d binaries/semcreate.o
+ .debug_loc     0x00002ba6       0x76 binaries/semdelete.o
+ .debug_loc     0x00002c1c       0xbb binaries/semreset.o
+ .debug_loc     0x00002cd7      0x116 binaries/send.o
+ .debug_loc     0x00002ded       0xae binaries/signal.o
+ .debug_loc     0x00002e9b       0xac binaries/signaln.o
+ .debug_loc     0x00002f47       0xb3 binaries/sleep.o
+ .debug_loc     0x00002ffa       0xab binaries/suspend.o
+ .debug_loc     0x000030a5       0x7b binaries/unsleep.o
+ .debug_loc     0x00003120       0xc1 binaries/wait.o
+ .debug_loc     0x000031e1       0xee binaries/write.o
+ .debug_loc     0x000032cf       0x1e binaries/yield.o
+ .debug_loc     0x000032ed       0x1e binaries/gettime.o
+ .debug_loc     0x0000330b       0x73 binaries/pl190.o
+ .debug_loc     0x0000337e       0x78 binaries/platinit.o
+ .debug_loc     0x000033f6       0x9e binaries/udelay.o
+ .debug_loc     0x00003494       0x2c binaries/abs.o
+ .debug_loc     0x000034c0       0xa4 binaries/atoi.o
+ .debug_loc     0x00003564       0xa4 binaries/atol.o
+ .debug_loc     0x00003608       0x41 binaries/bzero.o
+ .debug_loc     0x00003649      0xf12 binaries/doprnt.o
+ .debug_loc     0x0000455b      0xab9 binaries/doscan.o
+ .debug_loc     0x00005014      0xd2b binaries/fdoprnt.o
+ .debug_loc     0x00005d3f       0x34 binaries/fgetc.o
+ .debug_loc     0x00005d73       0xfe binaries/fgets.o
+ .debug_loc     0x00005e71       0x2c binaries/fprintf.o
+ .debug_loc     0x00005e9d       0x4a binaries/fputc.o
+ .debug_loc     0x00005ee7       0xd5 binaries/fputs.o
+ .debug_loc     0x00005fbc      0x102 binaries/fscanf.o
+ .debug_loc     0x000060be       0x2c binaries/labs.o
+ .debug_loc     0x000060ea       0xe3 binaries/memchr.o
+ .debug_loc     0x000061cd      0x193 binaries/memcmp.o
+ .debug_loc     0x00006360       0x8b binaries/memcpy.o
+ .debug_loc     0x000063eb       0x53 binaries/memset.o
+ .debug_loc     0x0000643e       0x21 binaries/putchar.o
+ .debug_loc     0x0000645f      0x3a0 binaries/qsort.o
+ .debug_loc     0x000067ff       0x6f binaries/sprintf.o
+ .debug_loc     0x0000686e       0xd3 binaries/sscanf.o
+ .debug_loc     0x00006941       0x57 binaries/strchr.o
+ .debug_loc     0x00006998       0xc3 binaries/strcmp.o
+ .debug_loc     0x00006a5b       0x6a binaries/strlen.o
+ .debug_loc     0x00006ac5       0xc9 binaries/strncat.o
+ .debug_loc     0x00006b8e       0xe8 binaries/strncmp.o
+ .debug_loc     0x00006c76      0x123 binaries/strncpy.o
+ .debug_loc     0x00006d99       0x6a binaries/strnlen.o
+ .debug_loc     0x00006e03       0x6a binaries/strrchr.o
+ .debug_loc     0x00006e6d       0xc6 binaries/strstr.o
+ .debug_loc     0x00006f33      0x1b1 binaries/addargs.o
+ .debug_loc     0x000070e4      0x3cb binaries/lexan.o
+ .debug_loc     0x000074af      0x454 binaries/shell.o
+ .debug_loc     0x00007903       0x76 binaries/xsh_argecho.o
+ .debug_loc     0x00007979      0x16b binaries/xsh_cat.o
+ .debug_loc     0x00007ae4       0x7f binaries/xsh_clear.o
+ .debug_loc     0x00007b63       0x9d binaries/xsh_create_example.o
+ .debug_loc     0x00007c00       0xc9 binaries/xsh_date.o
+ .debug_loc     0x00007cc9       0xb6 binaries/xsh_devdump.o
+ .debug_loc     0x00007d7f       0x76 binaries/xsh_echo.o
+ .debug_loc     0x00007df5       0x21 binaries/xsh_exit.o
+ .debug_loc     0x00007e16       0x3c binaries/xsh_hello.o
+ .debug_loc     0x00007e52      0x2a8 binaries/xsh_help.o
+ .debug_loc     0x000080fa      0x17e binaries/xsh_kill.o
+ .debug_loc     0x00008278       0xd2 binaries/xsh_led.o
+ .debug_loc     0x0000834a      0x58c binaries/xsh_memdump.o
+ .debug_loc     0x000088d6      0x162 binaries/xsh_memstat.o
+ .debug_loc     0x00008a38      0x123 binaries/xsh_message_example.o
+ .debug_loc     0x00008b5b       0x42 binaries/xsh_mmu.o
+ .debug_loc     0x00008b9d      0x114 binaries/xsh_polling_example.o
+ .debug_loc     0x00008cb1      0x1e1 binaries/xsh_process_ring.o
+ .debug_loc     0x00008e92      0x153 binaries/xsh_prodcons.o
+ .debug_loc     0x00008fe5       0xcc binaries/xsh_ps.o
+ .debug_loc     0x000090b1      0x1cc binaries/xsh_semaphore_example.o
+ .debug_loc     0x0000927d      0x19a binaries/xsh_sleep.o
+ .debug_loc     0x00009417      0x118 binaries/xsh_uptime.o
+ .debug_loc     0x0000952f       0x7b binaries/future_prodcons.o
+ .debug_loc     0x000095aa       0xb7 binaries/process_ring.o
+ .debug_loc     0x00009661      0x15f binaries/ttycontrol.o
+ .debug_loc     0x000097c0       0x40 binaries/ttygetc.o
+ .debug_loc     0x00009800      0x25c binaries/ttyhandle_in.o
+ .debug_loc     0x00009a5c      0x154 binaries/ttyhandle_out.o
+ .debug_loc     0x00009bb0       0xe9 binaries/ttyhandler.o
+ .debug_loc     0x00009c99       0x31 binaries/ttyinit.o
+ .debug_loc     0x00009cca       0x3f binaries/ttyputc.o
+ .debug_loc     0x00009d09      0x248 binaries/ttyread.o
+ .debug_loc     0x00009f51       0xd0 binaries/ttywrite.o
+ .debug_loc     0x0000a021      0x1f9 binaries/mount.o
+ .debug_loc     0x0000a21a      0x19b binaries/naminit.o
+ .debug_loc     0x0000a3b5      0x5b2 binaries/nammap.o
+ .debug_loc     0x0000a967       0x89 binaries/namopen.o
+ .debug_loc     0x0000a9f0       0x21 binaries/ramclose.o
+ .debug_loc     0x0000aa11       0x21 binaries/raminit.o
+ .debug_loc     0x0000aa32       0x21 binaries/ramopen.o
+ .debug_loc     0x0000aa53       0x95 binaries/ramread.o
+ .debug_loc     0x0000aae8       0x8a binaries/ramwrite.o
+ .debug_loc     0x0000ab72       0x31 binaries/lfdballoc.o
+ .debug_loc     0x0000aba3       0x58 binaries/lfdbfree.o
+ .debug_loc     0x0000abfb       0x34 binaries/lfflush.o
+ .debug_loc     0x0000ac2f      0x10c binaries/lfgetmode.o
+ .debug_loc     0x0000ad3b       0x1e binaries/lfiballoc.o
+ .debug_loc     0x0000ad59       0x40 binaries/lfibclear.o
+ .debug_loc     0x0000ad99       0xb7 binaries/lfibget.o
+ .debug_loc     0x0000ae50      0x104 binaries/lfibput.o
+ .debug_loc     0x0000af54       0x21 binaries/lflclose.o
+ .debug_loc     0x0000af75       0x9f binaries/lflcontrol.o
+ .debug_loc     0x0000b014       0x41 binaries/lflgetc.o
+ .debug_loc     0x0000b055       0x40 binaries/lflinit.o
+ .debug_loc     0x0000b095       0x55 binaries/lflputc.o
+ .debug_loc     0x0000b0ea      0x15e binaries/lflread.o
+ .debug_loc     0x0000b248       0x3f binaries/lflseek.o
+ .debug_loc     0x0000b287       0xea binaries/lflwrite.o
+ .debug_loc     0x0000b371       0xe1 binaries/lfsckfmt.o
+ .debug_loc     0x0000b452      0x2f8 binaries/lfscreate.o
+ .debug_loc     0x0000b74a      0x14f binaries/lfsetup.o
+ .debug_loc     0x0000b899       0x21 binaries/lfsinit.o
+ .debug_loc     0x0000b8ba      0x46c binaries/lfsopen.o
+ .debug_loc     0x0000bd26       0xaa binaries/lftruncate.o
+ .debug_loc     0x0000bdd0       0x78 binaries/kvprintf.o
+ .debug_loc     0x0000be48      0x1ac binaries/uartControl.o
+ .debug_loc     0x0000bff4       0x34 binaries/uartGetc.o
+ .debug_loc     0x0000c028       0x1e binaries/uartInit.o
+ .debug_loc     0x0000c046       0x5f binaries/uartPutc.o
+ .debug_loc     0x0000c0a5       0xfd binaries/uartRead.o
+ .debug_loc     0x0000c1a2       0x21 binaries/uartStat.o
+ .debug_loc     0x0000c1c3      0x134 binaries/uartWrite.o
+ .debug_loc     0x0000c2f7       0x34 binaries/kgetc.o
+ .debug_loc     0x0000c32b       0x21 binaries/kputc.o
+ .debug_loc     0x0000c34c       0x1e binaries/uartHwInit.o
+ .debug_loc     0x0000c36a       0x6d binaries/uartHwStat.o
+ .debug_loc     0x0000c3d7       0x5d binaries/uartInterrupt.o
+ .debug_loc     0x0000c434       0x55 binaries/loopbackClose.o
+ .debug_loc     0x0000c489      0x121 binaries/loopbackControl.o
+ .debug_loc     0x0000c5aa       0x70 binaries/loopbackGetc.o
+ .debug_loc     0x0000c61a       0x50 binaries/loopbackInit.o
+ .debug_loc     0x0000c66a       0x55 binaries/loopbackOpen.o
+ .debug_loc     0x0000c6bf       0x80 binaries/loopbackPutc.o
+ .debug_loc     0x0000c73f      0x174 binaries/loopbackRead.o
+ .debug_loc     0x0000c8b3      0x177 binaries/loopbackWrite.o
 
-.debug_macro    0x00000000    0x11f2b
+.debug_macro    0x00000000    0x12252
  .debug_macro   0x00000000      0x188 binaries/ascdate.o
  .debug_macro   0x00000188      0x83e binaries/ascdate.o
  .debug_macro   0x000009c6       0x58 binaries/ascdate.o
@@ -16289,82 +16475,84 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_macro   0x0000adcb      0x188 binaries/xsh_mmu.o
  .debug_macro   0x0000af53      0x188 binaries/xsh_polling_example.o
  .debug_macro   0x0000b0db      0x190 binaries/xsh_process_ring.o
- .debug_macro   0x0000b26b      0x188 binaries/xsh_ps.o
- .debug_macro   0x0000b3f3      0x188 binaries/xsh_semaphore_example.o
- .debug_macro   0x0000b57b      0x188 binaries/xsh_sleep.o
- .debug_macro   0x0000b703      0x188 binaries/xsh_uptime.o
- .debug_macro   0x0000b88b      0x17b binaries/consume.o
- .debug_macro   0x0000ba06      0x18c binaries/process_ring.o
- .debug_macro   0x0000bb92      0x17b binaries/produce.o
- .debug_macro   0x0000bd0d      0x17b binaries/ttycontrol.o
- .debug_macro   0x0000be88      0x17b binaries/ttygetc.o
- .debug_macro   0x0000c003      0x17b binaries/ttyhandle_in.o
- .debug_macro   0x0000c17e      0x17b binaries/ttyhandle_out.o
- .debug_macro   0x0000c2f9      0x17b binaries/ttyhandler.o
- .debug_macro   0x0000c474      0x17b binaries/ttyinit.o
- .debug_macro   0x0000c5ef      0x17b binaries/ttykickout.o
- .debug_macro   0x0000c76a      0x17b binaries/ttyputc.o
- .debug_macro   0x0000c8e5      0x17b binaries/ttyread.o
- .debug_macro   0x0000ca60      0x17b binaries/ttywrite.o
- .debug_macro   0x0000cbdb      0x17b binaries/mount.o
- .debug_macro   0x0000cd56      0x187 binaries/naminit.o
- .debug_macro   0x0000cedd      0x17b binaries/nammap.o
- .debug_macro   0x0000d058      0x17b binaries/namopen.o
- .debug_macro   0x0000d1d3      0x17b binaries/ramclose.o
- .debug_macro   0x0000d34e      0x184 binaries/raminit.o
- .debug_macro   0x0000d4d2       0x10 binaries/raminit.o
- .debug_macro   0x0000d4e2      0x17b binaries/ramopen.o
- .debug_macro   0x0000d65d      0x184 binaries/ramread.o
- .debug_macro   0x0000d7e1      0x184 binaries/ramwrite.o
- .debug_macro   0x0000d965      0x181 binaries/lfdballoc.o
- .debug_macro   0x0000dae6      0x17b binaries/lfdbfree.o
- .debug_macro   0x0000dc61      0x17b binaries/lfflush.o
- .debug_macro   0x0000dddc      0x17b binaries/lfgetmode.o
- .debug_macro   0x0000df57      0x17b binaries/lfiballoc.o
- .debug_macro   0x0000e0d2      0x17b binaries/lfibclear.o
- .debug_macro   0x0000e24d      0x17b binaries/lfibget.o
- .debug_macro   0x0000e3c8      0x17b binaries/lfibput.o
- .debug_macro   0x0000e543      0x17b binaries/lflclose.o
- .debug_macro   0x0000e6be      0x17b binaries/lflcontrol.o
- .debug_macro   0x0000e839      0x17b binaries/lflgetc.o
- .debug_macro   0x0000e9b4      0x17b binaries/lflinit.o
- .debug_macro   0x0000eb2f      0x17b binaries/lflputc.o
- .debug_macro   0x0000ecaa      0x17b binaries/lflread.o
- .debug_macro   0x0000ee25      0x17b binaries/lflseek.o
- .debug_macro   0x0000efa0      0x17b binaries/lflwrite.o
- .debug_macro   0x0000f11b      0x184 binaries/lfsckfmt.o
- .debug_macro   0x0000f29f      0x184 binaries/lfscreate.o
- .debug_macro   0x0000f423      0x17b binaries/lfsetup.o
- .debug_macro   0x0000f59e      0x17b binaries/lfsinit.o
- .debug_macro   0x0000f719      0x17b binaries/lfsopen.o
- .debug_macro   0x0000f894      0x17b binaries/lftruncate.o
- .debug_macro   0x0000fa0f      0x19f binaries/kvprintf.o
- .debug_macro   0x0000fbae      0x188 binaries/uartControl.o
- .debug_macro   0x0000fd36      0x188 binaries/uartGetc.o
- .debug_macro   0x0000febe      0x17b binaries/uartInit.o
- .debug_macro   0x00010039      0x188 binaries/uartPutc.o
- .debug_macro   0x000101c1      0x17b binaries/uartRead.o
- .debug_macro   0x0001033c      0x184 binaries/uartStat.o
- .debug_macro   0x000104c0      0x17b binaries/uartWrite.o
- .debug_macro   0x0001063b      0x184 binaries/kgetc.o
- .debug_macro   0x000107bf      0x25b binaries/kgetc.o
- .debug_macro   0x00010a1a      0x184 binaries/kputc.o
- .debug_macro   0x00010b9e      0x184 binaries/uartHwInit.o
- .debug_macro   0x00010d22      0x184 binaries/uartHwPutc.o
- .debug_macro   0x00010ea6      0x18d binaries/uartHwStat.o
- .debug_macro   0x00011033      0x184 binaries/uartInterrupt.o
- .debug_macro   0x000111b7       0x11 binaries/Doxygroup.o
- .debug_macro   0x000111c8      0x1a8 binaries/loopbackClose.o
- .debug_macro   0x00011370       0x2e binaries/loopbackClose.o
- .debug_macro   0x0001139e      0x1a4 binaries/loopbackControl.o
- .debug_macro   0x00011542      0x1ad binaries/loopbackGetc.o
- .debug_macro   0x000116ef      0x1a8 binaries/loopbackInit.o
- .debug_macro   0x00011897      0x1a8 binaries/loopbackOpen.o
- .debug_macro   0x00011a3f      0x1a4 binaries/loopbackPutc.o
- .debug_macro   0x00011be3      0x1a4 binaries/loopbackRead.o
- .debug_macro   0x00011d87      0x1a4 binaries/loopbackWrite.o
+ .debug_macro   0x0000b26b      0x19e binaries/xsh_prodcons.o
+ .debug_macro   0x0000b409      0x188 binaries/xsh_ps.o
+ .debug_macro   0x0000b591      0x188 binaries/xsh_semaphore_example.o
+ .debug_macro   0x0000b719      0x188 binaries/xsh_sleep.o
+ .debug_macro   0x0000b8a1      0x188 binaries/xsh_uptime.o
+ .debug_macro   0x0000ba29      0x17b binaries/consume.o
+ .debug_macro   0x0000bba4      0x189 binaries/future_prodcons.o
+ .debug_macro   0x0000bd2d      0x18c binaries/process_ring.o
+ .debug_macro   0x0000beb9      0x17b binaries/produce.o
+ .debug_macro   0x0000c034      0x17b binaries/ttycontrol.o
+ .debug_macro   0x0000c1af      0x17b binaries/ttygetc.o
+ .debug_macro   0x0000c32a      0x17b binaries/ttyhandle_in.o
+ .debug_macro   0x0000c4a5      0x17b binaries/ttyhandle_out.o
+ .debug_macro   0x0000c620      0x17b binaries/ttyhandler.o
+ .debug_macro   0x0000c79b      0x17b binaries/ttyinit.o
+ .debug_macro   0x0000c916      0x17b binaries/ttykickout.o
+ .debug_macro   0x0000ca91      0x17b binaries/ttyputc.o
+ .debug_macro   0x0000cc0c      0x17b binaries/ttyread.o
+ .debug_macro   0x0000cd87      0x17b binaries/ttywrite.o
+ .debug_macro   0x0000cf02      0x17b binaries/mount.o
+ .debug_macro   0x0000d07d      0x187 binaries/naminit.o
+ .debug_macro   0x0000d204      0x17b binaries/nammap.o
+ .debug_macro   0x0000d37f      0x17b binaries/namopen.o
+ .debug_macro   0x0000d4fa      0x17b binaries/ramclose.o
+ .debug_macro   0x0000d675      0x184 binaries/raminit.o
+ .debug_macro   0x0000d7f9       0x10 binaries/raminit.o
+ .debug_macro   0x0000d809      0x17b binaries/ramopen.o
+ .debug_macro   0x0000d984      0x184 binaries/ramread.o
+ .debug_macro   0x0000db08      0x184 binaries/ramwrite.o
+ .debug_macro   0x0000dc8c      0x181 binaries/lfdballoc.o
+ .debug_macro   0x0000de0d      0x17b binaries/lfdbfree.o
+ .debug_macro   0x0000df88      0x17b binaries/lfflush.o
+ .debug_macro   0x0000e103      0x17b binaries/lfgetmode.o
+ .debug_macro   0x0000e27e      0x17b binaries/lfiballoc.o
+ .debug_macro   0x0000e3f9      0x17b binaries/lfibclear.o
+ .debug_macro   0x0000e574      0x17b binaries/lfibget.o
+ .debug_macro   0x0000e6ef      0x17b binaries/lfibput.o
+ .debug_macro   0x0000e86a      0x17b binaries/lflclose.o
+ .debug_macro   0x0000e9e5      0x17b binaries/lflcontrol.o
+ .debug_macro   0x0000eb60      0x17b binaries/lflgetc.o
+ .debug_macro   0x0000ecdb      0x17b binaries/lflinit.o
+ .debug_macro   0x0000ee56      0x17b binaries/lflputc.o
+ .debug_macro   0x0000efd1      0x17b binaries/lflread.o
+ .debug_macro   0x0000f14c      0x17b binaries/lflseek.o
+ .debug_macro   0x0000f2c7      0x17b binaries/lflwrite.o
+ .debug_macro   0x0000f442      0x184 binaries/lfsckfmt.o
+ .debug_macro   0x0000f5c6      0x184 binaries/lfscreate.o
+ .debug_macro   0x0000f74a      0x17b binaries/lfsetup.o
+ .debug_macro   0x0000f8c5      0x17b binaries/lfsinit.o
+ .debug_macro   0x0000fa40      0x17b binaries/lfsopen.o
+ .debug_macro   0x0000fbbb      0x17b binaries/lftruncate.o
+ .debug_macro   0x0000fd36      0x19f binaries/kvprintf.o
+ .debug_macro   0x0000fed5      0x188 binaries/uartControl.o
+ .debug_macro   0x0001005d      0x188 binaries/uartGetc.o
+ .debug_macro   0x000101e5      0x17b binaries/uartInit.o
+ .debug_macro   0x00010360      0x188 binaries/uartPutc.o
+ .debug_macro   0x000104e8      0x17b binaries/uartRead.o
+ .debug_macro   0x00010663      0x184 binaries/uartStat.o
+ .debug_macro   0x000107e7      0x17b binaries/uartWrite.o
+ .debug_macro   0x00010962      0x184 binaries/kgetc.o
+ .debug_macro   0x00010ae6      0x25b binaries/kgetc.o
+ .debug_macro   0x00010d41      0x184 binaries/kputc.o
+ .debug_macro   0x00010ec5      0x184 binaries/uartHwInit.o
+ .debug_macro   0x00011049      0x184 binaries/uartHwPutc.o
+ .debug_macro   0x000111cd      0x18d binaries/uartHwStat.o
+ .debug_macro   0x0001135a      0x184 binaries/uartInterrupt.o
+ .debug_macro   0x000114de       0x11 binaries/Doxygroup.o
+ .debug_macro   0x000114ef      0x1a8 binaries/loopbackClose.o
+ .debug_macro   0x00011697       0x2e binaries/loopbackClose.o
+ .debug_macro   0x000116c5      0x1a4 binaries/loopbackControl.o
+ .debug_macro   0x00011869      0x1ad binaries/loopbackGetc.o
+ .debug_macro   0x00011a16      0x1a8 binaries/loopbackInit.o
+ .debug_macro   0x00011bbe      0x1a8 binaries/loopbackOpen.o
+ .debug_macro   0x00011d66      0x1a4 binaries/loopbackPutc.o
+ .debug_macro   0x00011f0a      0x1a4 binaries/loopbackRead.o
+ .debug_macro   0x000120ae      0x1a4 binaries/loopbackWrite.o
 
-.debug_str      0x00000000     0x92a0
+.debug_str      0x00000000     0x932e
  .debug_str     0x00000000     0x5649 binaries/ascdate.o
                                0x56c7 (size before relaxing)
  .debug_str     0x00005649       0x54 binaries/bufinit.o
@@ -16633,150 +16821,154 @@ OUTPUT(../compile/xinu elf32-littlearm)
                                0x5693 (size before relaxing)
  .debug_str     0x0000773c       0xd9 binaries/xsh_process_ring.o
                                0x5749 (size before relaxing)
- .debug_str     0x00007815       0x20 binaries/xsh_ps.o
+ .debug_str     0x00007815       0x5c binaries/xsh_prodcons.o
+                               0x5743 (size before relaxing)
+ .debug_str     0x00007871       0x20 binaries/xsh_ps.o
                                0x56d7 (size before relaxing)
- .debug_str     0x00007835       0x72 binaries/xsh_semaphore_example.o
+ .debug_str     0x00007891       0x72 binaries/xsh_semaphore_example.o
                                0x56d6 (size before relaxing)
- .debug_str     0x000078a7       0x1f binaries/xsh_sleep.o
+ .debug_str     0x00007903       0x1f binaries/xsh_sleep.o
                                0x56ea (size before relaxing)
- .debug_str     0x000078c6       0x48 binaries/xsh_uptime.o
+ .debug_str     0x00007922       0x48 binaries/xsh_uptime.o
                                0x5706 (size before relaxing)
- .debug_str     0x0000790e       0x12 binaries/consume.o
+ .debug_str     0x0000796a       0x12 binaries/consume.o
                                0x55fa (size before relaxing)
- .debug_str     0x00007920       0x78 binaries/process_ring.o
+ .debug_str     0x0000797c       0x32 binaries/future_prodcons.o
+                               0x56fb (size before relaxing)
+ .debug_str     0x000079ae       0x78 binaries/process_ring.o
                                0x571a (size before relaxing)
- .debug_str     0x00007998       0x12 binaries/produce.o
+ .debug_str     0x00007a26       0x12 binaries/produce.o
                                0x55fa (size before relaxing)
- .debug_str     0x000079aa      0x12f binaries/ttycontrol.o
+ .debug_str     0x00007a38      0x12f binaries/ttycontrol.o
                                0x57d1 (size before relaxing)
- .debug_str     0x00007ad9       0x20 binaries/ttygetc.o
+ .debug_str     0x00007b67       0x20 binaries/ttygetc.o
                                0x57ac (size before relaxing)
- .debug_str     0x00007af9       0x9f binaries/ttyhandle_in.o
+ .debug_str     0x00007b87       0x9f binaries/ttyhandle_in.o
                                0x57d6 (size before relaxing)
- .debug_str     0x00007b98       0x3a binaries/ttyhandle_out.o
+ .debug_str     0x00007c26       0x3a binaries/ttyhandle_out.o
                                0x57c0 (size before relaxing)
- .debug_str     0x00007bd2       0x26 binaries/ttyhandler.o
+ .debug_str     0x00007c60       0x26 binaries/ttyhandler.o
                                0x584e (size before relaxing)
- .debug_str     0x00007bf8       0x25 binaries/ttyinit.o
+ .debug_str     0x00007c86       0x25 binaries/ttyinit.o
                                0x5844 (size before relaxing)
- .debug_str     0x00007c1d       0x1b binaries/ttykickout.o
+ .debug_str     0x00007cab       0x1b binaries/ttykickout.o
                                0x5674 (size before relaxing)
- .debug_str     0x00007c38       0x20 binaries/ttyputc.o
+ .debug_str     0x00007cc6       0x20 binaries/ttyputc.o
                                0x581e (size before relaxing)
- .debug_str     0x00007c58       0x2e binaries/ttyread.o
+ .debug_str     0x00007ce6       0x2e binaries/ttyread.o
                                0x57d7 (size before relaxing)
- .debug_str     0x00007c86       0x22 binaries/ttywrite.o
+ .debug_str     0x00007d14       0x22 binaries/ttywrite.o
                                0x569f (size before relaxing)
- .debug_str     0x00007ca8       0x64 binaries/mount.o
+ .debug_str     0x00007d36       0x64 binaries/mount.o
                                0x5697 (size before relaxing)
- .debug_str     0x00007d0c       0x46 binaries/naminit.o
+ .debug_str     0x00007d9a       0x46 binaries/naminit.o
                                0x5725 (size before relaxing)
- .debug_str     0x00007d52       0x70 binaries/nammap.o
+ .debug_str     0x00007de0       0x70 binaries/nammap.o
                                0x56c0 (size before relaxing)
- .debug_str     0x00007dc2       0x20 binaries/namopen.o
+ .debug_str     0x00007e50       0x20 binaries/namopen.o
                                0x56bd (size before relaxing)
- .debug_str     0x00007de2       0x22 binaries/ramclose.o
+ .debug_str     0x00007e70       0x22 binaries/ramclose.o
                                0x568c (size before relaxing)
- .debug_str     0x00007e04       0x42 binaries/raminit.o
+ .debug_str     0x00007e92       0x42 binaries/raminit.o
                                0x56b8 (size before relaxing)
- .debug_str     0x00007e46       0x20 binaries/ramopen.o
+ .debug_str     0x00007ed4       0x20 binaries/ramopen.o
                                0x5694 (size before relaxing)
- .debug_str     0x00007e66       0x25 binaries/ramread.o
+ .debug_str     0x00007ef4       0x25 binaries/ramread.o
                                0x56c2 (size before relaxing)
- .debug_str     0x00007e8b       0x22 binaries/ramwrite.o
+ .debug_str     0x00007f19       0x22 binaries/ramwrite.o
                                0x56c4 (size before relaxing)
- .debug_str     0x00007ead       0xfa binaries/lfdballoc.o
+ .debug_str     0x00007f3b       0xfa binaries/lfdballoc.o
                                0x5723 (size before relaxing)
- .debug_str     0x00007fa7       0x21 binaries/lfdbfree.o
+ .debug_str     0x00008035       0x21 binaries/lfdbfree.o
                                0x5705 (size before relaxing)
- .debug_str     0x00007fc8       0xc4 binaries/lfflush.o
+ .debug_str     0x00008056       0xc4 binaries/lfflush.o
                                0x577f (size before relaxing)
- .debug_str     0x0000808c       0x2a binaries/lfgetmode.o
+ .debug_str     0x0000811a       0x2a binaries/lfgetmode.o
                                0x560e (size before relaxing)
- .debug_str     0x000080b6       0x32 binaries/lfiballoc.o
+ .debug_str     0x00008144       0x32 binaries/lfiballoc.o
                                0x5713 (size before relaxing)
- .debug_str     0x000080e8       0x2a binaries/lfibclear.o
+ .debug_str     0x00008176       0x2a binaries/lfibclear.o
                                0x5645 (size before relaxing)
- .debug_str     0x00008112       0x1d binaries/lfibget.o
+ .debug_str     0x000081a0       0x1d binaries/lfibget.o
                                0x5665 (size before relaxing)
- .debug_str     0x0000812f       0x22 binaries/lfibput.o
+ .debug_str     0x000081bd       0x22 binaries/lfibput.o
                                0x567c (size before relaxing)
- .debug_str     0x00008151       0x29 binaries/lflclose.o
+ .debug_str     0x000081df       0x29 binaries/lflclose.o
                                0x580d (size before relaxing)
- .debug_str     0x0000817a       0x31 binaries/lflcontrol.o
+ .debug_str     0x00008208       0x31 binaries/lflcontrol.o
                                0x5832 (size before relaxing)
- .debug_str     0x000081ab       0x36 binaries/lflgetc.o
+ .debug_str     0x00008239       0x36 binaries/lflgetc.o
                                0x579f (size before relaxing)
- .debug_str     0x000081e1       0x20 binaries/lflinit.o
+ .debug_str     0x0000826f       0x20 binaries/lflinit.o
                                0x577f (size before relaxing)
- .debug_str     0x00008201       0x20 binaries/lflputc.o
+ .debug_str     0x0000828f       0x20 binaries/lflputc.o
                                0x5811 (size before relaxing)
- .debug_str     0x00008221       0x30 binaries/lflread.o
+ .debug_str     0x000082af       0x30 binaries/lflread.o
                                0x56ad (size before relaxing)
- .debug_str     0x00008251       0x20 binaries/lflseek.o
+ .debug_str     0x000082df       0x20 binaries/lflseek.o
                                0x5789 (size before relaxing)
- .debug_str     0x00008271       0x22 binaries/lflwrite.o
+ .debug_str     0x000082ff       0x22 binaries/lflwrite.o
                                0x569f (size before relaxing)
- .debug_str     0x00008293       0x41 binaries/lfsckfmt.o
+ .debug_str     0x00008321       0x41 binaries/lfsckfmt.o
                                0x5735 (size before relaxing)
- .debug_str     0x000082d4       0x3d binaries/lfscreate.o
+ .debug_str     0x00008362       0x3d binaries/lfscreate.o
                                0x5754 (size before relaxing)
- .debug_str     0x00008311       0x29 binaries/lfsetup.o
+ .debug_str     0x0000839f       0x29 binaries/lfsetup.o
                                0x57fd (size before relaxing)
- .debug_str     0x0000833a       0x20 binaries/lfsinit.o
+ .debug_str     0x000083c8       0x20 binaries/lfsinit.o
                                0x5756 (size before relaxing)
- .debug_str     0x0000835a       0x2d binaries/lfsopen.o
+ .debug_str     0x000083e8       0x2d binaries/lfsopen.o
                                0x5841 (size before relaxing)
- .debug_str     0x00008387       0x23 binaries/lftruncate.o
+ .debug_str     0x00008415       0x23 binaries/lftruncate.o
                                0x57b9 (size before relaxing)
- .debug_str     0x000083aa       0x1a binaries/kvprintf.o
+ .debug_str     0x00008438       0x1a binaries/kvprintf.o
                                0x5779 (size before relaxing)
- .debug_str     0x000083c4       0x8e binaries/uartControl.o
+ .debug_str     0x00008452       0x8e binaries/uartControl.o
                                0x571d (size before relaxing)
- .debug_str     0x00008452       0x2c binaries/uartGetc.o
+ .debug_str     0x000084e0       0x2c binaries/uartGetc.o
                                0x569d (size before relaxing)
- .debug_str     0x0000847e       0x2e binaries/uartInit.o
+ .debug_str     0x0000850c       0x2e binaries/uartInit.o
                                0x5726 (size before relaxing)
- .debug_str     0x000084ac       0x2d binaries/uartPutc.o
+ .debug_str     0x0000853a       0x2d binaries/uartPutc.o
                                0x569e (size before relaxing)
- .debug_str     0x000084d9       0x1a binaries/uartRead.o
+ .debug_str     0x00008567       0x1a binaries/uartRead.o
                                0x5733 (size before relaxing)
- .debug_str     0x000084f3       0x36 binaries/uartStat.o
+ .debug_str     0x00008581       0x36 binaries/uartStat.o
                                0x5712 (size before relaxing)
- .debug_str     0x00008529       0x26 binaries/uartWrite.o
+ .debug_str     0x000085b7       0x26 binaries/uartWrite.o
                                0x5737 (size before relaxing)
- .debug_str     0x0000854f      0xa3b binaries/kgetc.o
+ .debug_str     0x000085dd      0xa3b binaries/kgetc.o
                                0x611f (size before relaxing)
- .debug_str     0x00008f8a       0x23 binaries/kputc.o
+ .debug_str     0x00009018       0x23 binaries/kputc.o
                                0x611f (size before relaxing)
- .debug_str     0x00008fad       0x22 binaries/uartHwInit.o
+ .debug_str     0x0000903b       0x22 binaries/uartHwInit.o
                                0x6155 (size before relaxing)
- .debug_str     0x00008fcf       0x22 binaries/uartHwPutc.o
+ .debug_str     0x0000905d       0x22 binaries/uartHwPutc.o
                                0x6016 (size before relaxing)
- .debug_str     0x00008ff1       0x30 binaries/uartHwStat.o
+ .debug_str     0x0000907f       0x30 binaries/uartHwStat.o
                                0x6031 (size before relaxing)
- .debug_str     0x00009021       0x33 binaries/uartInterrupt.o
+ .debug_str     0x000090af       0x33 binaries/uartInterrupt.o
                                0x6142 (size before relaxing)
- .debug_str     0x00009054       0x1f binaries/Doxygroup.o
+ .debug_str     0x000090e2       0x1f binaries/Doxygroup.o
                                0x23e1 (size before relaxing)
- .debug_str     0x00009073       0xdc binaries/loopbackClose.o
+ .debug_str     0x00009101       0xdc binaries/loopbackClose.o
                                0x578f (size before relaxing)
- .debug_str     0x0000914f       0x35 binaries/loopbackControl.o
+ .debug_str     0x000091dd       0x35 binaries/loopbackControl.o
                                0x5781 (size before relaxing)
- .debug_str     0x00009184       0x2f binaries/loopbackGetc.o
+ .debug_str     0x00009212       0x2f binaries/loopbackGetc.o
                                0x5791 (size before relaxing)
- .debug_str     0x000091b3       0x2f binaries/loopbackInit.o
+ .debug_str     0x00009241       0x2f binaries/loopbackInit.o
                                0x5763 (size before relaxing)
- .debug_str     0x000091e2       0x2f binaries/loopbackOpen.o
+ .debug_str     0x00009270       0x2f binaries/loopbackOpen.o
                                0x578b (size before relaxing)
- .debug_str     0x00009211       0x2f binaries/loopbackPutc.o
+ .debug_str     0x0000929f       0x2f binaries/loopbackPutc.o
                                0x5793 (size before relaxing)
- .debug_str     0x00009240       0x2f binaries/loopbackRead.o
+ .debug_str     0x000092ce       0x2f binaries/loopbackRead.o
                                0x5770 (size before relaxing)
- .debug_str     0x0000926f       0x31 binaries/loopbackWrite.o
+ .debug_str     0x000092fd       0x31 binaries/loopbackWrite.o
                                0x5772 (size before relaxing)
 
-.debug_frame    0x00000000     0x2784
+.debug_frame    0x00000000     0x2818
  .debug_frame   0x00000000       0x38 binaries/ascdate.o
  .debug_frame   0x00000038       0x20 binaries/bufinit.o
  .debug_frame   0x00000058       0x2c binaries/chprio.o
@@ -16909,80 +17101,82 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_frame   0x00001930       0x48 binaries/xsh_mmu.o
  .debug_frame   0x00001978       0x70 binaries/xsh_polling_example.o
  .debug_frame   0x000019e8       0x38 binaries/xsh_process_ring.o
- .debug_frame   0x00001a20       0x30 binaries/xsh_ps.o
- .debug_frame   0x00001a50       0x7c binaries/xsh_semaphore_example.o
- .debug_frame   0x00001acc       0x2c binaries/xsh_sleep.o
- .debug_frame   0x00001af8       0x30 binaries/xsh_uptime.o
- .debug_frame   0x00001b28       0x20 binaries/consume.o
- .debug_frame   0x00001b48       0x78 binaries/process_ring.o
- .debug_frame   0x00001bc0       0x20 binaries/produce.o
- .debug_frame   0x00001be0       0x2c binaries/ttycontrol.o
- .debug_frame   0x00001c0c       0x30 binaries/ttygetc.o
- .debug_frame   0x00001c3c       0x64 binaries/ttyhandle_in.o
- .debug_frame   0x00001ca0       0x30 binaries/ttyhandle_out.o
- .debug_frame   0x00001cd0       0x2c binaries/ttyhandler.o
- .debug_frame   0x00001cfc       0x2c binaries/ttyinit.o
- .debug_frame   0x00001d28       0x20 binaries/ttykickout.o
- .debug_frame   0x00001d48       0x2c binaries/ttyputc.o
- .debug_frame   0x00001d74       0x30 binaries/ttyread.o
- .debug_frame   0x00001da4       0x2c binaries/ttywrite.o
- .debug_frame   0x00001dd0       0x40 binaries/mount.o
- .debug_frame   0x00001e10       0x38 binaries/naminit.o
- .debug_frame   0x00001e48       0x68 binaries/nammap.o
- .debug_frame   0x00001eb0       0x2c binaries/namopen.o
- .debug_frame   0x00001edc       0x20 binaries/ramclose.o
- .debug_frame   0x00001efc       0x28 binaries/raminit.o
- .debug_frame   0x00001f24       0x20 binaries/ramopen.o
- .debug_frame   0x00001f44       0x28 binaries/ramread.o
- .debug_frame   0x00001f6c       0x28 binaries/ramwrite.o
- .debug_frame   0x00001f94       0x2c binaries/lfdballoc.o
- .debug_frame   0x00001fc0       0x30 binaries/lfdbfree.o
- .debug_frame   0x00001ff0       0x2c binaries/lfflush.o
- .debug_frame   0x0000201c       0x20 binaries/lfgetmode.o
- .debug_frame   0x0000203c       0x2c binaries/lfiballoc.o
- .debug_frame   0x00002068       0x20 binaries/lfibclear.o
- .debug_frame   0x00002088       0x30 binaries/lfibget.o
- .debug_frame   0x000020b8       0x34 binaries/lfibput.o
- .debug_frame   0x000020ec       0x2c binaries/lflclose.o
- .debug_frame   0x00002118       0x30 binaries/lflcontrol.o
- .debug_frame   0x00002148       0x2c binaries/lflgetc.o
- .debug_frame   0x00002174       0x2c binaries/lflinit.o
- .debug_frame   0x000021a0       0x30 binaries/lflputc.o
- .debug_frame   0x000021d0       0x30 binaries/lflread.o
- .debug_frame   0x00002200       0x30 binaries/lflseek.o
- .debug_frame   0x00002230       0x30 binaries/lflwrite.o
- .debug_frame   0x00002260       0x34 binaries/lfsckfmt.o
- .debug_frame   0x00002294       0x3c binaries/lfscreate.o
- .debug_frame   0x000022d0       0x34 binaries/lfsetup.o
- .debug_frame   0x00002304       0x28 binaries/lfsinit.o
- .debug_frame   0x0000232c       0x34 binaries/lfsopen.o
- .debug_frame   0x00002360       0x38 binaries/lftruncate.o
- .debug_frame   0x00002398       0x2c binaries/kvprintf.o
- .debug_frame   0x000023c4       0x20 binaries/uartControl.o
- .debug_frame   0x000023e4       0x28 binaries/uartGetc.o
- .debug_frame   0x0000240c       0x30 binaries/uartInit.o
- .debug_frame   0x0000243c       0x28 binaries/uartPutc.o
- .debug_frame   0x00002464       0x34 binaries/uartRead.o
- .debug_frame   0x00002498       0x2c binaries/uartStat.o
- .debug_frame   0x000024c4       0x38 binaries/uartWrite.o
- .debug_frame   0x000024fc       0x20 binaries/kgetc.o
- .debug_frame   0x0000251c       0x20 binaries/kputc.o
- .debug_frame   0x0000253c       0x2c binaries/uartHwInit.o
- .debug_frame   0x00002568       0x20 binaries/uartHwPutc.o
- .debug_frame   0x00002588       0x2c binaries/uartHwStat.o
- .debug_frame   0x000025b4       0x2c binaries/uartInterrupt.o
- .debug_frame   0x000025e0       0x30 binaries/loopbackClose.o
- .debug_frame   0x00002610       0x28 binaries/loopbackControl.o
- .debug_frame   0x00002638       0x2c binaries/loopbackGetc.o
- .debug_frame   0x00002664       0x20 binaries/loopbackInit.o
- .debug_frame   0x00002684       0x30 binaries/loopbackOpen.o
- .debug_frame   0x000026b4       0x30 binaries/loopbackPutc.o
- .debug_frame   0x000026e4       0x30 binaries/loopbackRead.o
- .debug_frame   0x00002714       0x30 binaries/loopbackWrite.o
- .debug_frame   0x00002744       0x20 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_udivsi3.o)
- .debug_frame   0x00002764       0x20 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_divsi3.o)
+ .debug_frame   0x00001a20       0x50 binaries/xsh_prodcons.o
+ .debug_frame   0x00001a70       0x30 binaries/xsh_ps.o
+ .debug_frame   0x00001aa0       0x7c binaries/xsh_semaphore_example.o
+ .debug_frame   0x00001b1c       0x2c binaries/xsh_sleep.o
+ .debug_frame   0x00001b48       0x30 binaries/xsh_uptime.o
+ .debug_frame   0x00001b78       0x20 binaries/consume.o
+ .debug_frame   0x00001b98       0x44 binaries/future_prodcons.o
+ .debug_frame   0x00001bdc       0x78 binaries/process_ring.o
+ .debug_frame   0x00001c54       0x20 binaries/produce.o
+ .debug_frame   0x00001c74       0x2c binaries/ttycontrol.o
+ .debug_frame   0x00001ca0       0x30 binaries/ttygetc.o
+ .debug_frame   0x00001cd0       0x64 binaries/ttyhandle_in.o
+ .debug_frame   0x00001d34       0x30 binaries/ttyhandle_out.o
+ .debug_frame   0x00001d64       0x2c binaries/ttyhandler.o
+ .debug_frame   0x00001d90       0x2c binaries/ttyinit.o
+ .debug_frame   0x00001dbc       0x20 binaries/ttykickout.o
+ .debug_frame   0x00001ddc       0x2c binaries/ttyputc.o
+ .debug_frame   0x00001e08       0x30 binaries/ttyread.o
+ .debug_frame   0x00001e38       0x2c binaries/ttywrite.o
+ .debug_frame   0x00001e64       0x40 binaries/mount.o
+ .debug_frame   0x00001ea4       0x38 binaries/naminit.o
+ .debug_frame   0x00001edc       0x68 binaries/nammap.o
+ .debug_frame   0x00001f44       0x2c binaries/namopen.o
+ .debug_frame   0x00001f70       0x20 binaries/ramclose.o
+ .debug_frame   0x00001f90       0x28 binaries/raminit.o
+ .debug_frame   0x00001fb8       0x20 binaries/ramopen.o
+ .debug_frame   0x00001fd8       0x28 binaries/ramread.o
+ .debug_frame   0x00002000       0x28 binaries/ramwrite.o
+ .debug_frame   0x00002028       0x2c binaries/lfdballoc.o
+ .debug_frame   0x00002054       0x30 binaries/lfdbfree.o
+ .debug_frame   0x00002084       0x2c binaries/lfflush.o
+ .debug_frame   0x000020b0       0x20 binaries/lfgetmode.o
+ .debug_frame   0x000020d0       0x2c binaries/lfiballoc.o
+ .debug_frame   0x000020fc       0x20 binaries/lfibclear.o
+ .debug_frame   0x0000211c       0x30 binaries/lfibget.o
+ .debug_frame   0x0000214c       0x34 binaries/lfibput.o
+ .debug_frame   0x00002180       0x2c binaries/lflclose.o
+ .debug_frame   0x000021ac       0x30 binaries/lflcontrol.o
+ .debug_frame   0x000021dc       0x2c binaries/lflgetc.o
+ .debug_frame   0x00002208       0x2c binaries/lflinit.o
+ .debug_frame   0x00002234       0x30 binaries/lflputc.o
+ .debug_frame   0x00002264       0x30 binaries/lflread.o
+ .debug_frame   0x00002294       0x30 binaries/lflseek.o
+ .debug_frame   0x000022c4       0x30 binaries/lflwrite.o
+ .debug_frame   0x000022f4       0x34 binaries/lfsckfmt.o
+ .debug_frame   0x00002328       0x3c binaries/lfscreate.o
+ .debug_frame   0x00002364       0x34 binaries/lfsetup.o
+ .debug_frame   0x00002398       0x28 binaries/lfsinit.o
+ .debug_frame   0x000023c0       0x34 binaries/lfsopen.o
+ .debug_frame   0x000023f4       0x38 binaries/lftruncate.o
+ .debug_frame   0x0000242c       0x2c binaries/kvprintf.o
+ .debug_frame   0x00002458       0x20 binaries/uartControl.o
+ .debug_frame   0x00002478       0x28 binaries/uartGetc.o
+ .debug_frame   0x000024a0       0x30 binaries/uartInit.o
+ .debug_frame   0x000024d0       0x28 binaries/uartPutc.o
+ .debug_frame   0x000024f8       0x34 binaries/uartRead.o
+ .debug_frame   0x0000252c       0x2c binaries/uartStat.o
+ .debug_frame   0x00002558       0x38 binaries/uartWrite.o
+ .debug_frame   0x00002590       0x20 binaries/kgetc.o
+ .debug_frame   0x000025b0       0x20 binaries/kputc.o
+ .debug_frame   0x000025d0       0x2c binaries/uartHwInit.o
+ .debug_frame   0x000025fc       0x20 binaries/uartHwPutc.o
+ .debug_frame   0x0000261c       0x2c binaries/uartHwStat.o
+ .debug_frame   0x00002648       0x2c binaries/uartInterrupt.o
+ .debug_frame   0x00002674       0x30 binaries/loopbackClose.o
+ .debug_frame   0x000026a4       0x28 binaries/loopbackControl.o
+ .debug_frame   0x000026cc       0x2c binaries/loopbackGetc.o
+ .debug_frame   0x000026f8       0x20 binaries/loopbackInit.o
+ .debug_frame   0x00002718       0x30 binaries/loopbackOpen.o
+ .debug_frame   0x00002748       0x30 binaries/loopbackPutc.o
+ .debug_frame   0x00002778       0x30 binaries/loopbackRead.o
+ .debug_frame   0x000027a8       0x30 binaries/loopbackWrite.o
+ .debug_frame   0x000027d8       0x20 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000027f8       0x20 /l/arm2/devtools/lib/gcc/arm-none-eabi/4.8.4/libgcc.a(_divsi3.o)
 
-.debug_ranges   0x00000000      0x148
+.debug_ranges   0x00000000      0x160
  .debug_ranges  0x00000000       0x20 binaries/create.o
  .debug_ranges  0x00000020       0x20 binaries/semcreate.o
  .debug_ranges  0x00000040       0x10 binaries/abs.o
@@ -16992,5 +17186,6 @@ OUTPUT(../compile/xinu elf32-littlearm)
  .debug_ranges  0x000000b0       0x10 binaries/strnlen.o
  .debug_ranges  0x000000c0       0x10 binaries/xsh_memdump.o
  .debug_ranges  0x000000d0       0x30 binaries/xsh_polling_example.o
- .debug_ranges  0x00000100       0x18 binaries/process_ring.o
- .debug_ranges  0x00000118       0x30 binaries/naminit.o
+ .debug_ranges  0x00000100       0x18 binaries/xsh_prodcons.o
+ .debug_ranges  0x00000118       0x18 binaries/process_ring.o
+ .debug_ranges  0x00000130       0x30 binaries/naminit.o

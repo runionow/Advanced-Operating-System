@@ -36,7 +36,7 @@ syscall future_get(future_t* f, int* val){
             f->state = FUTURE_WAITING;
             f->pid = getpid();
             suspend(f->pid);
-            //*value = f->value;
+            *val = f->value;
             restore(mask);
             return OK;
         } 
