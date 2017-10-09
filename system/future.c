@@ -1,4 +1,4 @@
-/* future.c - enqueue, dequeue */
+/* future.c - future */
 
 #include <xinu.h>
 #include <future.h>
@@ -9,19 +9,27 @@ future_t* future_alloc(future_mode_t mode){
 	address = (future_t *)getmem(sizeof(future_t));
     	address->state = FUTURE_EMPTY;
 	address->mode = mode;
+	address->set_queue = -1;
+	address->get_queue = -1;
+	if(address->mode==FUTURE_SHARED||address->mode==FUTURE_QUEUE)
+	{
+		address->get_queue=newqueue();
+	}
+	if(address->mode==FUTURE_QUEUE)
+	{
+		address->set_queue=newqueue();
+	}
 	return address; 
 }
 
 syscall future_free(future_t* f){
-
 	return freemem((char *)f,1);
-
 }
 
 syscall future_get(future_t* f, int* val){
     intmask mask;
-    mask = disable();
     struct procent *procpointer;
+    mask = disable();
 
     if(f->mode == FUTURE_EXCLUSIVE){
         //FUTURE_READY
@@ -47,21 +55,15 @@ syscall future_get(future_t* f, int* val){
         //FUTURE_READY
         if (f->state == FUTURE_READY) {
             *val = f->value;
-            f->state = FUTURE_EMPTY;
             restore(mask);
             return OK;
         }
         //FUTURE_EMPTY
         else if (f->state == FUTURE_EMPTY) {
             f->state = FUTURE_WAITING;
-            
-            //pid32 pid1 = getpid(); 
-            //statusPrio = suspend(pid1);
-            
             procpointer = &proctab[getpid()];
             procpointer->prstate = PR_WAIT; // changing the status of the process to PR_WAIT. 
-            enqueue(getpid(), f->get_queue); // Push current process id to get_queue 
-
+            enqueue(getpid(), f->get_queue); // Push current process id to get_queue.
             //Reconstructing the process table.
             resched();
             *val = f->value;
@@ -69,13 +71,9 @@ syscall future_get(future_t* f, int* val){
             return OK;
         }
         else if(f->state == FUTURE_WAITING){
-            //pid32 pid1 = getpid(); 
-            //statusPrio = suspend(pid1);
-            
             procpointer = &proctab[getpid()];
             procpointer->prstate = PR_WAIT; // changing the status of the process to PR_WAIT. 
             enqueue(getpid(), f->get_queue); // Push current process id to get_queue. 
-
             // Reconstructing the process table.
             resched();
             *val = f->value;
@@ -150,10 +148,10 @@ syscall future_set(future_t* f, int val){
         if(f->state == FUTURE_EMPTY || f->state == FUTURE_WAITING){
             f->value = val; //Set the Value.
             f->state = FUTURE_READY; // Modify the State.
-
+            
             resched_cntl(DEFER_START);
             while(!isempty(f->get_queue)){
-                ready(getfirst(f->get_queue));
+                ready(dequeue(f->get_queue));
             }
             resched_cntl(DEFER_STOP); //try with resched();
 
@@ -179,7 +177,7 @@ syscall future_set(future_t* f, int val){
             f->value = val; //Set the Value.
             resched_cntl(DEFER_START);
             if (!isempty(f->get_queue)) {
-                ready(getfirst(f->get_queue));
+                ready(dequeue(f->get_queue));
             }
             resched_cntl(DEFER_STOP);
             restore(mask);

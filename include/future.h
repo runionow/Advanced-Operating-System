@@ -1,5 +1,6 @@
 #ifndef _FUTURE_H_
 #define _FUTURE_H_  
+#include <kernel.h>
 
 typedef enum {
   FUTURE_EMPTY,
