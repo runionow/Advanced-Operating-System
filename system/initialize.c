@@ -8,6 +8,8 @@
 #include <platform.h>
 #endif /* ARM_QEMU */
 
+void setstk(void *);
+
 extern	void	start(void);	/* Start of Xinu code			*/
 extern	void	*_end;		/* End of Xinu code			*/
 
@@ -160,7 +162,10 @@ static	void	sysinit()
 	prptr->prstklen = NULLSTK;
 	prptr->prstkptr = 0;
 	currpid = NULLPROC;
-	
+
+	/* Switch to the proper null process stack */
+	setstk(prptr->prstkbase);
+
 	/* Initialize semaphores */
 
 	for (i = 0; i < NSEM; i++) {
